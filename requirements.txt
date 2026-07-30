@@ -1,0 +1,39 @@
+# Commercial Labs Project — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Data collection & HTTP
+requests==2.32.3
+beautifulsoup4==4.12.3
+aiohttp
+cloudscraper
+certifi
+curl_cffi
+httpx>=0.28.0
+
+# Data processing
+pandas==2.2.2
+openpyxl==3.1.4           # read Excel files (some CMS exports are .xlsx)
+pyyaml==6.0.2              # reads config/schema.yaml and source mapping configs
+
+# Fuzzy matching (entity resolution + eval_llm_infer.py accuracy scoring)
+rapidfuzz==3.9.6
+
+# Geocoding
+geopy==2.4.1              # Nominatim geocoding (free)
+censusgeocode==0.5.3
+duckduckgo-search
+
+# AI enrichment
+openai>=1.56.0            # OpenAI API (Pattern A and B)
+anthropic>=0.29.0         # Claude API (optional alternative)
+
+# Environment variables
+python-dotenv==1.0.1      # loads .env file into os.environ
+google-genai
+
+# Utilities
+tqdm==4.66.4              
+ipykernel==6.29.5
+
+# Testing
+pytest

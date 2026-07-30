@@ -1,0 +1,133 @@
+# Canonical Master Schema
+# ========================
+# Every source-specific "standardize" script must output a table matching
+# this exact set of fields, using these exact names and types, before it
+# is handed to the entity resolution step. This is the contract that makes
+# 8 different sources (API/scrape/bulk-download, wildly different raw
+# schemas) combinable into one dataset.
+#
+# Field-level notes:
+# - required: true  -> standardize script must fail loudly if this is null
+# - required: false -> allowed to be null; downstream steps must handle it
+# - llm_fillable: true -> if this field isn't directly available in the raw
+#   source, it's a candidate for LLM-assisted inference (see
+#   source_mappings/*.yaml "llm_inferred_fields" section for the actual
+#   prompt/field pairing per source)
+
+fields:
+
+  # --- Identity ---
+  company_name:
+    type: string
+    required: true
+    description: >
+      Company name as it appears in the source. Not assumed unique -
+      entity resolution (Phase 2) is what collapses name variants across
+      sources into one canonical entity.
+
+  cik:
+    type: string
+    required: false
+    description: >
+      SEC Central Index Key, 10-digit zero-padded. Only populated for
+      sources that expose it directly (e.g. SEC Form D via ISSUERS.tsv)
+      or where it was cross-referenced via the EDGAR submissions API.
+      Absence does NOT mean "not a real company" - most sources have no
+      way to know a CIK.
+
+  source_record_id:
+    type: string
+    required: true
+    description: >
+      A unique identifier for this specific record WITHIN its source
+      (e.g. FDA FEI number, SEC ACCESSIONNUMBER, or a stable hash of
+      name+address if the source has no native ID). This is the join
+      key used by the entity_crosswalk table in Phase 2 - never discard
+      it, even after entity resolution collapses records together.
+
+  # --- Location ---
+  address_street:
+    type: string
+    required: false
+    llm_fillable: true
+    llm_fill_method: grounded_web_search
+    description: >
+      If missing from the raw source, may be filled via a grounded
+      web-search-and-extract step (see llm_infer.py) - NEVER via a plain
+      "ask the model what it knows" call, since that risks a plausible-
+      looking fabricated address. Any LLM-filled value must carry a
+      source_url and confidence score (see address_street_source_url /
+      address_street_confidence, added dynamically by llm_infer.py).
+  address_city:
+    type: string
+    required: false
+  address_state:
+    type: string
+    required: false
+  address_zip:
+    type: string
+    required: false
+  address_country:
+    type: string
+    required: false
+    default: "US"
+
+  # --- Metadata ---
+  source_name:
+    type: string
+    required: true
+    description: e.g. "FDA Drug Establishment Registration", "SEC Form D"
+
+  website_url:
+    type: string
+    required: false
+    llm_fillable: true
+    llm_fill_method: grounded_web_search
+
+  contact_name:
+    type: string
+    required: false
+    description: >
+      A named contact person, when the source provides one directly
+      (e.g. NIH RePORTER's PI name). Never LLM-inferred - either the
+      source states it, or it stays null. Do not guess a plausible
+      contact name.
+
+  contact_email:
+    type: string
+    required: false
+    llm_fillable: true
+    llm_fill_method: extract_from_website
+    description: >
+      If missing from the raw source, may ONLY be filled by fetching the
+      company's known website_url and extracting an email address that
+      literally appears on that page (e.g. a "Contact Us" page) - never
+      by pattern-guessing (e.g. firstname.lastname@company.com). If no
+      email is found on the fetched page(s), leave null.
+
+  phone:
+    type: string
+    required: false
+    llm_fillable: true
+    llm_fill_method: extract_from_website
+    description: >
+      Same grounding rule as contact_email - only filled from text
+      actually found on the company's website, never guessed.
+
+  notes:
+    type: string
+    required: false
+    description: Free-text field for anything not worth a structured column.
+
+  # New Optional Metadata Fields
+  company_status:
+    type: string
+    required: false
+  
+  stage: 
+    type: string
+    requried: false
+  
+  one_liner:
+    type: string
+    requried: false

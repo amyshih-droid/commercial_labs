@@ -1,0 +1,73 @@
+# Source mapping: Y Combinator Biotech & Pharma Startups
+# ============================================================================
+source_name: "Y Combinator"
+retrieval_method: api_script
+raw_file: "data/phase2_pharma/raw/ycombinator/yc_companies.csv"
+
+# Native unique ID provided by YC Algolia index
+source_record_id_field: "source_record_id"
+
+# 1. Standardize empty string variations to null
+null_placeholders:
+  website_url:
+    - ""
+    - "N/A"
+    - "None"
+    - "nan"
+
+direct_mappings:
+  company_name: "company_name"
+  notes: "description"
+  one_liner: "one_liner"
+  stage: "stage"
+  company_status: "company_status"
+
+coalesce_fields:
+  website_url:
+    columns:
+      - "website_url"
+      - "source_url"
+
+# Filter out inactive/closed companies at the raw ingestion level
+raw_row_filters:
+  - raw_column: "company_status"
+    keep_values:
+      - "Active"
+      - "Public"
+      - "Acquired"
+
+# Parse YC location strings like "Boston, MA, USA" or "San Francisco, CA, USA; Remote"
+composite_fields:
+  location:
+    raw_column: "source_location"
+    pattern: '^(?P<city>[^,]+),\s*(?P<state>[A-Z]{2}),\s*(?P<country>[^;]+)(?:;\s*.*)?$'
+    field_map:
+      address_city: city
+      address_state: state
+      address_country: country
+
+fields_not_present_in_source:
+  - cik
+  - address_street
+  - address_zip
+  - contact_name
+  - contact_email
+  - phone
+
+fields_intentionally_not_mapped:
+  - "yc_slug"
+  - "team_size"
+  - "industry"
+  - "subindustry"
+  - "industries"
+  - "tags"
+  - "batch"
+  - "regions"
+  - "is_hiring"
+  - "nonprofit"
+  - "top_company"
+  - "yc_object_id"
+
+notes: >
+  Extracted via YC Algolia API endpoint targeting Drug Discovery, Therapeutics, 
+  and Industrial Bio. Location parsed via regex.

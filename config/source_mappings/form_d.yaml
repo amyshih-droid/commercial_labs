@@ -1,0 +1,79 @@
+# Source mapping: SEC Form D (Biotech/Pharmaceuticals, enriched)
+# ==================================================================
+# Cleanest source so far: separate STREET1/STREET2/CITY columns (no
+# combined-field regex needed for basics), and a real CIK column already
+# present - first source where cik is actually populated rather than null.
+#
+# One classification need: STATEORCOUNTRY uses SEC's own EDGAR code
+# scheme, not plain state abbreviations - US states are normal 2-letter
+# codes, but non-US locations get SEC's special codes (e.g. "A8" =
+# Quebec, Canada - confirmed by this source's own sample row: city
+# "VILLE SAINT LAURENT" is a real Montreal-area location). Reuses the
+# same classify_fields machinery built for BioPharmGuy's city-prefix
+# case, just with a trivial passthrough pattern since STATEORCOUNTRY is
+# already its own column (no extraction needed, just classification).
+
+source_name: "SEC Form D (Biotech/Pharmaceuticals)"
+retrieval_method: bulk_download_and_api
+raw_file: "data/phase2_pharma/raw/07a_form_d_biotech_enriched.csv"
+
+direct_mappings:
+  company_name: "ENTITYNAME"
+  cik: "CIK"
+  address_city: "CITY"
+  address_zip: "ZIPCODE"
+
+source_record_id_field: "ACCESSIONNUMBER"   # unique per filing, same
+                                               # approach as the original
+                                               # Form D extraction script
+
+# STREET1 is often the full address and STREET2 is a suite/unit line
+# that's frequently blank - joined into one field, skipping blanks.
+concat_fields:
+  address_street:
+    columns: ["STREET1", "STREET2"]
+    separator: ", "
+
+# STATEORCOUNTRY -> address_state / address_country via classification.
+# Uses a passthrough pattern (the whole raw value as one group) purely
+# to reuse the existing composite_fields + classify_fields machinery -
+# no actual regex extraction is needed since this is already an
+# isolated column.
+composite_fields:
+  state_or_country:
+    raw_column: "STATEORCOUNTRY"
+    pattern: '^(?P<code>.+)$'
+    classify_fields:
+      - group: code
+        classify: sec_state_or_country_code
+        state_field: address_state
+        country_field: address_country
+
+canonical_row_filters:
+  - field: "address_country"
+    case_insensitive: true
+    keep_values: ["US"]
+
+fields_not_present_in_source:
+  - phone
+  - contact_name
+  - contact_email
+  - website_url
+
+fields_intentionally_not_mapped:
+  - "TOTALAMOUNTSOLD"        # offering financials - not part of current
+                               # canonical schema
+  - "TOTALOFFERINGAMOUNT"
+  - "FILING_DATE"            # not part of current canonical schema
+                               # (date_collected-style fields were
+                               # removed project-wide earlier)
+  - "source_quarter"         # bookkeeping from the original extraction
+                               # script's multi-quarter pull, not needed
+                               # in the canonical schema
+
+notes: >
+  This file already reflects industry-filter and dedup decisions made in
+  the original 07a_formD_api.py extraction script (Biotechnology +
+  Pharmaceuticals, deduped by CIK across quarters). No additional
+  dedup or industry filtering is applied here - standardize.py's job is
+  only to map this into the canonical schema.

@@ -1,0 +1,86 @@
+# Source mapping: DRLS Registration (Drug Registration and Listing System)
+# ============================================================================
+# Two things make this source different from NIH/FDA-HCT:
+# 1. Every value is padded with leading/trailing whitespace in the raw
+#    export - handled generically now by the engine (apply_direct_mappings
+#    strips all values), not something this config needs to worry about.
+# 2. ADDRESS is a single combined string, not separate street/city/state/
+#    zip columns - handled via the new composite_fields / regex-parse
+#    engine feature rather than an LLM call, since the format is
+#    consistent and deterministic.
+
+source_name: "DRLS Registration"
+retrieval_method: manual_download  # or update if this is regenerated via script
+raw_file: "data/phase2_pharma/raw/0a_drls_reg_clean.csv"
+
+direct_mappings:
+  company_name: "FIRM_NAME"
+  contact_name: "ESTABLISHMENT_CONTACT_NAME"
+  contact_email: "ESTABLISHMENT_CONTACT_EMAIL"
+
+# FEI_NUMBER is FDA's own unique facility identifier - same field type
+# used by the fda_drug_establishment source. Use directly, no hashing.
+source_record_id_field: "FEI_NUMBER"
+
+# ADDRESS example: " 555 Armour Street, Tifton, Georgia (GA) 31794,
+# United States (USA) " - split via regex into canonical address fields.
+# Pattern assumes: street, city, state_full (state_abbr) zip, country_full
+# (country_abbr). If a row doesn't match, address_* fields are left null
+# for that row and a warning is printed with the unmatched count - check
+# that count isn't high (would indicate an inconsistent format the regex
+# doesn't cover, e.g. non-US addresses or missing a segment).
+#
+# IMPORTANT: city/state_full/country_full are restricted to [^,()]+? -
+# i.e. NOT allowed to contain a comma or parenthesis themselves. This is
+# deliberate: some rows have an extra address line (e.g. a suite/floor
+# segment - "123 Main St, Suite 200, Irwindale, California (CA) ...")
+# that our simple 5-part pattern doesn't have its own field for. By
+# restricting city/state/country to a single comma-segment each, any
+# such extra segment is forced to fold into the (greedy) street group
+# instead of leaking a stray ", Irwindale"-style fragment into city.
+composite_fields:
+  address:
+    raw_column: "ADDRESS"
+    pattern: '^(?P<street>.+),\s*(?P<city>[^,()]+?),\s*(?P<state_full>[^,()]+?)\s*\((?P<state_abbr>[A-Z]{2})\)\s*(?P<zip>[\w-]+),\s*(?P<country_full>[^,()]+?)\s*\((?P<country_abbr>[A-Z]{2,3})\)\s*$'
+    field_map:
+      address_street: street
+      address_city: city
+      address_state: state_abbr
+      address_zip: zip
+      address_country: country_abbr
+
+fields_not_present_in_source:
+  - cik
+  - website_url
+  - phone
+
+fields_intentionally_not_mapped:
+  # DUNS_NUMBER is a Dun & Bradstreet business identifier - not part of
+  # the current canonical schema. Worth revisiting if it turns out to be
+  # useful for entity resolution (it's another candidate unique ID, like
+  # CIK, that could help match this source against others).
+  - "DUNS_NUMBER"
+  - "EXPIRATION_DATE"
+  - "OPERATIONS"              # e.g. "MANUFACTURE" - same category label
+                                # concept as fda_drug_establishment's
+                                # "Establishment Type", not currently mapped
+  - "AGENT_DETAILS"
+  - "REGISTRANT_NAME"          # distinct from FIRM_NAME - may be an agent/
+                                # consultant rather than the operating
+                                # company; worth revisiting if this
+                                # distinction matters later
+  - "REGISTRANT_DUNS"
+  - "REGISTRANT_CONTACT_NAME"  # separate from ESTABLISHMENT_CONTACT_NAME -
+                                # this looks like a regulatory agent
+                                # (e.g. "David Lennarz" / registrarcorp.com
+                                # appears identical across both sample
+                                # rows), not the actual facility contact,
+                                # so ESTABLISHMENT_CONTACT_* was chosen
+                                # instead for the canonical contact fields
+  - "REGISTRANT_CONTACT_EMAIL"
+  - "EXCLUSION_FLAG"
+
+notes: >
+  Raw file: data/phase2_pharma/clean/drls_reg_clean.csv (despite being in
+  the "clean" folder, this is being treated as a standardize.py input
+  since it hasn't gone through the canonical schema mapping yet).

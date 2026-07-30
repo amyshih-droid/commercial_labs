@@ -1,0 +1,101 @@
+# Source mapping: BioPharmGuy
+# =============================
+# Covers all three BioPharmGuy scrapes - confirmed identical raw column
+# headers across:
+#   04a_biopharmguy_therapeutics_rd.csv
+#   05a_biopharmguy_cmos.csv
+#   06a_biopharmguy_cros_services.csv
+#
+# Since the columns are genuinely identical, this ONE config is reused
+# for all three - run standardize.py three times (once per file), each
+# time overriding --raw-file and --out, e.g.:
+#   python3 scripts/pipeline/standardize.py --source biopharmguy \
+#       --raw-file data/phase2_pharma/raw/04a_biopharmguy_therapeutics_rd.csv \
+#       --out data/phase2_pharma/standardized/04a_biopharmguy_rd_standardized.csv
+#
+# RESOLVED DATA QUALITY DECISIONS (see composite_fields below for the
+# actual implementation):
+# 1. The raw 'state' column was found to contain business-description
+#    text in some rows (a genuine scraper column-misalignment bug, not a
+#    formatting quirk) - decision: ignore it entirely, don't map it.
+# 2. The raw 'city' column instead carries the real region signal, as a
+#    "{prefix} - {city}" pattern - e.g. "Ab - Calgary" (Canadian
+#    province), "Argentina - Buenos Aires" (a country), "Ca - Azusa" (US
+#    state). classify_region_prefix() in standardize.py deterministically
+#    routes the prefix to address_state (US state / Canadian province)
+#    or address_country (anything else, taken as a literal country name).
+# 3. This also surfaces non-US entries (Canada, Argentina, etc.) rather
+#    than silently mixing them in - if you want US-only filtering for
+#    this source, a canonical_row_filters rule on address_country would
+#    now be reliable to add, since address_country is derived rather
+#    than raw/garbage.
+
+source_name: "BioPharmGuy"
+retrieval_method: web_scraping
+
+direct_mappings:
+  company_name: "lab_name"
+  address_street: "street_address"
+  contact_name: "contact_name"
+  contact_email: "contact_email"
+  phone: "phone_number"
+  website_url: "website_url"
+
+# The raw 'state' column is unreliable for this source (observed to
+# contain business-description text instead of a real state in some
+# rows) - per project decision, it is intentionally IGNORED entirely,
+# not mapped to anything.
+#
+# The raw 'city' column instead carries a region hint before the actual
+# city name, separated by a dash - e.g.:
+#   "Ab - Calgary"              -> Canadian province
+#   "Argentina - Buenos Aires"  -> a literal country name
+#   "Ca - Azusa"                -> US state
+#   "Calgary" (no dash)         -> just a plain city, no prefix
+# classify_region_prefix() in standardize.py determines which kind of
+# prefix this is and routes it to address_state (if US state or Canadian
+# province) or address_country (otherwise, using the raw prefix text as
+# the country name). The city part always goes to address_city.
+composite_fields:
+  city_region:
+    raw_column: "city"
+    pattern: '^(?:(?P<prefix>[^-]+?)\s*-\s*)?(?P<city>.+)$'
+    field_map:
+      address_city: city
+    classify_fields:
+      - group: prefix
+        classify: region_prefix_us_ca_or_country
+        state_field: address_state
+        country_field: address_country
+
+# BioPharmGuy uses a literal "-" to mean "no city recorded" rather than
+# leaving the cell empty - without this, the composite regex above would
+# try to parse "-" as a real value. Nulled out before composite parsing
+# runs.
+null_placeholders:
+  city: ["-"]
+
+fields_not_present_in_source:
+  - cik
+  - address_zip
+
+# BioPharmGuy has no native unique ID for a listing - construct
+# source_record_id as a stable hash of these canonical fields, so the
+# same real-world listing produces the same ID across repeated scrapes
+# (idempotency requirement). Uses canonical field names (post-mapping),
+# not raw column names.
+source_record_id_hash_fields: ["company_name", "address_city", "address_state"]
+
+fields_intentionally_not_mapped:
+  - "category_focus"    # e.g. "Biologics", "Contract Manufacturing",
+                          # "Contract Research (Pre-Clinical)" - not part
+                          # of the current canonical schema (org_type/
+                          # classification fields were removed project-
+                          # wide). Still present in the raw file if
+                          # needed later.
+  - "source_registry"   # always "BioPharmGuy" - redundant with source_name
+
+canonical_row_filters:
+  - field: "address_country"
+    keep_values:
+      - US

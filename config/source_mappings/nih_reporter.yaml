@@ -1,0 +1,70 @@
+# Source mapping: NIH RePORTER (SBIR/STTR preclinical activity codes)
+# ======================================================================
+
+source_name: "NIH RePORTER API"
+retrieval_method: api
+
+direct_mappings:
+  company_name: "lab_name"
+  address_street: "street_address" 
+  address_city: "city"
+  address_state: "state"
+  address_zip: "zip_code"
+  website_url: "website_url" 
+  phone: "phone_number"
+  contact_name: "contact_name"
+  contact_email: "contact_email"
+
+llm_inferred_fields:
+  address_street:
+    method: grounded_web_search
+    applies_when: "value is null after direct mapping"
+    reasoning: >
+      NIH RePORTER's street_address column is frequently empty (both
+      sample rows had it blank). A plain "ask the model" call would risk
+      a fabricated-but-plausible address. Must be filled via
+      llm_infer.py's grounded search+extract path only, with source_url
+      + confidence logged. If no reliable source is found, leave null
+      rather than guess.
+  website_url:
+    method: grounded_web_search
+    applies_when: "value is null after direct mapping"
+    reasoning: >
+      Same grounding requirement and same rationale as address_street.
+  contact_email:
+    method: extract_from_website
+    applies_when: "value is null after direct mapping, and website_url is known"
+    reasoning: >
+      Never pattern-guessed (e.g. firstname.lastname@company.com). Only
+      filled by fetching the company's website (once website_url is
+      resolved) and extracting an email that literally appears on the
+      page. If none is found, leave null.
+  phone:
+    method: extract_from_website
+    applies_when: "value is null after direct mapping, and website_url is known"
+    reasoning: >
+      Same grounding rule as contact_email.
+
+# grant_id is NIH's own unique identifier per award - use it directly as
+# source_record_id rather than falling back to a constructed hash. This
+# is the single most important field to preserve even though the raw
+# columns around it (project_title, fiscal_year, award_amount) are being
+# dropped - source_record_id is what makes traceability back to the raw
+# NIH record possible later.
+source_record_id_field: "grant_id"
+
+fields_intentionally_not_mapped:
+  # These exist in the raw CSV but are not part of the canonical schema
+  # for this project's purposes. They are not "missing data" - they were
+  # deliberately excluded because they're not needed downstream.
+  - project_title
+  - fiscal_year
+  - award_amount
+
+fields_not_present_in_source:
+  - cik
+  - address_country     # defaults to "US" per schema default
+
+notes: >
+  Filtering already applied upstream via NIH RePORTER API:
+  activity_codes = R41, R42, R43, R44. 180 records as of last pull.

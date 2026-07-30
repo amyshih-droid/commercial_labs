@@ -1,0 +1,128 @@
+# Source mapping: FDA HCT/P (Human Cell and Tissue Products) Registration
+# ==========================================================================
+# Covers ONLY 01a_fda_biologics_hctp_processed_1.csv. If 02a/02b/02c (the
+# Blood Establishment Registration files) share this exact column
+# structure, they can each get their own copy of this YAML with just
+# raw_file/source_name changed - kept as separate configs/runs per your
+# preference to process one file at a time, not merged.
+
+source_name: "FDA HCT/P Registration"
+retrieval_method: manual_download
+raw_file: "data/phase2_pharma/raw/01a_fda_biologics_hctp_processed_1.csv"
+
+direct_mappings:
+  company_name: "Establishment Name"
+
+source_record_id_field: "FEI"
+# FEI values arrive as float-formatted strings ("3013178227.0") - handled
+# generically in resolve_source_record_id() in standardize.py (strips a
+# trailing ".0"), not something this config needs to do itself.
+
+# "City, State/Zip" example formats seen in this source:
+#   "Moscow, / 117186"                          (international, empty state)
+#   "Hialeah, Florida / 33016"                   (US, full state name)
+#   "Brooks City, AFB, Texas / 78235-5132"       (US, extra segment before state)
+# city is greedy (.+) so it correctly absorbs any extra middle segment
+# (like "AFB") rather than that segment leaking into the state field.
+# state is normalized from a full name ("Texas") to its 2-letter
+# abbreviation ("TX") via us_state_name_to_abbr, since that's the format
+# canonical_row_filters below expects.
+composite_fields:
+  city_state_zip:
+    raw_column: "City, State/Zip"
+    pattern: '^(?P<city>.+),\s*(?P<state>[^,/]*)\s*/\s*(?P<zip>.+)$'
+    field_map:
+      address_city: city
+      address_state:
+        group: state
+        normalize: us_state_name_to_abbr
+      address_zip: zip
+
+# --- Filter 1: keep only Registered/Active/Pre-Registered establishments ---
+# Applied to the RAW column, before mapping - case-insensitive, so it
+# doesn't matter whether the source capitalizes it "registered",
+# "REGISTERED", or "Registered".
+raw_row_filters:
+  - raw_column: "Establishment Status"
+    keep_values: ["Registered", "Active", "Pre-Registered"]
+
+# --- Filter 2: US-only ---
+# This source has NO explicit country field (only "City, State/Zip"), so
+# a valid 2-letter US state code is used as a proxy for "US-only". This
+# correctly excludes Moscow/Kyiv-style rows, whose state portion is
+# empty. Applied to the CANONICAL address_state field, so it must run
+# after composite field resolution - do not move this filter earlier.
+canonical_row_filters:
+  - field: "address_state"
+    case_insensitive: true
+    keep_values:
+      - AL
+      - AK
+      - AZ
+      - AR
+      - CA
+      - CO
+      - CT
+      - DE
+      - FL
+      - GA
+      - HI
+      - ID
+      - IL
+      - IN
+      - IA
+      - KS
+      - KY
+      - LA
+      - ME
+      - MD
+      - MA
+      - MI
+      - MN
+      - MS
+      - MO
+      - MT
+      - NE
+      - NV
+      - NH
+      - NJ
+      - NM
+      - NY
+      - NC
+      - ND
+      - OH
+      - OK
+      - OR
+      - PA
+      - RI
+      - SC
+      - SD
+      - TN
+      - TX
+      - UT
+      - VT
+      - VA
+      - WA
+      - WV
+      - WI
+      - WY
+      - DC
+
+fields_not_present_in_source:
+  - cik
+  - address_street       # not available - only combined city/state/zip exists
+  - address_country      # not available - see note above, do not default to US
+  - website_url
+  - phone
+  - contact_name
+  - contact_email
+
+fields_intentionally_not_mapped:
+  - "Establishment Status"   # used only as a filter above, not carried
+                               # into the canonical schema as a field
+
+notes: >
+  Raw company names in this source may contain literal embedded quote
+  characters (e.g. a company legally named with quotes in its name,
+  like "ECO center" LLC) - this is correct data, not a parsing bug, and
+  CSV output will show doubled quotes as standard escaping.
