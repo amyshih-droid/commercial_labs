@@ -13,6 +13,7 @@ form_d_data/
 data/tmp
 *.csv
 llm_infer_cache/
+files/
 
 
 # Outputs
