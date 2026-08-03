@@ -1,0 +1,16 @@
+source: biopharmguy_cmos
+
+base_url: "https://biopharmguy.com"
+
+request_delay_seconds: 2
+
+endpoints:
+  Contract Manufacturing: "/links/company-by-location-contract-manufacturing.php"
+
+required_columns:
+  - lab_name
+  - category_focus
+  - website_url
+
+primary_key:
+  - lab_name

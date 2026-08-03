@@ -53,11 +53,9 @@ fields:
     llm_fill_method: grounded_web_search
     description: >
       If missing from the raw source, may be filled via a grounded
-      web-search-and-extract step (see llm_infer.py) - NEVER via a plain
+      web-search-and-extract step (llm_infer.py) - NEVER via a plain
       "ask the model what it knows" call, since that risks a plausible-
-      looking fabricated address. Any LLM-filled value must carry a
-      source_url and confidence score (see address_street_source_url /
-      address_street_confidence, added dynamically by llm_infer.py).
+      looking fabricated address.
   address_city:
     type: string
     required: false

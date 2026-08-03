@@ -1,0 +1,17 @@
+source: biopharmguy_cros
+
+base_url: "https://biopharmguy.com"
+
+request_delay_seconds: 2
+
+endpoints:
+  "Contract Research (Pre-Clinical)": "/links/company-by-location-contract-research.php"
+  "Scientific Services": "/links/company-by-location-services.php"
+
+required_columns:
+  - lab_name
+  - category_focus
+  - website_url
+
+primary_key:
+  - lab_name

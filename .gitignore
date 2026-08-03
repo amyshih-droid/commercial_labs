@@ -1,23 +1,19 @@
 # Python
-venv/
 __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
-llm_infer_cache/
 geocode_cache_google.json
-
 
 # Secrets — NEVER commit these
 .env
 
 # Data files — too large for GitHub
 form_d_data/
-data/raw/
-data/clean/
-files/
-# Raw data
-data/phase1_clinical/raw/
+data/tmp
+*.csv
+llm_infer_cache/
+
 
 # Outputs
 outputs/*.csv

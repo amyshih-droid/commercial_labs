@@ -1,0 +1,14 @@
+source: fda_hct
+
+url: "https://www.accessdata.fda.gov/scripts/cber/CFAppsPub/tiss/Index.cfm"
+
+retrieval_method: selenium
+
+records_per_page: 100
+
+required_columns:
+  - FEI
+  - Establishment Status
+
+primary_key:
+  - FEI

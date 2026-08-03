@@ -1,0 +1,26 @@
+source: biopharmguy_therapeutics
+
+base_url: "https://biopharmguy.com"
+
+request_delay_seconds: 2
+
+endpoints:
+  Biologics: "/links/company-by-location-biologics.php"
+  "RNA, Peptide & Gene Therapy": "/links/company-by-location-dna-rna.php"
+  Antibodies: "/links/company-by-location-antibodies.php"
+  Small Molecules: "/links/company-by-location-small-molecules.php"
+  Stem Cells: "/links/company-by-location-stem-cells.php"
+  Radiopharmaceuticals: "/links/company-by-location-radiopharmaceuticals.php"
+  Tissue Engineering: "/links/company-by-location-tissue-engineering.php"
+  Vaccines: "/links/company-by-location-vaccines.php"
+  Genetics & Genomics: "/links/company-by-location-genetics.php"
+  Microbiome/Bacteriome: "/links/company-by-location-microbiome.php"
+  Viral Technology: "/links/company-by-location-viral-technology.php"
+
+required_columns:
+  - lab_name
+  - category_focus
+  - website_url
+
+primary_key:
+  - lab_name

@@ -1,0 +1,23 @@
+source: ycombinator
+
+algolia_url: "https://45bwzj1sgc-dsn.algolia.net/1/indexes/*/queries"
+algolia_app_id: "45BWZJ1SGC"
+algolia_api_key_env_var: "YC_ALGOLIA_API_KEY"
+algolia_index: "YCCompany_production"
+
+hits_per_page: 100
+request_timeout: 30
+
+industries:
+  - "Drug Discovery and Delivery"
+  - "Industrial Bio"
+  - "Therapeutics"
+
+region: "United States of America"
+
+required_columns:
+  - company_name
+  - yc_object_id
+
+primary_key:
+  - yc_object_id

@@ -12,6 +12,7 @@ httpx>=0.28.0
 
 # Data processing
 pandas==2.2.2
+pyarrow>=16.0.0
 openpyxl==3.1.4           # read Excel files (some CMS exports are .xlsx)
 pyyaml==6.0.2              # reads config/schema.yaml and source mapping configs
 

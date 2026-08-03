@@ -1,0 +1,21 @@
+source: fda_blood
+
+url: "https://www.accessdata.fda.gov/scripts/cber/CFAppsPub/Index.cfm"
+
+retrieval_method: selenium
+
+records_per_page: 100
+
+country: "US"
+
+establishment_types:
+  "4": "Product Testing Laboratory"
+  "3": "Plasmapheresis Center"
+  "6": "Component Preparation Facility"
+
+required_columns:
+  - FEI
+  - Establishment Status
+
+primary_key:
+  - FEI

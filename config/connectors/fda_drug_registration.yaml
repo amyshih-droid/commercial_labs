@@ -1,0 +1,13 @@
+source: fda_drug_registration
+
+page_url: "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-establishments-current-registration-site-decrs"
+
+headers:
+  User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+required_columns:
+  - Firm Name
+  - FDA Establishment Identifier
+
+primary_key:
+  - FDA Establishment Identifier

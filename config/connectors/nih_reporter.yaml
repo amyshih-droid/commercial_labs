@@ -1,0 +1,29 @@
+source: nih_reporter
+
+api_url: "https://api.reporter.nih.gov/v2/projects/search"
+
+# STTR (R41, R42) and SBIR (R43, R44) commercial small business grant activity codes
+activity_codes:
+  - "R41"
+  - "R42"
+  - "R43"
+  - "R44"
+
+fiscal_years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+
+page_limit: 50
+max_records: 500
+request_timeout: 20
+request_delay_seconds: 1
+
+required_columns:
+  - lab_name
+  - grant_id
+
+primary_key:
+  - grant_id
