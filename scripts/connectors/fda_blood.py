@@ -20,6 +20,7 @@ This connector DOES NOT:
 from __future__ import annotations
 
 import io
+import time
 import logging
 from pathlib import Path
 import pandas as pd
@@ -75,15 +76,13 @@ def create_driver(headless: bool = True) -> webdriver.Chrome:
 
 
 def wait_for(
-    driver: webdriver.Chrome,
-    by: By,
-    value: str,
-    timeout: int = 20,
-):
+    driver: webdriver.Chrome, by: By, value: str, timeout: int = 20):
     """Wait until an element is present in the DOM."""
     return WebDriverWait(driver, timeout).until(
         EC.presence_of_element_located((by, value))
     )
+
+
 
 
 # ------------------------------------------------------------------
@@ -124,6 +123,7 @@ def open_search_page(
     # Submit query
     driver.find_element(By.XPATH, "//input[@type='submit']").click()
     wait_for(driver, By.TAG_NAME, "table")
+    time.sleep(2)
 
 
 # ------------------------------------------------------------------

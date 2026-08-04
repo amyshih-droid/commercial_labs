@@ -111,8 +111,8 @@ def extract(*, headless: bool = True, config_path: Path = DEFAULT_CONFIG_PATH) -
             # latin1 encoding handles legacy FDA text dumps with special/accented characters
             df = pd.read_csv(
                 extracted_file,
-                sep=None,
-                engine="python",
+                sep='\t',
+                index_col=False,
                 dtype=str,
                 encoding="latin1",
             )

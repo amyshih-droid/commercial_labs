@@ -1,17 +1,8 @@
 """
-standardize.py — config-driven engine to map any raw source into the
-canonical master schema (config/schema.yaml).
+standardize.py — config-driven engine to map any raw source into the canonical master schema (config/schema.yaml).
 
-This script contains NO source-specific logic. Every difference between
-sources (which columns exist, what's missing) lives in
-config/source_mappings/<source>.yaml. Adding a 9th, 10th, 11th source
-means writing a new YAML file, not touching this script.
-
-IMPORTANT: run this from the project root (the "analysis" folder), not
-from inside scripts/pipeline/ - it looks for config/ and data/ relative
-to the current working directory, not relative to this script's own
-location. This matches how every other script in this project expects
-to be run (see scripts/phase2_pharma/*.py for the same convention).
+This script contains NO source-specific logic. Every difference between sources (which columns exist, what's missing) lives in
+config/source_mappings/<source>.yaml. 
 
 Usage (run from analysis/):
     python3 scripts/pipeline/standardize.py --source nih_reporter \
@@ -25,15 +16,14 @@ import re
 from pathlib import Path
 
 import pandas as pd
+import numpy as np
 import yaml
 
 CONFIG_DIR = Path("config")
 SCHEMA_PATH = CONFIG_DIR / "schema.yaml"
 
 # Reusable across any source that stores full US state names instead of
-# 2-letter abbreviations (e.g. "Texas" instead of "TX"). Referenced via
-# composite_fields field_map entries with normalize: us_state_name_to_abbr
-# in a source's mapping YAML - see fda_bio_hctp.yaml for an example.
+# 2-letter abbreviations (e.g. "Texas" instead of "TX"). 
 US_STATE_NAME_TO_ABBR = {
     "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
     "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
@@ -137,9 +127,8 @@ def resolve_composite_fields(raw_df: pd.DataFrame, out: pd.DataFrame, mapping: d
     - e.g. a single 'ADDRESS' string like:
         "555 Armour Street, Tifton, Georgia (GA) 31794, United States (USA)"
     instead of separate street/city/state/zip columns. Rather than an LLM
-    call (slower, costs money, non-deterministic), this uses a regex
-    pattern - declared per-source in the mapping YAML - to split the
-    combined value deterministically. Reusable across any source with a
+    call, this uses a regex pattern - declared per-source in the mapping YAML 
+    - to split the combined value deterministically. Reusable across any source with a
     similarly-structured combined field, not just this one.
     """
     for group_name, cfg in mapping.get("composite_fields", {}).items():
@@ -163,7 +152,7 @@ def resolve_composite_fields(raw_df: pd.DataFrame, out: pd.DataFrame, mapping: d
                   f"this count seems high.")
 
         for canonical_field, field_spec in field_map.items():
-            # field_spec can be a plain string (just the regex group name),
+            # field_spec can be a plain string,
             # or a dict like {"group": "state", "normalize": "us_state_name_to_abbr"}
             # for cases where the raw value needs converting before it's
             # usable - e.g. a full state name like "Texas" instead of "TX".
@@ -177,11 +166,10 @@ def resolve_composite_fields(raw_df: pd.DataFrame, out: pd.DataFrame, mapping: d
             # Strip whitespace AND stray leading/trailing commas as a
             # defensive backstop - the pattern itself shouldn't produce
             # these anymore (see the [^,()]+? fix for city/state/country),
-            # but this guards against any similarly-shaped edge case in
-            # data we haven't seen yet.
+            # but this guards against any similarly-shaped edge case in data we haven't seen yet.
             values = matches.apply(
-                lambda m, g=group_key: m.group(g).strip().strip(",").strip() if m else None
-            )
+                lambda m, g=group_key: m.group(g).strip().strip(",").strip() if (m and m.group(g) is not None) else None)
+            
 
             if normalize == "us_state_name_to_abbr":
                 def _normalize_state(v):
@@ -392,8 +380,17 @@ def standardize_source(source_key: str, raw_file: Path, out_file: Path,
     print(f"Standardizing '{effective_source_name}' from {raw_file}")
     if source_name_override:
         print(f"  (overriding YAML's declared source_name: '{mapping['source_name']}')")
-    raw_df = pd.read_csv(raw_file, dtype=str)
+    
+    if raw_file.suffix == '.parquet':
+        raw_df = pd.read_parquet(raw_file)
+        # Convert all columns to string to maintain your dtype=str logic
+        raw_df = raw_df.astype(str) 
+    else:
+        raw_df = pd.read_csv(raw_file, dtype=str)
     print(f"  Loaded {len(raw_df)} raw rows, {len(raw_df.columns)} columns")
+    
+    raw_df.columns = raw_df.columns.str.strip()
+    raw_df = raw_df.replace("nan", np.nan) # Convert the literal text "nan" back to true missing values
 
     raw_df = apply_null_placeholders(raw_df, mapping)
     raw_df = apply_raw_row_filters(raw_df, mapping)
@@ -406,9 +403,8 @@ def standardize_source(source_key: str, raw_file: Path, out_file: Path,
     out = apply_canonical_row_filters(out, mapping)
 
     # Fill in every remaining canonical field not yet set, so every
-    # standardized output - regardless of source - has the exact same
-    # column set, in the same order. This is what makes 9 different
-    # sources concatenable later without special-casing.
+    # standardized output has the exact same column set, in the same order. 
+    # This is what makes 9 different sources concatenable later without special-casing.
     for field_name in schema["fields"]:
         if field_name not in out.columns:
             out[field_name] = None

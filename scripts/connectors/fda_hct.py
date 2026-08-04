@@ -19,6 +19,7 @@ This connector DOES NOT:
 from __future__ import annotations
 
 import io
+import time
 import logging
 from pathlib import Path
 import pandas as pd
@@ -115,6 +116,7 @@ def open_search_page(driver: webdriver.Chrome, config: dict) -> None:
 
     driver.find_element(By.XPATH, "//input[@type='submit']").click()
     wait_for(driver, By.TAG_NAME, "table")
+    time.sleep(2)
 
 
 # ------------------------------------------------------------------

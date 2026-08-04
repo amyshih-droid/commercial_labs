@@ -7,16 +7,17 @@
 # preference to process one file at a time, not merged.
 
 source_name: "FDA HCT/P Registration"
-retrieval_method: manual_download
-raw_file: "data/phase2_pharma/raw/01a_fda_biologics_hctp_processed_1.csv"
+retrieval_method:  Selenium
+raw_file: "data/phase2_pharma/raw/fda_hct/2026-07-31.parquet"
 
 direct_mappings:
   company_name: "Establishment Name"
 
 source_record_id_field: "FEI"
-# FEI values arrive as float-formatted strings ("3013178227.0") - handled
-# generically in resolve_source_record_id() in standardize.py (strips a
-# trailing ".0"), not something this config needs to do itself.
+
+source_record_id_hash_fields:
+  - "Establishment Name"
+  - "City, State/Zip"
 
 # "City, State/Zip" example formats seen in this source:
 #   "Moscow, / 117186"                          (international, empty state)
@@ -30,7 +31,7 @@ source_record_id_field: "FEI"
 composite_fields:
   city_state_zip:
     raw_column: "City, State/Zip"
-    pattern: '^(?P<city>.+),\s*(?P<state>[^,/]*)\s*/\s*(?P<zip>.+)$'
+    pattern: '^(?P<city>[^,]+?)(?:,\s*(?P<state>[A-Za-z\s]+))?(?:[\s/]+(?P<zip>[\d-]+))?$'
     field_map:
       address_city: city
       address_state:
@@ -39,9 +40,7 @@ composite_fields:
       address_zip: zip
 
 # --- Filter 1: keep only Registered/Active/Pre-Registered establishments ---
-# Applied to the RAW column, before mapping - case-insensitive, so it
-# doesn't matter whether the source capitalizes it "registered",
-# "REGISTERED", or "Registered".
+# Applied to the RAW column, before mapping - case-insensitive
 raw_row_filters:
   - raw_column: "Establishment Status"
     keep_values: ["Registered", "Active", "Pre-Registered"]

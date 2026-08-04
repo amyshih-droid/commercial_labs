@@ -10,8 +10,8 @@
 #    consistent and deterministic.
 
 source_name: "DRLS Registration"
-retrieval_method: manual_download  # or update if this is regenerated via script
-raw_file: "data/phase2_pharma/raw/0a_drls_reg_clean.csv"
+retrieval_method: web_scraping  
+raw_file: "data/phase2_pharma/raw/fda_drug_registration/2026-08-03.parquet"
 
 direct_mappings:
   company_name: "FIRM_NAME"
@@ -19,7 +19,7 @@ direct_mappings:
   contact_email: "ESTABLISHMENT_CONTACT_EMAIL"
 
 # FEI_NUMBER is FDA's own unique facility identifier - same field type
-# used by the fda_drug_establishment source. Use directly, no hashing.
+# used by the fda_drug_establishment source.
 source_record_id_field: "FEI_NUMBER"
 
 # ADDRESS example: " 555 Armour Street, Tifton, Georgia (GA) 31794,
@@ -41,13 +41,18 @@ source_record_id_field: "FEI_NUMBER"
 composite_fields:
   address:
     raw_column: "ADDRESS"
-    pattern: '^(?P<street>.+),\s*(?P<city>[^,()]+?),\s*(?P<state_full>[^,()]+?)\s*\((?P<state_abbr>[A-Z]{2})\)\s*(?P<zip>[\w-]+),\s*(?P<country_full>[^,()]+?)\s*\((?P<country_abbr>[A-Z]{2,3})\)\s*$'
+    pattern: '^(?P<street>.+?),\s*(?P<city>[^,()]+?)\s*(?:,\s*(?P<state_full>[^,()]+?)\s*\((?P<state_abbr>[A-Z]{2})\))?\s*(?:,\s*)?(?P<zip>[\w\s-]+),\s*(?P<country_full>[^,()]+?)\s*\((?P<country_abbr>[A-Z]{2,3})\)\s*$'
     field_map:
       address_street: street
       address_city: city
       address_state: state_abbr
       address_zip: zip
       address_country: country_abbr
+
+canonical_row_filters:
+  - field: "address_country"
+    keep_values:
+      - "USA"
 
 fields_not_present_in_source:
   - cik

@@ -3,8 +3,7 @@
 # Every source-specific "standardize" script must output a table matching
 # this exact set of fields, using these exact names and types, before it
 # is handed to the entity resolution step. This is the contract that makes
-# 8 different sources (API/scrape/bulk-download, wildly different raw
-# schemas) combinable into one dataset.
+# 8 different sources combinable into one dataset.
 #
 # Field-level notes:
 # - required: true  -> standardize script must fail loudly if this is null
@@ -53,9 +52,7 @@ fields:
     llm_fill_method: grounded_web_search
     description: >
       If missing from the raw source, may be filled via a grounded
-      web-search-and-extract step (llm_infer.py) - NEVER via a plain
-      "ask the model what it knows" call, since that risks a plausible-
-      looking fabricated address.
+      web-search-and-extract step (llm_infer.py)
   address_city:
     type: string
     required: false

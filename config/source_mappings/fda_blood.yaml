@@ -1,0 +1,111 @@
+# Source mapping: FDA Blood Establishment Registration
+# ==========================================================================
+
+source_name: "FDA Blood Registration"
+retrieval_method: "Connector"
+raw_file: "data/phase2_pharma/raw/fda_blood/2026-08-04.parquet"
+
+direct_mappings:
+  company_name: "Applicant Name / Establishment Name"
+
+source_record_id_field: "FEI"
+
+# Hash fallback if FEI is missing or null
+source_record_id_hash_fields:
+  - "Applicant Name / Establishment Name"
+  - "City, State/Zip"
+
+# Parse the combined City, State/Zip string
+composite_fields:
+  city_state_zip:
+    raw_column: "City, State/Zip"
+    pattern: '^(?P<city>[^,]+?)(?:,\s*(?P<state>[A-Za-z\s]+))?(?:[\s/]+(?P<zip>[\d-]+))?$'
+    field_map:
+      address_city: city
+      address_state:
+        group: state
+        normalize: us_state_name_to_abbr
+      address_zip: zip
+
+# --- Filter 1: keep only active establishments ---
+# Applied to the RAW column before mapping (adjust list if needed)
+raw_row_filters:
+  - raw_column: "Establishment Status"
+    keep_values: ["Registered", "Active", "Pre-Registered"]
+
+# --- Filter 2: US-only ---
+# Valid 2-letter state code ensures only US facilities are kept
+canonical_row_filters:
+  - field: "address_state"
+    case_insensitive: true
+    keep_values:
+      - AL
+      - AK
+      - AZ
+      - AR
+      - CA
+      - CO
+      - CT
+      - DE
+      - FL
+      - GA
+      - HI
+      - ID
+      - IL
+      - IN
+      - IA
+      - KS
+      - KY
+      - LA
+      - ME
+      - MD
+      - MA
+      - MI
+      - MN
+      - MS
+      - MO
+      - MT
+      - NE
+      - NV
+      - NH
+      - NJ
+      - NM
+      - NY
+      - NC
+      - ND
+      - OH
+      - OK
+      - OR
+      - PA
+      - RI
+      - SC
+      - SD
+      - TN
+      - TX
+      - UT
+      - VT
+      - VA
+      - WA
+      - WV
+      - WI
+      - WY
+      - DC
+
+fields_not_present_in_source:
+  - cik
+  - address_street
+  - address_country
+  - website_url
+  - phone
+  - contact_name
+  - contact_email
+  - notes
+  - company_status
+  - stage
+  - one_liner
+
+fields_intentionally_not_mapped:
+  - "Establishment Status"
+  - "blood_component"
+  - "plasmapheresis"
+  - "product"
