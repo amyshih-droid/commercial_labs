@@ -1,0 +1,42 @@
+source: formd
+
+# SEC requires a user agent with contact information
+user_agent: "Amy Shih amy.shih@labza.com"
+
+form_d_zip_url_templates:
+  - "https://www.sec.gov/files/structureddata/data/form-d-data-sets/{quarter}_d.zip"
+  - "https://www.sec.gov/files/datastandardsinnovation/data/form-d-data-sets/{quarter}_d.zip"
+
+submissions_url_template: "https://data.sec.gov/submissions/CIK{cik:0>10}.json"
+
+quarters:
+  - "2024Q1"
+  - "2024Q2"
+  - "2024Q3"
+  - "2024Q4"
+  - "2025Q1"
+  - "2025Q2"
+  - "2025Q3"
+  - "2025Q4"
+  - "2026Q1"
+  - "2026Q2"
+
+industry_filters:
+  - "Biotechnology"
+  - "Pharmaceuticals"
+
+# Target SIC codes: 8731 (Commercial Physical/Bio Research), 2836 (Biological Products), 8071 (Medical Labs)
+target_sic_codes:
+  - "8731"
+  - "2836"
+  - "8071"
+
+request_delay_seconds: 0.15
+skip_sic_lookup: false
+
+required_columns:
+  - CIK
+  - ENTITYNAME
+
+primary_key:
+  - CIK

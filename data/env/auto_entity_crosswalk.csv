@@ -1,0 +1,1473 @@
+entity_id,source_file,source_record_id,company_name,address_street,address_city,address_state
+ENT-000001,env_labs_standardized.csv,TNI01949,(809) US Air Force - Hill AFB Chemical Science Laboratory,,Hill AFB,Utah
+ENT-000002,env_labs_standardized.csv,TNI02455,3B Analytical,,Portland,Oregon
+ENT-000003,env_labs_standardized.csv,TNI00025,"A & B Environmental Services, Inc.",,Houston,Texas
+ENT-000004,env_labs_standardized.csv,TNI02808,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000004,env_labs_standardized.csv,TNI02810,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000004,env_labs_standardized.csv,TNI02812,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000004,env_labs_standardized.csv,TNI02819,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000004,env_labs_standardized.csv,TNI02823,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000004,env_labs_standardized.csv,TNI02869,"A & B Environmental Services, Inc. Golden Triangle",,Nederland,Texas
+ENT-000005,env_labs_standardized.csv,TNI01692,A & P WATER TESTING,,MORRISVILLE,New York
+ENT-000006,env_labs_standardized.csv,TNI01083,"A.W. Research Laboratories, Inc.",,Brainerd,Minnesota
+ENT-000007,env_labs_standardized.csv,TNI02017,"AbbVie Environmental, Health and Safety Laboratory",,Abbot Park,Illinois
+ENT-000008,env_labs_standardized.csv,TNI00110,Abilene - Taylor County Public Health District,,Abilene,Texas
+ENT-000009,env_labs_standardized.csv,TNI01127,AC Analytical & Consulting LLC,,Puposky,Minnesota
+ENT-000010,env_labs_standardized.csv,TNI02461,"ACCU LABS, LLC",,Independence,Oregon
+ENT-000011,env_labs_standardized.csv,TNI02515,"ACCURATE ANALYTICAL TESTING, LLC",,ROMULUS,Michigan
+ENT-000012,env_labs_standardized.csv,TNI02407,Accurate Environmental Labs - OKC,,Stillwater,Oklahoma
+ENT-000013,env_labs_standardized.csv,TNI01938,Accurate Environmental Labs - Stillwater,,Stillwater,Oklahoma
+ENT-000014,env_labs_standardized.csv,TNI02539,Accurate Environmental Labs - Tulsa,,Stillwater,Oklahoma
+ENT-000015,env_labs_standardized.csv,TNI02980,ACCUSTAR LABS,,HARRISBURG,Pennsylvania
+ENT-000016,env_labs_standardized.csv,TNI01776,ACCUSTAR LABS,,WARD HILL,Massachusetts
+ENT-000017,env_labs_standardized.csv,TNI00248,"Ackuritlabs, Inc.",,Tallahassee,Florida
+ENT-000018,env_labs_standardized.csv,TNI01951,"ACZ Laboratories, Inc.",,Steamboat Springs,Colorado
+ENT-000019,env_labs_standardized.csv,TNI01595,ADIRONDACK ENVIRONMENTAL SERVICES INC,,ALBANY,New York
+ENT-000020,env_labs_standardized.csv,TNI00175,"Advanced Analysis, Inc.",,Lubbock,Texas
+ENT-000021,env_labs_standardized.csv,TNI00143,"Advanced Analytical Laboratories, LLC",,Whitehouse,Texas
+ENT-000022,env_labs_standardized.csv,TNI01758,ADVANCED ANALYTICAL TECHNOLOGIES,,PEARL RIVER,New York
+ENT-000023,env_labs_standardized.csv,TNI00252,"Advanced Environmental Laboratories, Inc.",,Jacksonville,Florida
+ENT-000024,env_labs_standardized.csv,TNI00552,"Advanced Environmental Laboratories, Inc. - Fort Myers",,Fort Myers,Florida
+ENT-000025,env_labs_standardized.csv,TNI00253,"Advanced Environmental Laboratories, Inc. - Gainesville",,Gainesville,Florida
+ENT-000026,env_labs_standardized.csv,TNI02827,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02829,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02831,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02834,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02838,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02842,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02846,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02849,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02853,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02856,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02859,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02863,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02867,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02873,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02878,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02882,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02885,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02893,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02898,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02904,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02908,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02912,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02916,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02921,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02927,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02933,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02938,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02944,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02949,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02955,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02961,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02964,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02975,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02985,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02992,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI02999,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03008,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03018,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03029,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03037,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03044,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03051,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03059,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03069,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03077,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03089,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03097,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03106,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03114,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000026,env_labs_standardized.csv,TNI03122,"Advanced Environmental Laboratories, Inc. - Lake Placid",,Lake Placid,Florida
+ENT-000027,env_labs_standardized.csv,TNI00254,"Advanced Environmental Laboratories, Inc. - Miami",,Miramar,Florida
+ENT-000028,env_labs_standardized.csv,TNI00255,"Advanced Environmental Laboratories, Inc. - Orlando",,Altamonte Springs,Florida
+ENT-000029,env_labs_standardized.csv,TNI02195,"Advanced Environmental Laboratories, Inc. - Tallahassee",,Tallahassee,Florida
+ENT-000030,env_labs_standardized.csv,TNI00256,"Advanced Environmental Laboratories, Inc. - Tampa",,Tampa,Florida
+ENT-000031,env_labs_standardized.csv,TNI01202,Advanced Technology Laboratories,,Signal Hill,California
+ENT-000032,env_labs_standardized.csv,TNI02607,AG Environmental RSC LLC (DBA Sullivan County Labs),,Ferndale,New York
+ENT-000032,env_labs_standardized.csv,TNI02520,AG ENVIRONMENTAL RSC LLC DBA SULLIVAN COUNTY LABS,,FERNDALE,New York
+ENT-000033,env_labs_standardized.csv,TNI03017,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03028,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03036,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03043,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03050,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03058,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03068,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03076,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03088,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03096,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03105,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03113,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000033,env_labs_standardized.csv,TNI03121,AGAT LABORATORIES - CALGARY - 2420,,Calgary,Alberta
+ENT-000034,env_labs_standardized.csv,TNI02519,AGAT LABORATORIES INC,,ST-LAURENT,Not Applicable
+ENT-000035,env_labs_standardized.csv,TNI02648,AGQ USA,,Oxnard,California
+ENT-000036,env_labs_standardized.csv,TNI01701,AIR CHEK,,MILLS RIVER,North Carolina
+ENT-000037,env_labs_standardized.csv,TNI02280,"Air Hygiene International, Inc.",,Broken Arrow,Oklahoma
+ENT-000038,env_labs_standardized.csv,TNI00258,Air Technology Laboratories Inc,,City of Industry,California
+ENT-000039,env_labs_standardized.csv,TNI01274,AIRNOVA INC,,PENNSAUKEN,New Jersey
+ENT-000040,env_labs_standardized.csv,TNI01589,AKRON (V) SEWAGE PLANT,,AKRON,New York
+ENT-000041,env_labs_standardized.csv,TNI02392,Alabama Power Company General Testing Laboratory,,Calera,Alabama
+ENT-000042,env_labs_standardized.csv,TNI00144,"Alamo Analytical Laboratories, Ltd.",,San Antonio,Texas
+ENT-000043,env_labs_standardized.csv,TNI02256,"Alamo Analytical Laboratories, Ltd. - El Paso",,El Paso,Texas
+ENT-000044,env_labs_standardized.csv,TNI01453,ALBANY COUNTY WATER PURIFICATION DISTRICT,,MENANDS,New York
+ENT-000045,env_labs_standardized.csv,TNI01433,ALBANY WATER QUALITY LAB,,SELKIRK,New York
+ENT-000046,env_labs_standardized.csv,TNI01098,Albert Lea Wastewater Treatment Plant,,Albert Lea,Minnesota
+ENT-000047,env_labs_standardized.csv,TNI01698,ALBION (V) WATER PLANT,,WATERPORT,New York
+ENT-000048,env_labs_standardized.csv,TNI00050,Albion Environmental,,Bryan,Texas
+ENT-000049,env_labs_standardized.csv,TNI00196,"Alexin Analytical Laboratories, Inc.",,Tigard,Oregon
+ENT-000050,env_labs_standardized.csv,TNI02836,ALLAB INC,,BROOKLYN,New York
+ENT-000051,env_labs_standardized.csv,TNI02587,ALLEGANY COUNTY COMMUNITY ENVIRONMENTAL LABORATORY,,BELMONT,New York
+ENT-000052,env_labs_standardized.csv,TNI02595,Alliance Source Testing LLC - Mobile Unit,,Decatur,Alabama
+ENT-000053,env_labs_standardized.csv,TNI02400,Alliance Technical Group,,Decatur,Alabama
+ENT-000054,env_labs_standardized.csv,TNI00203,Alliance Technical Group,,Tigard,Oregon
+ENT-000055,env_labs_standardized.csv,TNI00167,"Alliance Technical Group - Carrollton, Texas",,Carrollton,Texas
+ENT-000056,env_labs_standardized.csv,TNI00551,Alliance Technical Group - Greenville,,Greenville,South Carolina
+ENT-000057,env_labs_standardized.csv,TNI01322,"ALLIANCE TECHNICAL GROUP, LLC",,WILMINGTON,North Carolina
+ENT-000058,env_labs_standardized.csv,TNI01285,"ALLIANCE TECHNICAL GROUP, LLC - NEWARK",,MOUNTAINSIDE,New Jersey
+ENT-000059,env_labs_standardized.csv,TNI02227,"Alliance Technical Group, LLC - Seattle",,Seattle,Washington
+ENT-000060,env_labs_standardized.csv,TNI01088,"Alliance Technical Group, LLC DBA Interpoll Laboratories",,Circle Pines,Minnesota
+ENT-000061,env_labs_standardized.csv,TNI00583,"Alliance Technical Group, LLC-Akron",,Cuyahoga Falls,Ohio
+ENT-000062,env_labs_standardized.csv,TNI00197,"Alpha Analytical, Inc.",,Sparks,Nevada
+ENT-000063,env_labs_standardized.csv,TNI01800,ALPHA LABS LLC,,LONG ISLAND CITY,New York
+ENT-000064,env_labs_standardized.csv,TNI01683,ALS Environmental,,Cincinnati,Ohio
+ENT-000065,env_labs_standardized.csv,TNI02019,ALS Environmental,,Holland,Michigan
+ENT-000066,env_labs_standardized.csv,TNI02924,ALS Environmental - Irvine,,Irvine,California
+ENT-000066,env_labs_standardized.csv,TNI02930,ALS Environmental - Irvine,,Irvine,California
+ENT-000067,env_labs_standardized.csv,TNI00369,ALS Environmental - Jacksonville,,Jacksonville,Florida
+ENT-000068,env_labs_standardized.csv,TNI02116,ALS Environmental - Middletown,,Middletown,Pennsylvania
+ENT-000069,env_labs_standardized.csv,TNI01756,ALS ENVIRONMENTAL - NEWTOWN,,NEWTOWN,Connecticut
+ENT-000070,env_labs_standardized.csv,TNI02476,ALS ENVIRONMENTAL - QUEENS,,RICHMOND HILL,New York
+ENT-000071,env_labs_standardized.csv,TNI01454,ALS ENVIRONMENTAL - ROCHESTER,,ROCHESTER,New York
+ENT-000072,env_labs_standardized.csv,TNI01213,ALS Environmental - Simi Valley,,Simi Valley,California
+ENT-000073,env_labs_standardized.csv,TNI01615,ALS ENVIRONMENTAL - STRATFORD,,STRATFORD,Connecticut
+ENT-000074,env_labs_standardized.csv,TNI03009,ALS ENVIRONMENTAL - TOMS RIVER,,TOMS RIVER,New Jersey
+ENT-000075,env_labs_standardized.csv,TNI02447,ALS Environmental - Valparaiso,,Valparaiso,Indiana
+ENT-000076,env_labs_standardized.csv,TNI01293,ALS Environmental Burlington - CANADA,,Burlington,Ontario
+ENT-000077,env_labs_standardized.csv,TNI02268,ALS Environmental Holland MI,,Holland,Michigan
+ENT-000078,env_labs_standardized.csv,TNI00372,"ALS Environmental, Kelso",,Kelso,Washington
+ENT-000079,env_labs_standardized.csv,TNI00037,"ALS Laboratory Group, Environmental Services Division (Houston, Texas)",,Houston,Texas
+ENT-000080,env_labs_standardized.csv,TNI02155,"Alternative Technologies, Inc.",,Burnsville,Minnesota
+ENT-000081,env_labs_standardized.csv,TNI01623,AMA ANALYTICAL SERVICES INC,,LANHAM,Maryland
+ENT-000082,env_labs_standardized.csv,TNI01616,"AMBIENT GROUP, INC.",,NEW YORK,New York
+ENT-000083,env_labs_standardized.csv,TNI01708,"AMERICA SCIENCE TEAM NEW YORK, INC",,NEW YORK,New York
+ENT-000084,env_labs_standardized.csv,TNI01695,AMERICAN ANALYTICAL LABORATORIES LLC.,,FARMINGDALE,New York
+ENT-000085,env_labs_standardized.csv,TNI02232,American Analytics Inc.,,Chatsworth,California
+ENT-000086,env_labs_standardized.csv,TNI02020,American Bottoms Regional Wastewater Treatment Facility,,Sauget,Illinois
+ENT-000087,env_labs_standardized.csv,TNI02223,American Electric Power Dolan Chemical Laboratory,,Groveport,Ohio
+ENT-000088,env_labs_standardized.csv,TNI00266,American Radiation Services (ARS),,Port Allen,Louisiana
+ENT-000089,env_labs_standardized.csv,TNI02164,"American Testing Technologies, Inc.",,Akron,Ohio
+ENT-000090,env_labs_standardized.csv,TNI02194,American Water Central Laboratory,,Belleville,Illinois
+ENT-000091,env_labs_standardized.csv,TNI01955,American West Analytical Laboratories,,Salt Lake City,Utah
+ENT-000092,env_labs_standardized.csv,TNI01636,AMERISCI RICHMOND,,MIDLOTHIAN,Virginia
+ENT-000093,env_labs_standardized.csv,TNI01426,AMHERST (T) WPCF,,AMHERST,New York
+ENT-000094,env_labs_standardized.csv,TNI01604,AMSTERDAM WATER TREATMENT,,AMSTERDAM,New York
+ENT-000095,env_labs_standardized.csv,TNI00068,"Analytical Environmental Laboratory, LLC",,Tyler,Texas
+ENT-000096,env_labs_standardized.csv,TNI00182,"Analytical Food Laboratories, Inc.",,Grand Prairie,Texas
+ENT-000097,env_labs_standardized.csv,TNI02545,"Analytical Laboratories, Inc.",,Boise,Idaho
+ENT-000098,env_labs_standardized.csv,TNI00198,Analytical Laboratory Group,,Eugene,Oregon
+ENT-000099,env_labs_standardized.csv,TNI00199,"Analytical Resources, LLC",,Tukwila,Washington
+ENT-000100,env_labs_standardized.csv,TNI00270,Analytical Services Corporation,,Niceville,Florida
+ENT-000101,env_labs_standardized.csv,TNI00273,"Analytical Services, Inc.",,Williston,Vermont
+ENT-000102,env_labs_standardized.csv,TNI00274,"Anatek Labs, Inc.",,Moscow,Idaho
+ENT-000103,env_labs_standardized.csv,TNI02364,"Anatek Labs, Inc. - Spokane",,Spokane,Washington
+ENT-000104,env_labs_standardized.csv,TNI02783,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02858,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02861,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02865,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02871,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02876,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02880,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02884,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02892,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02897,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02903,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02907,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02911,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02915,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02920,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02926,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02932,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02937,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02943,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02948,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02954,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02960,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02965,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02974,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02984,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02991,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI02998,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03005,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03014,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03025,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03033,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03041,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03048,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03056,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03066,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03073,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03085,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03093,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03102,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03110,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000104,env_labs_standardized.csv,TNI03118,"Anatek Labs, Inc. - Yakima",,Yakima,Washington
+ENT-000105,env_labs_standardized.csv,TNI00077,Angelina and Neches River Authority Environmental Laboratory,,Lufkin,Texas
+ENT-000106,env_labs_standardized.csv,TNI02169,"Apex Laboratories, LLC",,Tigard,Oregon
+ENT-000107,env_labs_standardized.csv,TNI01723,"AQUA CHECK LABORATORIES, INC",,STONE RIDGE,New York
+ENT-000108,env_labs_standardized.csv,TNI00275,"Aqua Pure Water & Sewage Service, LLC",,Ocala,Florida
+ENT-000109,env_labs_standardized.csv,TNI00092,Aqua Water Supply Corporation,,Bastrop,Texas
+ENT-000110,env_labs_standardized.csv,TNI00148,"Aqua-Tech Laboratories, Inc.",,Bryan,Texas
+ENT-000111,env_labs_standardized.csv,TNI01026,AQUATEC ENVIRONMENTAL INC,,WILLISTON,Vermont
+ENT-000112,env_labs_standardized.csv,TNI02815,AQUATEK LABS,,WOODBRIDGE,Connecticut
+ENT-000113,env_labs_standardized.csv,TNI02424,"Aquatic Laboratories, LLC",,Lexington,Kentucky
+ENT-000114,env_labs_standardized.csv,TNI02979,"AQUATOX RESEARCH, INC.",,SYRACUSE,New York
+ENT-000115,env_labs_standardized.csv,TNI02022,"ARDL, Inc.",,Mt. Vernon,Illinois
+ENT-000116,env_labs_standardized.csv,TNI00174,"Arkansas Analytical, Inc.",,Little Rock,Arkansas
+ENT-000117,env_labs_standardized.csv,TNI01882,Arkansas City Municipal Wastewater Laboratory,,Arkansas City,Kansas
+ENT-000118,env_labs_standardized.csv,TNI00041,"Armstrong Forensic Laboratory, Inc.",,Arlington,Texas
+ENT-000119,env_labs_standardized.csv,TNI00276,Ascend Performance Materials LLC,,Cantonment,Florida
+ENT-000120,env_labs_standardized.csv,TNI01958,Ashley Valley WTP Laboratory,,Vernal,Utah
+ENT-000121,env_labs_standardized.csv,TNI01203,ASSET Laboratories,,Las Vegas,Nevada
+ENT-000122,env_labs_standardized.csv,TNI01618,ATC GROUP SERVICES LLC,,NEW YORK,New York
+ENT-000123,env_labs_standardized.csv,TNI02323,ATLAS ENVIRONMENTAL LABS CORP,,NEW YORK,New York
+ENT-000124,env_labs_standardized.csv,TNI00277,"Atmospheric Analysis and Consulting, Inc.",,Ventura,California
+ENT-000125,env_labs_standardized.csv,TNI01499,AUBURN WATER TREATMENT PLANT,,AUBURN,New York
+ENT-000126,env_labs_standardized.csv,TNI01498,AUBURN WPCP (LAB),,AUBURN,New York
+ENT-000127,env_labs_standardized.csv,TNI00278,"Avery Laboratories & Environmental Services, LLC",,Savannah,Georgia
+ENT-000128,env_labs_standardized.csv,TNI00083,"AWWS, Inc. (Analytical Water & Wastewater Services)",,Hallsville,Texas
+ENT-000129,env_labs_standardized.csv,TNI01256,"B & B Consultants, Inc.",,Chase City,Virginia
+ENT-000130,env_labs_standardized.csv,TNI00125,"B.A.T. Laboratories, LLC",,Amarillo,Texas
+ENT-000131,env_labs_standardized.csv,TNI02711,B3 Labs,,Spring,Texas
+ENT-000132,env_labs_standardized.csv,TNI01218,"Babcock Laboratories, Inc.",,Riverside,California
+ENT-000133,env_labs_standardized.csv,TNI01526,BATAVIA (C) WATER TREATMENT PLANT,,BATAVIA,New York
+ENT-000134,env_labs_standardized.csv,TNI01525,BATAVIA WASTEWATER TREATMENT FACILITY,,BATAVIA,New York
+ENT-000135,env_labs_standardized.csv,TNI02320,"BATTA LABORATORIES, LLC.",,NEWARK,Delaware
+ENT-000136,env_labs_standardized.csv,TNI00280,Battelle Analytical Chemistry Services Laboratory,,Norwell,Massachusetts
+ENT-000137,env_labs_standardized.csv,TNI00281,Bay County Laboratory Services,,Panama City,Florida
+ENT-000138,env_labs_standardized.csv,TNI00282,"BCS Laboratories, Inc. - Gainesville",,Gainesville,Florida
+ENT-000139,env_labs_standardized.csv,TNI02428,"Beacon Environmental Services, Inc.",,Bel Air,Maryland
+ENT-000140,env_labs_standardized.csv,TNI01961,Bear River District Health Department Water Laboratory,,Logan,Utah
+ENT-000141,env_labs_standardized.csv,TNI00284,Beckton Environmental Laboratories,,Ponce,Puerto Rico
+ENT-000142,env_labs_standardized.csv,TNI01430,BELGRAVE WATER POL CNTRL DIST,,LITTLE NECK,New York
+ENT-000143,env_labs_standardized.csv,TNI00285,Benchmark EA South,,North Port,Florida
+ENT-000144,env_labs_standardized.csv,TNI00286,"Benchmark EnviroAnalytical, Inc.",,Palmetto,Florida
+ENT-000145,env_labs_standardized.csv,TNI00500,Benchmark Mid Florida Laboratory,,Winter Haven,Florida
+ENT-000146,env_labs_standardized.csv,TNI01597,BINGHAMTON WATER TREATMENT PLANT,,BINGHAMTON,New York
+ENT-000147,env_labs_standardized.csv,TNI01563,BINGHAMTON-JOHNSON (C) STP,,VESTAL,New York
+ENT-000148,env_labs_standardized.csv,TNI00061,"Bio Chem Lab, Inc.",,West,Texas
+ENT-000149,env_labs_standardized.csv,TNI01379,Bio-Analytical Laboratories,,Doyline,Louisiana
+ENT-000150,env_labs_standardized.csv,TNI01243,Biological Monitoring Incorporated,,Blacksburg,Virginia
+ENT-000151,env_labs_standardized.csv,TNI01744,BIOTRAX TESTING LABORATORY,,CHEEKTOWAGA,New York
+ENT-000152,env_labs_standardized.csv,TNI02567,Blue Ridge Analytical LLC,,Wytheville,Virginia
+ENT-000153,env_labs_standardized.csv,TNI02139,"Blue Triton Brands, Inc.",,Breinigsville,Pennsylvania
+ENT-000154,env_labs_standardized.csv,TNI00156,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000154,env_labs_standardized.csv,TNI02756,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000154,env_labs_standardized.csv,TNI02761,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000154,env_labs_standardized.csv,TNI02763,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000154,env_labs_standardized.csv,TNI02764,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000154,env_labs_standardized.csv,TNI02765,BlueTriton Brands Dallas QA Lab,,Dallas,Texas
+ENT-000155,env_labs_standardized.csv,TNI02786,BLUETRITON BRANDS NATIONAL QUALITY LABORATORY,,LOS ANGELES,California
+ENT-000156,env_labs_standardized.csv,TNI02681,BlueTriton Brands Pasadena QA Lab,,Pasadena,Texas
+ENT-000157,env_labs_standardized.csv,TNI01790,BLUETRITON BRANDS SARATOGA SPRINGS QA LAB,,SARATOGA SPRINGS,New York
+ENT-000158,env_labs_standardized.csv,TNI02011,bmh environmental lab llc dba Utility Testing Laboratory,,Salt Lake City,Utah
+ENT-000159,env_labs_standardized.csv,TNI02178,Bonner Analytical Testing Co,,Hattiesburg,Mississippi
+ENT-000160,env_labs_standardized.csv,TNI00200,"Box R Water Analysis Laboratory, L.L.C.",,Prineville,Oregon
+ENT-000161,env_labs_standardized.csv,TNI00111,Brazoria County Health Department Water Laboratory,,Angleton,Texas
+ENT-000162,env_labs_standardized.csv,TNI00067,Brazos River Authority Environmental Services Laboratory,,Waco,Texas
+ENT-000163,env_labs_standardized.csv,TNI00287,Brevard County Utility Services Laboratory,,Viera,Florida
+ENT-000164,env_labs_standardized.csv,TNI01962,Brigham City Laboratory,,Brigham City,Utah
+ENT-000165,env_labs_standardized.csv,TNI02024,Brighton Analytical LLC,,Brighton,Michigan
+ENT-000166,env_labs_standardized.csv,TNI02464,"Britebox Labs, Inc",,Bend,Oregon
+ENT-000167,env_labs_standardized.csv,TNI00288,"Brooks Applied Labs, LLC",,Seattle,Washington
+ENT-000168,env_labs_standardized.csv,TNI03071,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000168,env_labs_standardized.csv,TNI03083,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000168,env_labs_standardized.csv,TNI03091,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000168,env_labs_standardized.csv,TNI03100,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000168,env_labs_standardized.csv,TNI03108,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000168,env_labs_standardized.csv,TNI03116,Brothers Laboratory Services,,Maryland Heights,Missouri
+ENT-000169,env_labs_standardized.csv,TNI00289,Broward County Environmental Monitoring Laboratory,,Davie,Florida
+ENT-000170,env_labs_standardized.csv,TNI00290,Broward County Water and Wastewater Services Laboratory,,Pompano Beach,Florida
+ENT-000171,env_labs_standardized.csv,TNI00135,Brownsville Public Utilities Board Analytical Laboratory,,Brownsville,Texas
+ENT-000172,env_labs_standardized.csv,TNI02245,BSK Associates,,Fresno,California
+ENT-000173,env_labs_standardized.csv,TNI00194,BSK Associates ?Vancouver,,Vancouver,Washington
+ENT-000174,env_labs_standardized.csv,TNI02468,BSK-San Bernardino,,San Bernardino,California
+ENT-000175,env_labs_standardized.csv,TNI01449,BUFFALO SEWER AUTHORITY,,BUFFALO,New York
+ENT-000176,env_labs_standardized.csv,TNI01543,BUFFALO WATER AUTHORITY FILTRATION PLANT LABORATORY,,BUFFALO,New York
+ENT-000177,env_labs_standardized.csv,TNI00293,Bureau of Agricultural Environmental Laboratories (BAEL),,Tallahassee,Florida
+ENT-000178,env_labs_standardized.csv,TNI01292,Bureau Veritas Canada Inc,,Mississauga,Ontario
+ENT-000179,env_labs_standardized.csv,TNI01741,"BUREAU VERITAS NORTH AMERICA, INC.",,KENNESAW,Georgia
+ENT-000180,env_labs_standardized.csv,TNI02888,"Bureau Veritas North America, Inc.",,Lake Zurich,Alabama
+ENT-000181,env_labs_standardized.csv,TNI02889,"Bureau Veritas North America, Inc.",,Lake Zurich,Illinois
+ENT-000181,env_labs_standardized.csv,TNI02890,"Bureau Veritas North America, Inc.",,Lake Zurich,Illinois
+ENT-000182,env_labs_standardized.csv,TNI00294,"Bureau Veritas North America, Inc.",,Novi,Michigan
+ENT-000183,env_labs_standardized.csv,TNI01267,BWXT Lynchburg Technology Center,,Lynchburg,Virginia
+ENT-000184,env_labs_standardized.csv,TNI01211,CALTEST ANALYTICAL LABORATORY,,NAPA,California
+ENT-000185,env_labs_standardized.csv,TNI02228,Camp Rilea Laboratory,,Warrenton,Oregon
+ENT-000186,env_labs_standardized.csv,TNI01593,CAMPFIELD RESERVOIR  FILTER PLANT,,PEEKSKILL,New York
+ENT-000187,env_labs_standardized.csv,TNI01586,CANANDAIGUA WASTEWATER TREATMENT FACILITY,,CANANDAIGUA,New York
+ENT-000188,env_labs_standardized.csv,TNI01622,CANANDAIGUA WATER TREATMENT PLANT,,CANANDAIGUA,New York
+ENT-000189,env_labs_standardized.csv,TNI01432,CANISTEO WASTEWATER PLANT LAB,,CANISTEO,New York
+ENT-000190,env_labs_standardized.csv,TNI01028,CANOBIE LAKE WATER TREATMENT PLANT LABORATORY,,SALEM,New Hampshire
+ENT-000191,env_labs_standardized.csv,TNI01963,"Cape Fear Analytical, LLC",,Wilmington,North Carolina
+ENT-000192,env_labs_standardized.csv,TNI01520,CAPITAL REGION ENVIRONMENTAL LABORATORY,,RENSSELAER,New York
+ENT-000193,env_labs_standardized.csv,TNI02210,Capzer Pharmaceuticals,,Lake Worth,Florida
+ENT-000194,env_labs_standardized.csv,TNI02547,Carbondale Central Laboratory,,Carbondale,Illinois
+ENT-000195,env_labs_standardized.csv,TNI00162,Cardinal Laboratories,,Hobbs,New Mexico
+ENT-000196,env_labs_standardized.csv,TNI01445,CATTARAUGUS COUNTY LABORATORY,,OLEAN,New York
+ENT-000197,env_labs_standardized.csv,TNI01739,CCNY ENVIRONMENTAL LAB,,NEW YORK,New York
+ENT-000198,env_labs_standardized.csv,TNI02517,CCWT - SOMAS NORTH,,STONY BROOK,New York
+ENT-000199,env_labs_standardized.csv,TNI02582,CCWT - SOMAS SOUTH,,SOUTHHAMPTON,New York
+ENT-000200,env_labs_standardized.csv,TNI02518,CCWT ENGINEERING,,STONY BROOK,New York
+ENT-000201,env_labs_standardized.csv,TNI01964,Cedar City Regional Water Treatment Facility Laboratory,,Cedar City,Utah
+ENT-000202,env_labs_standardized.csv,TNI00569,Center for Aquatic Chemistry and Environment - Nutrient Analysis Core Facility (CAChE-NACF),,Miami,Florida
+ENT-000203,env_labs_standardized.csv,TNI01965,Central Davis Sewer District,,Kaysville,Utah
+ENT-000204,env_labs_standardized.csv,TNI00545,Central Florida Tourism Oversight District Environmental Sciences,,Lake Buena Vista,Florida
+ENT-000205,env_labs_standardized.csv,TNI00539,Central Florida Water Testing LLC DBA Plant Technicians,,Leesburg,Florida
+ENT-000206,env_labs_standardized.csv,TNI01966,Central Utah Public Health Laboratory,,Richfield,Utah
+ENT-000207,env_labs_standardized.csv,TNI01967,Central Valley Water Reclamation Facility,,South Salt Lake,Utah
+ENT-000208,env_labs_standardized.csv,TNI01118,Central Water Testing Laboratory,,Brainerd,Minnesota
+ENT-000209,env_labs_standardized.csv,TNI01968,Central Weber SID Laboratory,,Ogden,Utah
+ENT-000210,env_labs_standardized.csv,TNI02279,"Ceres Analytical Laboratory, Inc.",,El Dorado Hills,California
+ENT-000211,env_labs_standardized.csv,TNI01669,CERTIFIED ENVIRONMENTAL SERVICES INC,,NORTH SYRACUSE,New York
+ENT-000212,env_labs_standardized.csv,TNI01515,CERTIFIED LABORATORIES LLC,,MELVILLE,New York
+ENT-000213,env_labs_standardized.csv,TNI00296,Certified Labs of Florida,,Melrose,Florida
+ENT-000214,env_labs_standardized.csv,TNI02484,CETCON Inc,,Tulsa,Oklahoma
+ENT-000215,env_labs_standardized.csv,TNI01839,CHAMPLAIN WATER DISTRICT,,SOUTH BURLINGTON,Vermont
+ENT-000216,env_labs_standardized.csv,TNI00297,Charlotte County Utilities - East Port Laboratory,,Port Charlotte,Florida
+ENT-000217,env_labs_standardized.csv,TNI02249,CHARLOTTE WATER,,CHARLOTTE,North Carolina
+ENT-000218,env_labs_standardized.csv,TNI01537,CHAUTAUQUA COUNTY HEALTH,,MAYVILLE,New York
+ENT-000219,env_labs_standardized.csv,TNI02450,ChemHistory,,Milwaukie,Oregon
+ENT-000220,env_labs_standardized.csv,TNI01969,"Chemtech-Ford, Inc.",,Sandy,Utah
+ENT-000221,env_labs_standardized.csv,TNI01199,CHEMTEX,,Sulphur,Louisiana
+ENT-000222,env_labs_standardized.csv,TNI02560,CHEMTEX - Corpus Christi,,Corpus Christi,Texas
+ENT-000223,env_labs_standardized.csv,TNI01650,CHEMUNG CO ELMIRA SD,,ELMIRA,New York
+ENT-000224,env_labs_standardized.csv,TNI01970,Chevron Salt Lake Refinery Environmental Laboratory,,North Salt Lake,Utah
+ENT-000225,env_labs_standardized.csv,TNI00102,City of Abilene Environmental Laboratory,,Abilene,Texas
+ENT-000226,env_labs_standardized.csv,TNI00300,City of Altamonte Springs Environmental Laboratory,,Altamonte Springs,Florida
+ENT-000227,env_labs_standardized.csv,TNI00150,City of Amarillo Environmental Laboratory,,Amarillo,Texas
+ENT-000228,env_labs_standardized.csv,TNI00093,City of Arlington Water Utilities Laboratory Services,,Arlington,Texas
+ENT-000229,env_labs_standardized.csv,TNI00302,"City of Atlanta, Department of Watershed Management, Wastewater Laboratory",,Atlanta,Georgia
+ENT-000230,env_labs_standardized.csv,TNI00081,City of Austin Water Utility Laboratory Services Division,,Austin,Texas
+ENT-000231,env_labs_standardized.csv,TNI00120,City of Beaumont Water Production Laboratory,,Beaumont,Texas
+ENT-000232,env_labs_standardized.csv,TNI00204,City of Bend Water Quality Laboratory,,Bend,Oregon
+ENT-000233,env_labs_standardized.csv,TNI00303,City of Boca Raton Quality Control Laboratory,,Boca Raton,Florida
+ENT-000234,env_labs_standardized.csv,TNI00090,City of Borger Water Plant Laboratory,,Borger,Texas
+ENT-000235,env_labs_standardized.csv,TNI00304,City of Boynton Beach Utilities Department,,Boynton Beach,Florida
+ENT-000236,env_labs_standardized.csv,TNI00306,City of Cape Canaveral Water Reclamation Plant,,Cape Canaveral,Florida
+ENT-000237,env_labs_standardized.csv,TNI00307,City of Cape Coral ERD Laboratory,,Cape Coral,Florida
+ENT-000238,env_labs_standardized.csv,TNI02026,"City of Chicago, Water Purification Laboratories",,Chicago,Illinois
+ENT-000239,env_labs_standardized.csv,TNI00308,City of Clearwater Public Utilities Laboratory,,Clearwater,Florida
+ENT-000240,env_labs_standardized.csv,TNI00309,City of Cocoa Beach Water Reclamation Laboratory,,Cocoa Beach,Florida
+ENT-000241,env_labs_standardized.csv,TNI00159,City of Corpus Christi Water Utilities Laboratory,,Corpus Christi,Texas
+ENT-000242,env_labs_standardized.csv,TNI00206,City of Corvallis Water Quality Laboratory,,Corvallis,Oregon
+ENT-000243,env_labs_standardized.csv,TNI00088,City of Dallas Water Utilities Bachman Water Treatment Plant Laboratory,,Dallas,Texas
+ENT-000244,env_labs_standardized.csv,TNI00087,City of Dallas Water Utilities Eastside Drinking Water Laboratory,,Sunnyvale,Texas
+ENT-000245,env_labs_standardized.csv,TNI00086,City of Dallas Water Utilities Elm Fork Plant Laboratory,,Carrolton,Texas
+ENT-000246,env_labs_standardized.csv,TNI00310,City of Daytona Beach Regulatory Compliance Laboratory,,Daytona Beach,Florida
+ENT-000247,env_labs_standardized.csv,TNI00134,City of Deer Park Surface Water Treatment Plant Laboratory,,Deer Park,Texas
+ENT-000248,env_labs_standardized.csv,TNI00311,City of Deerfield Beach Water Treatment Plant,,Deerfield Beach,Florida
+ENT-000249,env_labs_standardized.csv,TNI00312,City of DeLand Environmental Services Laboratory,,DeLand,Florida
+ENT-000250,env_labs_standardized.csv,TNI00313,City of Delray Beach Environmental Services Laboratory,,Delray Beach,Florida
+ENT-000251,env_labs_standardized.csv,TNI00058,City of Denison Laboratory,,Denison,Texas
+ENT-000252,env_labs_standardized.csv,TNI00155,City of Denton Municipal Laboratory,,Denton,Texas
+ENT-000253,env_labs_standardized.csv,TNI01081,City of Duluth,,Duluth,Minnesota
+ENT-000254,env_labs_standardized.csv,TNI01135,City of Eden Prairie Utilities Laboratory,,Eden Prairie,Minnesota
+ENT-000255,env_labs_standardized.csv,TNI00314,City of Edgewater - Alan R. Thomas Water Treatment Plant,,Edgewater,Florida
+ENT-000256,env_labs_standardized.csv,TNI00315,City of Edgewater Environmental Services Laboratory,,Edgewater,Florida
+ENT-000257,env_labs_standardized.csv,TNI00096,City of El Paso Department of Public Health,,El Paso,Texas
+ENT-000258,env_labs_standardized.csv,TNI00317,City of Eustis Wastewater Treatment Plant,,Eustis,Florida
+ENT-000259,env_labs_standardized.csv,TNI00318,City of Fort Lauderdale Environmental Laboratory,,Ft. Lauderdale,Florida
+ENT-000260,env_labs_standardized.csv,TNI00151,City of Garland Water Utility Laboratory,,Garland,Texas
+ENT-000261,env_labs_standardized.csv,TNI00322,City of Graceville Wastewater Treatment Plant Laboratory,,Graceville,Florida
+ENT-000262,env_labs_standardized.csv,TNI02171,City of Gresham WWTP Laboratory,,Portland,Oregon
+ENT-000263,env_labs_standardized.csv,TNI00101,City of Harlingen Waterworks System,,Harlingen,Texas
+ENT-000264,env_labs_standardized.csv,TNI00323,City of Holly Hill Water & Wastewater Treatment Plant Laboratory,,Holly Hill,Florida
+ENT-000265,env_labs_standardized.csv,TNI00324,City of Hollywood Utilities Laboratory,,Hollywood,Florida
+ENT-000266,env_labs_standardized.csv,TNI00066,City of Houston - Drinking Water Regulatory Compliance Laboratory,,Houston,Texas
+ENT-000267,env_labs_standardized.csv,TNI00046,"City of Houston Health Department, Bureau of Laboratory Services",,Houston,Texas
+ENT-000268,env_labs_standardized.csv,TNI02257,"City of Houston, Wastewater Operations Laboratory",,Houston,Texas
+ENT-000269,env_labs_standardized.csv,TNI00099,City of Huntsville Parker Creek Laboratory,,Huntsville,Texas
+ENT-000270,env_labs_standardized.csv,TNI01789,CITY OF ITHACA WATER TREATMENT PLANT LABORATORY,,ITHACA,New York
+ENT-000271,env_labs_standardized.csv,TNI00396,"City of Jacksonville, EQD Lab",,Jacksonville,Florida
+ENT-000272,env_labs_standardized.csv,TNI00095,City of Kerrville Laboratory,,Kerrville,Texas
+ENT-000273,env_labs_standardized.csv,TNI00325,City of Key West WWTP Laboratory,,Key West,Florida
+ENT-000274,env_labs_standardized.csv,TNI00326,City of Lake Worth Beach Water Treatment Plant Laboratory,,Lake Worth,Florida
+ENT-000275,env_labs_standardized.csv,TNI00328,City of Lakeland -Thomas B. Williams Water Treatment Plant,,Lakeland,Florida
+ENT-000276,env_labs_standardized.csv,TNI00329,City of Lakeland Wastewater Treatment Plant - Glendale,,Lakeland,Florida
+ENT-000277,env_labs_standardized.csv,TNI00145,City of Laredo Public Health Department Laboratory,,Laredo,Texas
+ENT-000278,env_labs_standardized.csv,TNI00330,City of Largo Wastewater Treatment Plant,,Clearwater,Florida
+ENT-000279,env_labs_standardized.csv,TNI00129,City of Lewisville Environmental Control Services Laboratory,,Lewisville,Texas
+ENT-000280,env_labs_standardized.csv,TNI00153,City of Lubbock Water Treatment Plant Laboratory,,Lubbock,Texas
+ENT-000281,env_labs_standardized.csv,TNI00332,City of Margate Utilities,,Margate,Florida
+ENT-000282,env_labs_standardized.csv,TNI00133,City of McAllen Central Laboratory,,McAllen,Texas
+ENT-000283,env_labs_standardized.csv,TNI00333,City of Melbourne Wastewater Treatment Compliance Monitoring Laboratory,,Melbourne,Florida
+ENT-000284,env_labs_standardized.csv,TNI00334,City of Melbourne Water Treatment Plant Laboratory,,Melbourne,Florida
+ENT-000285,env_labs_standardized.csv,TNI02185,City of Midland Utilities Laboratory,,Midland,Texas
+ENT-000286,env_labs_standardized.csv,TNI00336,City of Naples Central Laboratory,,Naples,Florida
+ENT-000287,env_labs_standardized.csv,TNI00337,City of New Port Richey Wastewater Treatment Plant,,New Port Richey,Florida
+ENT-000288,env_labs_standardized.csv,TNI00338,City of North Miami Beach Quality Control Laboratory,,Miami,Florida
+ENT-000289,env_labs_standardized.csv,TNI00339,City of North Miami Water Treatment Plant,,North Miami,Florida
+ENT-000290,env_labs_standardized.csv,TNI00340,City of Ocala Water Quality Laboratory,,Ocala,Florida
+ENT-000291,env_labs_standardized.csv,TNI00141,City of Odessa Laboratory Services,,Odessa,Texas
+ENT-000292,env_labs_standardized.csv,TNI00342,"City of Orlando, Environmental Laboratory Services",,Oviedo,Florida
+ENT-000293,env_labs_standardized.csv,TNI02832,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02835,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02839,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02843,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02847,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02850,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02854,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02857,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02860,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02864,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02868,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02874,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02879,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02883,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02887,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02895,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02900,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02906,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02910,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02914,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02918,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02923,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02929,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02935,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02940,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02946,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02951,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02957,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02963,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02966,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02977,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02987,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI02994,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03001,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03007,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03016,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03027,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03035,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03042,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03049,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03057,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03067,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03075,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03087,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03095,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03104,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03112,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000293,env_labs_standardized.csv,TNI03120,City of Ormond Beach WRF Laboratory,,Ormond Beach,Florida
+ENT-000294,env_labs_standardized.csv,TNI00345,City of Panama City Area Environmental Laboratory,,Panama City,Florida
+ENT-000295,env_labs_standardized.csv,TNI00152,City of Pharr Water Laboratory,,Pharr,Texas
+ENT-000296,env_labs_standardized.csv,TNI00207,City of Phoenix Water Quality Laboratory,,Phoenix,Arizona
+ENT-000297,env_labs_standardized.csv,TNI02723,City of Phoenix Water Services Laboratory,,Phoenix,Arizona
+ENT-000298,env_labs_standardized.csv,TNI00347,City of Plantation Utilities Department Laboratory,,Plantation,Florida
+ENT-000299,env_labs_standardized.csv,TNI00348,City of Pompano Beach Utilities Laboratory,,Pompano Beach,Florida
+ENT-000300,env_labs_standardized.csv,TNI00121,City of Port Arthur Water Purification Plant Laboratory,,Port Arthur,Texas
+ENT-000301,env_labs_standardized.csv,TNI00349,City of Port Orange Central Lab,,Port Orange,Florida
+ENT-000302,env_labs_standardized.csv,TNI00350,City of Port St. Lucie Utility Systems Department,,Port St. Lucie,Florida
+ENT-000303,env_labs_standardized.csv,TNI02276,City of Portland Water Pollution Control Laboratory,,Portland,Oregon
+ENT-000304,env_labs_standardized.csv,TNI00351,City of Punta Gorda Water Treatment Plant,,Punta Gorda,Florida
+ENT-000305,env_labs_standardized.csv,TNI00108,City of Round Rock Environmental Services Laboratory,,Round Rock,Texas
+ENT-000306,env_labs_standardized.csv,TNI01030,CITY OF RUTLAND WATER LABORATORY,,RUTLAND,Vermont
+ENT-000307,env_labs_standardized.csv,TNI00114,City of San Angelo Water Quality Laboratory,,San Angelo,Texas
+ENT-000308,env_labs_standardized.csv,TNI00352,City of Sarasota Wastewater Treatment Plant Laboratory,,Sarasota,Florida
+ENT-000309,env_labs_standardized.csv,TNI00072,City of Sherman Utilities Laboratory,,Sherman,Texas
+ENT-000310,env_labs_standardized.csv,TNI00353,City of St. Augustine Water Pollution Control Laboratory,,St. Augustine,Florida
+ENT-000311,env_labs_standardized.csv,TNI00354,City of Sunrise Utilities Laboratory,,Sunrise,Florida
+ENT-000312,env_labs_standardized.csv,TNI00355,City of Tallahassee Water Quality Laboratory,,Tallahassee,Florida
+ENT-000313,env_labs_standardized.csv,TNI00357,City of Tampa Water Quality Laboratory,,Tampa,Florida
+ENT-000314,env_labs_standardized.csv,TNI00358,City of Tavares Wastewater Utilities Laboratory,,Tavares,Florida
+ENT-000315,env_labs_standardized.csv,TNI00123,City of Texarkana Water Utilities Laboratory,,Texarkana,Texas
+ENT-000316,env_labs_standardized.csv,TNI00208,City of The Dalles Water Quality Lab,,The Dalles,Oregon
+ENT-000317,env_labs_standardized.csv,TNI00359,City of Titusville - Laboratory Services,,Titusville,Florida
+ENT-000318,env_labs_standardized.csv,TNI00170,City of Waco Regional Water Quality Laboratory,,Waco,Texas
+ENT-000319,env_labs_standardized.csv,TNI00361,City of West Palm Beach East Central Wastewater Plant,,West Palm Beach,Florida
+ENT-000320,env_labs_standardized.csv,TNI00362,City of West Palm Beach Public Utilities Water Laboratory,,West Palm Beach,Florida
+ENT-000321,env_labs_standardized.csv,TNI00158,City of Wichita Falls Cypress Environmental Laboratory,,Wichita Falls,Texas
+ENT-000322,env_labs_standardized.csv,TNI00364,City of Winter Park Central Utilities Laboratory,,Winter Park,Florida
+ENT-000323,env_labs_standardized.csv,TNI02229,City of Woodburn,,Woodburn,Oregon
+ENT-000324,env_labs_standardized.csv,TNI01463,"CITY OF YONKERS, BUREAU OF WATER'S LABORATORY",,YONKERS,New York
+ENT-000325,env_labs_standardized.csv,TNI00210,Clackamas River Water Drinking Water Quality Laboratory,,Clackamas,Oregon
+ENT-000326,env_labs_standardized.csv,TNI00209,Clackamas Water Environment Services-Water Quality Laboratory,,Oregon City,Oregon
+ENT-000327,env_labs_standardized.csv,TNI02953,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02959,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02967,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02973,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02983,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02990,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI02997,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03004,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03013,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03024,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03032,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03040,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03047,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03055,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03065,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03072,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03084,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03092,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03101,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03109,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000327,env_labs_standardized.csv,TNI03117,Clay County Utility Authority Environmental Laboratory,,Middleburg,Florida
+ENT-000328,env_labs_standardized.csv,TNI00173,"Clean Air Engineering, Inc.",,Palatine,Illinois
+ENT-000329,env_labs_standardized.csv,TNI01971,"Clean Harbors Aragonite, LLC",,Dugway,Utah
+ENT-000330,env_labs_standardized.csv,TNI02789,CLEAN HARBORS EAST CORPORATE LABORATORY,,BALTIMORE,Maryland
+ENT-000331,env_labs_standardized.csv,TNI01972,"Clean Harbors Environmental Services, Inc.",,Kimball,Nebraska
+ENT-000332,env_labs_standardized.csv,TNI01973,"Clean Harbors Grassy Mountain, LLC",,Clive,Utah
+ENT-000333,env_labs_standardized.csv,TNI01155,Cloquet Water Laboratory c/o Cloquet City Hall,,Duluth,Minnesota
+ENT-000334,env_labs_standardized.csv,TNI01960,"CNS, LLC Y-12 Analytical Chemistry Organization Laboratory",,Oak Ridge,Tennessee
+ENT-000335,env_labs_standardized.csv,TNI01257,"Coastal Bioanalysts, Inc.",,Gloucester,Virginia
+ENT-000336,env_labs_standardized.csv,TNI00366,Collier County Pollution Control and Prevention Department Laboratory,,Naples,Florida
+ENT-000337,env_labs_standardized.csv,TNI00367,Collier County Regional Water Plant Laboratory,,Naples,Florida
+ENT-000338,env_labs_standardized.csv,TNI00368,Collier County Water Reclamation Laboratory,,Naples,Florida
+ENT-000339,env_labs_standardized.csv,TNI02840,Columbia Laboratories - Portland,,Portland,Oregon
+ENT-000340,env_labs_standardized.csv,TNI00227,Columbia Laboratories Inc.,,Portland,Oregon
+ENT-000341,env_labs_standardized.csv,TNI01779,"COMMUNITY SCIENCE INSTITUTE, INC.",,ITHACA,New York
+ENT-000342,env_labs_standardized.csv,TNI01919,Compass Minerals,,Lyons,Kansas
+ENT-000343,env_labs_standardized.csv,TNI00373,COMPLETE ENVIRONMENTAL TESTING INC,,STRATFORD,Connecticut
+ENT-000344,env_labs_standardized.csv,TNI01528,CON ED CO OF NY - EH&S CHEMLAB,,LONG ISLAND CITY,New York
+ENT-000345,env_labs_standardized.csv,TNI01033,CONCORD WATER TREATMENT PLANT LABORATORY,,CONCORD,New Hampshire
+ENT-000346,env_labs_standardized.csv,TNI01475,CONSOLIDATED LABORATORIES,,OSWEGO,New York
+ENT-000347,env_labs_standardized.csv,TNI01214,Continental Water Laboratory,,Sacramento,California
+ENT-000348,env_labs_standardized.csv,TNI01594,CONVERSE LABORATORIES INC,,WATERTOWN,New York
+ENT-000349,env_labs_standardized.csv,TNI00212,Coos Bay-North Bend Water Board,,Coos Bay,Oregon
+ENT-000350,env_labs_standardized.csv,TNI02258,"Core Laboratories, LP",,Deer Park,Texas
+ENT-000351,env_labs_standardized.csv,TNI01753,Cornwell Engineering Group Laboratory,,Newport News,Virginia
+ENT-000352,env_labs_standardized.csv,TNI00117,Corpus Christi - Nueces County Public Health District Laboratory,,Corpus Christi,Texas
+ENT-000353,env_labs_standardized.csv,TNI02371,"Cove Environmental, LLC.",,Stillwater,Oklahoma
+ENT-000354,env_labs_standardized.csv,TNI02238,"Crisp Analytical Labs, LLC",,Carrollton,Texas
+ENT-000355,env_labs_standardized.csv,TNI02471,"CS Laboratories, Inc.",,Tigard,Oregon
+ENT-000356,env_labs_standardized.csv,TNI00375,"CSRA Analytical Laboratories, Inc.",,Augusta,Georgia
+ENT-000357,env_labs_standardized.csv,TNI02181,CT Laboratories LLC,,Baraboo,Wisconsin
+ENT-000358,env_labs_standardized.csv,TNI02028,Culligan Analytical Laboratory,,Rosemont,Illinois
+ENT-000359,env_labs_standardized.csv,TNI01685,CWM CHEMICAL SERVICES LLC,,MODEL CITY,New York
+ENT-000360,env_labs_standardized.csv,TNI00166,Dallas County Park Cities Municipal Utility District,,Dallas,Texas
+ENT-000361,env_labs_standardized.csv,TNI02368,Dallas Water Utilities - PALS Analytical Laboratory,,Dallas,Texas
+ENT-000362,env_labs_standardized.csv,TNI01596,DARRIN FRESH WATER INSTITUTE,,BOLTON LANDING,New York
+ENT-000363,env_labs_standardized.csv,TNI01975,Davis County Environmental Health Laboratory,,Clearfield,Utah
+ENT-000364,env_labs_standardized.csv,TNI01089,Davy Laboratories,,La Crosse,Wisconsin
+ENT-000365,env_labs_standardized.csv,TNI00379,"DB Environmental Laboratories, Inc.",,Rockledge,Florida
+ENT-000366,env_labs_standardized.csv,TNI02463,"Deibel BioScience of Oregon, LLC",,Hood River,Oregon
+ENT-000367,env_labs_standardized.csv,TNI02697,Delaware State University Water Analysis Group,,Dover,Delaware
+ENT-000368,env_labs_standardized.csv,TNI01216,"Department of Water Supply, County of Maui",,Kahului,Hawaii
+ENT-000369,env_labs_standardized.csv,TNI01888,Derby Municipal Wastewater Laboratory,,Derby,Kansas
+ENT-000370,env_labs_standardized.csv,TNI01034,DERRY WASTEWATER TREATMENT PLANT,,DERRY,New Hampshire
+ENT-000371,env_labs_standardized.csv,TNI00062,Desert Research Institute - Environmental Analysis Facility,,Reno,Nevada
+ENT-000372,env_labs_standardized.csv,TNI00380,"Destin Water Users, Inc.",,Destin,Florida
+ENT-000373,env_labs_standardized.csv,TNI02714,DFW Environmental Laboratories,,Carrollton,Texas
+ENT-000374,env_labs_standardized.csv,TNI01602,DIST WATER QUAL OPS NYCDEP DISTRIBUTION LAB,,CORONA,New York
+ENT-000375,env_labs_standardized.csv,TNI00381,"Diversified Environmental Laboratories, Inc.",,Jacksonville,Florida
+ENT-000376,env_labs_standardized.csv,TNI01359,Division of Consolidated Laboratory Services,,Richmond,Virginia
+ENT-000377,env_labs_standardized.csv,TNI01889,Dodge City Municipal Wastewater Laboratory,,Dodge City,Kansas
+ENT-000378,env_labs_standardized.csv,TNI02901,DOH-EPH Orange Water Testing Laboratory,,Orlando,Florida
+ENT-000379,env_labs_standardized.csv,TNI02010,Don A. Christiansen Regional Water Treatment Plant Laboratory,,Orem,Utah
+ENT-000380,env_labs_standardized.csv,TNI00335,Dr. Roy L. Virgin West Water Treatment Lab,,Miramar,Florida
+ENT-000381,env_labs_standardized.csv,TNI02708,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000381,env_labs_standardized.csv,TNI02709,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000381,env_labs_standardized.csv,TNI02733,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000381,env_labs_standardized.csv,TNI02748,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000381,env_labs_standardized.csv,TNI02749,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000381,env_labs_standardized.csv,TNI02759,Drinking Water and Radiation Laboratory,,Richmond,California
+ENT-000382,env_labs_standardized.csv,TNI01976,Duchesne Valley Water Treatment Plant Laboratory,,Duchesne,Utah
+ENT-000383,env_labs_standardized.csv,TNI03053,Duke Energy Analytical Laboratory,,Huntersville,North Carolina
+ENT-000384,env_labs_standardized.csv,TNI01482,DUNKIRK WATER TREATMENT PLANT LAB,,DUNKIRK,New York
+ENT-000385,env_labs_standardized.csv,TNI01462,DUNKIRK WWTP LAB,,DUNKIRK,New York
+ENT-000386,env_labs_standardized.csv,TNI01458,DUNN PAPER - NATURAL DAM INC.,,GOUVERNEUR,New York
+ENT-000387,env_labs_standardized.csv,TNI01836,DUREZ CORPORATION - NIAGARA FALLS PLANT,,NIAGARA FALLS,New York
+ENT-000388,env_labs_standardized.csv,TNI00383,"EA Engineering, Science, and Technology - Ecotoxicology Laboratory",,Hunt Valley,Maryland
+ENT-000389,env_labs_standardized.csv,TNI00078,"Earth Analytical Sciences, Inc.",,Beaumont,Texas
+ENT-000390,env_labs_standardized.csv,TNI01614,EAS INC - EASTERN ANALYTICAL SERVICES INC,,ELMSFORD,New York
+ENT-000391,env_labs_standardized.csv,TNI01382,EASI LLC,,Kenner,Louisiana
+ENT-000392,env_labs_standardized.csv,TNI00384,"Eastern Research Group, Inc.",,Morrisville,North Carolina
+ENT-000393,env_labs_standardized.csv,TNI00065,"Eastex Environmental Laboratory, Inc. - Coldspring",,Coldspring,Texas
+ENT-000394,env_labs_standardized.csv,TNI00098,"Eastex Environmental Laboratory, Nacogdoches",,Nacogdoches,Texas
+ENT-000395,env_labs_standardized.csv,TNI03078,"Eastman Chemical Company, Environmental Laboratory, Texas Operations",,Longview,Texas
+ENT-000396,env_labs_standardized.csv,TNI01978,Eberline Analytical Corporation,,Oak Ridge,Tennessee
+ENT-000397,env_labs_standardized.csv,TNI02394,ECOBAT RESOURCES NY QUALITY CONTROL LABORATORY,,MIDDLETOWN,New York
+ENT-000398,env_labs_standardized.csv,TNI03011,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03023,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03031,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03039,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03046,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03054,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03064,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03070,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03082,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03090,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03098,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03099,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03107,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000398,env_labs_standardized.csv,TNI03115,Ecolytix Environmental Laboratory,,Stuart,Florida
+ENT-000399,env_labs_standardized.csv,TNI02002,Ecosystems Research Inst Laboratory,,Logan,Utah
+ENT-000400,env_labs_standardized.csv,TNI02978,"EDEN LABORATORY, INC",,SCHENECTADY,New York
+ENT-000401,env_labs_standardized.csv,TNI00165,Edwards Aquifer Research and Data Center,,San Marcos,Texas
+ENT-000402,env_labs_standardized.csv,TNI01892,El Dorado Wetlands & Water Reclamation Facility,,El Dorado,Kansas
+ENT-000403,env_labs_standardized.csv,TNI02688,"Element Materials Technology Fort Wayne, LLC",,Fort Wayne,Indiana
+ENT-000404,env_labs_standardized.csv,TNI00169,Element Materials Technology Houston LLC,,Houston,Texas
+ENT-000405,env_labs_standardized.csv,TNI01402,Element Materials Technology Lafayette LLC,,Lafayette,Louisiana
+ENT-000405,env_labs_standardized.csv,TNI02689,"Element Materials Technology Lafayette, LLC",,Lafayette,Louisiana
+ENT-000406,env_labs_standardized.csv,TNI02762,Elevation Diagnostics,,Aurora,Colorado
+ENT-000407,env_labs_standardized.csv,TNI01512,ELMA (T) SEWER DISTRICTS-ROLLING GREEN LANE,,ELMA,New York
+ENT-000408,env_labs_standardized.csv,TNI01734,ELMIRA WATER BOARD,,ELMIRA,New York
+ENT-000409,env_labs_standardized.csv,TNI01219,"EMAX Laboratories, Inc.",,Torrance,California
+ENT-000410,env_labs_standardized.csv,TNI00387,Emerald Coast Utilities Authority,,Pensacola,Florida
+ENT-000411,env_labs_standardized.csv,TNI01887,"Emerald Transformer PPM, LLC",,Coffeyville,Kansas
+ENT-000412,env_labs_standardized.csv,TNI01894,Emporia Municipal Wastewater Laboratory,,Emporia,Kansas
+ENT-000413,env_labs_standardized.csv,TNI01273,EMSL ANALYTICAL INC,,CINNAMINSON,New Jersey
+ENT-000414,env_labs_standardized.csv,TNI01732,EMSL ANALYTICAL INC,,DEPEW,New York
+ENT-000415,env_labs_standardized.csv,TNI01282,EMSL ANALYTICAL INC,,PISCATAWAY TWP,New Jersey
+ENT-000416,env_labs_standardized.csv,TNI01331,"EMSL ANALYTICAL, INC",,LONG ISLAND CITY,New York
+ENT-000417,env_labs_standardized.csv,TNI01706,"EMSL ANALYTICAL, INC.",,CARLE PLACE,New York
+ENT-000418,env_labs_standardized.csv,TNI02704,"EMSL Analytical, Inc.",,Indianapolis,Indiana
+ENT-000419,env_labs_standardized.csv,TNI02516,"EMSL ANALYTICAL, INC.",,MERIDEN,Connecticut
+ENT-000420,env_labs_standardized.csv,TNI02497,"EMSL Analytical, Inc.",,New Hope,Minnesota
+ENT-000421,env_labs_standardized.csv,TNI02584,"EMSL ANALYTICAL, INC.",,ROCHESTER,New York
+ENT-000422,env_labs_standardized.csv,TNI02793,"EMSL Analytical, Inc.",,St. Louis,Missouri
+ENT-000423,env_labs_standardized.csv,TNI00389,"EMSL Analytical, Inc. - FL",,North Miami Beach,Florida
+ENT-000424,env_labs_standardized.csv,TNI00154,"EMSL Analytical, Inc. - Houston",,Houston,Texas
+ENT-000425,env_labs_standardized.csv,TNI02705,"EMSL Analytical, Inc. - Indianapolis",,Indianapolis,Indiana
+ENT-000426,env_labs_standardized.csv,TNI00390,"EMSL Analytical, Inc. - Orlando",,Orlando,Florida
+ENT-000427,env_labs_standardized.csv,TNI01551,ENDICOTT WASTEWATER TREATMENT,,ENDICOTT,New York
+ENT-000428,env_labs_standardized.csv,TNI01038,ENDYNE INC (#2037),,LEBANON,New Hampshire
+ENT-000429,env_labs_standardized.csv,TNI01671,ENDYNE INC WILLISTON VT,,WILLISTON,Vermont
+ENT-000430,env_labs_standardized.csv,TNI01831,"ENDYNE, INC",,LAKE GEORGE,New York
+ENT-000431,env_labs_standardized.csv,TNI00391,Energy Laboratories Inc.,,Casper,Wyoming
+ENT-000432,env_labs_standardized.csv,TNI00393,"Energy Laboratories, Inc. - MT",,Billings,Montana
+ENT-000433,env_labs_standardized.csv,TNI01073,"Engel Water Testing, Inc.",,Minnetrista,Minnesota
+ENT-000434,env_labs_standardized.csv,TNI00316,Englewood Water District,,Englewood,Florida
+ENT-000435,env_labs_standardized.csv,TNI00115,"Entech Engineering, Inc.",,League City,Texas
+ENT-000436,env_labs_standardized.csv,TNI01387,Enthalpy Analtytical LLC,,Durham,North Carolina
+ENT-000436,env_labs_standardized.csv,TNI01383,Enthalpy Analytical LLC,,Durham,North Carolina
+ENT-000437,env_labs_standardized.csv,TNI02486,Enthalpy Analytical LLC,,Wilmington,North Carolina
+ENT-000438,env_labs_standardized.csv,TNI01690,ENVIRO TESTING/KEYSTONE MATERIAL TESTING (LLC),,BINGHAMTON,New York
+ENT-000439,env_labs_standardized.csv,TNI00056,"Envirodyne Laboratories, Inc.",,Stafford,Texas
+ENT-000440,env_labs_standardized.csv,TNI01431,Environmental  Sciences And Toxicology Laboratory,,New York,New York
+ENT-000440,env_labs_standardized.csv,TNI01793,ENVIRONMENTAL SCIENCES AND TOXICOLOGY LABORATORY,,NEW YORK,New York
+ENT-000441,env_labs_standardized.csv,TNI02440,Environmental Analytical Service,,San Luis Obispo,California
+ENT-000442,env_labs_standardized.csv,TNI01820,"ENVIRONMENTAL BUILDING SOLUTIONS, LLC",,NEW YORK,New York
+ENT-000443,env_labs_standardized.csv,TNI01386,Environmental Enterprises USA Inc,,Slidell,Louisiana
+ENT-000444,env_labs_standardized.csv,TNI01759,"Environmental Hazards Services, L L C",,Richmond,Virginia
+ENT-000445,env_labs_standardized.csv,TNI01612,ENVIRONMENTAL LABWORKS  INC,,MARLBORO,New York
+ENT-000446,env_labs_standardized.csv,TNI00042,"Environmental Monitoring Laboratory, LLC",,Hillsboro,Texas
+ENT-000447,env_labs_standardized.csv,TNI01263,"Environmental Monitoring, Inc.",,Norton,Virginia
+ENT-000448,env_labs_standardized.csv,TNI00402,"Environmental Quality Laboratories, Inc. - PR",,Bayamon,Puerto Rico
+ENT-000449,env_labs_standardized.csv,TNI02401,ENVIRONMENTAL QUALITY TESTING LABORATORY,,WASHINGTON,District of Columbia
+ENT-000450,env_labs_standardized.csv,TNI00403,Environmental Reagent Service,,Ft. Lauderdale,Florida
+ENT-000451,env_labs_standardized.csv,TNI00405,Environmental Resource Analysts - AL,,Auburn,Alabama
+ENT-000452,env_labs_standardized.csv,TNI02498,Environmental Services Company Inc,,Little Rock,Arkansas
+ENT-000453,env_labs_standardized.csv,TNI01246,"Environmental Systems Service, LTD.- Culpeper",,Culpeper,Virginia
+ENT-000454,env_labs_standardized.csv,TNI00407,"Environmental Testing Group, Inc.",,Bentonville,Arkansas
+ENT-000455,env_labs_standardized.csv,TNI00408,"Environmental Testing Laboratories, Inc.",,Thomasville,Georgia
+ENT-000456,env_labs_standardized.csv,TNI01749,"ENVIROSCIENCE CONSULTANTS, LLC",,RONKONKOMA,New York
+ENT-000457,env_labs_standardized.csv,TNI02792,ENVIROSCIENCE INC.,,STOW,Ohio
+ENT-000458,env_labs_standardized.csv,TNI02259,Envirosource Corp. dba Green Analytical Laboratories,,Durango,Colorado
+ENT-000459,env_labs_standardized.csv,TNI02505,"Envirotech, Inc.",,Farmington,New Mexico
+ENT-000460,env_labs_standardized.csv,TNI00238,EPA Region 9 Field Services Support Center,,Hayward,California
+ENT-000461,env_labs_standardized.csv,TNI00404,ERD Water LLC,,Orlando,Florida
+ENT-000462,env_labs_standardized.csv,TNI01705,ERIE 1 BOCES,,WEST SENECA,New York
+ENT-000463,env_labs_standardized.csv,TNI01555,ERIE COUNTY PUBLIC HEALTH LABORATORY,,BUFFALO,New York
+ENT-000464,env_labs_standardized.csv,TNI01534,ERIE COUNTY SOUTHTOWNS AGENCY,,BUFFALO,New York
+ENT-000465,env_labs_standardized.csv,TNI01280,ERT/REAC LABORATORY,,EDISON,New Jersey
+ENT-000466,env_labs_standardized.csv,TNI02441,Escambia County Water Quality Laboratory,,Pensacola,Florida
+ENT-000467,env_labs_standardized.csv,TNI00409,"ETT Environmental, Inc.",,Greer,South Carolina
+ENT-000468,env_labs_standardized.csv,TNI00163,Eurofins - Midland,,Midland,Texas
+ENT-000469,env_labs_standardized.csv,TNI00218,Eurofins Albuquerque,,Albuquerque,New Mexico
+ENT-000470,env_labs_standardized.csv,TNI01373,Eurofins Arkansas,,Little Rock,Arkansas
+ENT-000471,env_labs_standardized.csv,TNI02813,"EUROFINS ASCEND CLINICAL, LLC",,SUNNYVALE,California
+ENT-000472,env_labs_standardized.csv,TNI00267,Eurofins Atlanta,,Atlanta,Georgia
+ENT-000473,env_labs_standardized.csv,TNI01021,EUROFINS AUBURN (#2501),,AUBURN,Maine
+ENT-000474,env_labs_standardized.csv,TNI02413,Eurofins Bend,,Bend,Oregon
+ENT-000475,env_labs_standardized.csv,TNI01424,EUROFINS BUFFALO,,AMHERST,New York
+ENT-000476,env_labs_standardized.csv,TNI02597,"Eurofins Built Environment Testing Central, LLC - Houston, TX",,Pasadena,Texas
+ENT-000477,env_labs_standardized.csv,TNI02663,EUROFINS BUILT ENVIRONMENT TESTING EAST,,CHERRY HILL,New Jersey
+ENT-000478,env_labs_standardized.csv,TNI02581,EUROFINS BUILT ENVIRONMENT TESTING EAST LLC - CARY NC,,CARY,North Carolina
+ENT-000479,env_labs_standardized.csv,TNI02109,Eurofins Built Environment Testing – Pasadena,,Pasadena,Texas
+ENT-000480,env_labs_standardized.csv,TNI01210,Eurofins Calscience,,Tustin,California
+ENT-000481,env_labs_standardized.csv,TNI01228,Eurofins Calscience Irvine,,Irvine,California
+ENT-000482,env_labs_standardized.csv,TNI00232,Eurofins Cedar Falls,,Cedar Falls,Iowa
+ENT-000483,env_labs_standardized.csv,TNI02053,Eurofins Chicago,,Tinley Park,Illinois
+ENT-000484,env_labs_standardized.csv,TNI00592,Eurofins Cleveland,,Barberton,Ohio
+ENT-000485,env_labs_standardized.csv,TNI02554,Eurofins Columbia,,Irmo,South Carolina
+ENT-000486,env_labs_standardized.csv,TNI01037,EUROFINS CONCORD (#1012),,CONCORD,New Hampshire
+ENT-000487,env_labs_standardized.csv,TNI00022,Eurofins Corpus Christi,,Corpus Christi,Texas
+ENT-000488,env_labs_standardized.csv,TNI00224,Eurofins Corvallis,,Corvallis,Oregon
+ENT-000489,env_labs_standardized.csv,TNI00080,Eurofins Dallas,,Dallas,Texas
+ENT-000490,env_labs_standardized.csv,TNI00010,Eurofins Denver,,Arvada,Colorado
+ENT-000491,env_labs_standardized.csv,TNI01043,EUROFINS DERRY (#1015),,DERRY,New Hampshire
+ENT-000492,env_labs_standardized.csv,TNI01646,"EUROFINS DRINKING WATER AND WASTEWATER CENTRAL, LLC",,MARION,Ohio
+ENT-000493,env_labs_standardized.csv,TNI02760,"Eurofins Eaton Analytical, LLC - Pomona",,Pomona,California
+ENT-000494,env_labs_standardized.csv,TNI01281,EUROFINS EDISON,,EDISON,New Jersey
+ENT-000495,env_labs_standardized.csv,TNI00032,Eurofins El Paso,,El Paso,Texas
+ENT-000496,env_labs_standardized.csv,TNI02805,EUROFINS ENVIRONMENT TESTING CANADA INC (#2248),,Ottawa,Ontario
+ENT-000497,env_labs_standardized.csv,TNI00021,Eurofins Environment Testing Ecotoxicology,,Carrollton,Texas
+ENT-000498,env_labs_standardized.csv,TNI02593,Eurofins Environment Testing North Central,,Cleveland,Ohio
+ENT-000499,env_labs_standardized.csv,TNI01204,"Eurofins Environment Testing Northern California, LLC",,Folsom,California
+ENT-000500,env_labs_standardized.csv,TNI00202,Eurofins Environment Testing Northwest - ASL,,Corvallis,Oregon
+ENT-000501,env_labs_standardized.csv,TNI02397,EUROFINS ENVIRONMENT TESTING NORWAY AS,,KRISTIANSAND,Not Applicable
+ENT-000502,env_labs_standardized.csv,TNI01699,EUROFINS ENVIRONMENT TESTING RADON LLC,,CARROLLTON,Texas
+ENT-000503,env_labs_standardized.csv,TNI00138,Eurofins Environment Testing South Central-SATL,,San Antonio,Texas
+ENT-000504,env_labs_standardized.csv,TNI01771,"Eurofins EPK Built Environment Testing, LLC",,Seattle,Washington
+ENT-000505,env_labs_standardized.csv,TNI00445,Eurofins Florida Keys,,Marathon,Florida
+ENT-000506,env_labs_standardized.csv,TNI02553,Eurofins Fort Lauderdale,,Fort Lauderdale,Florida
+ENT-000507,env_labs_standardized.csv,TNI00554,Eurofins Ft. Myers,,Ft. Myers,Florida
+ENT-000508,env_labs_standardized.csv,TNI02050,Eurofins Geneva,,Geneva,Illinois
+ENT-000509,env_labs_standardized.csv,TNI00026,Eurofins Houston,,Stafford,Texas
+ENT-000510,env_labs_standardized.csv,TNI00017,Eurofins Huntsville,,Huntsville,Texas
+ENT-000511,env_labs_standardized.csv,TNI00399,Eurofins Jacksonville,,Jacksonville,Florida
+ENT-000512,env_labs_standardized.csv,TNI03063,Eurofins Kansas City,,Lenexa,Kansas
+ENT-000513,env_labs_standardized.csv,TNI00189,Eurofins Knoxville,,Knoxville,Tennessee
+ENT-000514,env_labs_standardized.csv,TNI02128,"Eurofins Lancaster Laboratories Environment Testing, LLC",,Lancaster,Pennsylvania
+ENT-000515,env_labs_standardized.csv,TNI00030,Eurofins Lubbock,,Lubbock,Texas
+ENT-000516,env_labs_standardized.csv,TNI00446,Eurofins Madison,,Madison,Florida
+ENT-000517,env_labs_standardized.csv,TNI00553,Eurofins Nokomis,,Nokomis,Florida
+ENT-000518,env_labs_standardized.csv,TNI02180,Eurofins Oklahoma City,,Oklahoma City,Oklahoma
+ENT-000519,env_labs_standardized.csv,TNI00444,Eurofins Orlando,,Altamonte Springs,Florida
+ENT-000520,env_labs_standardized.csv,TNI00400,Eurofins Orlando,,Orlando,Florida
+ENT-000521,env_labs_standardized.csv,TNI00601,Eurofins Pensacola,,Pensacola,Florida
+ENT-000522,env_labs_standardized.csv,TNI02569,Eurofins Philadelphia - Horsham,,Horsham,Pennsylvania
+ENT-000523,env_labs_standardized.csv,TNI00231,Eurofins Phoenix,,Phoenix,Arizona
+ENT-000524,env_labs_standardized.csv,TNI02151,Eurofins Pittsburgh,,Pittsburgh,Pennsylvania
+ENT-000525,env_labs_standardized.csv,TNI00447,Eurofins Port St. Lucie,,Port St. Lucie,Florida
+ENT-000526,env_labs_standardized.csv,TNI01061,EUROFINS PORTSMOUTH (#1732),,PORTSMOUTH,New Hampshire
+ENT-000527,env_labs_standardized.csv,TNI01041,EUROFINS PROVIDENCE (ESS) (#2424),,CRANSTON,Rhode Island
+ENT-000528,env_labs_standardized.csv,TNI00398,Eurofins Raleigh,,Cary,North Carolina
+ENT-000529,env_labs_standardized.csv,TNI00575,EUROFINS RHODE ISLAND (#2245),,NORTH KINGSTON,Rhode Island
+ENT-000530,env_labs_standardized.csv,TNI01230,Eurofins Sacramento,,West Sacramento,California
+ENT-000531,env_labs_standardized.csv,TNI00593,Eurofins Savannah,,Savannah,Georgia
+ENT-000532,env_labs_standardized.csv,TNI01664,EUROFINS SCITEC SA,,1007 LAUSANNE,Not Applicable
+ENT-000533,env_labs_standardized.csv,TNI00452,Eurofins Seattle,,Tacoma,Washington
+ENT-000534,env_labs_standardized.csv,TNI00617,Eurofins South Bend,,South Bend,Indiana
+ENT-000535,env_labs_standardized.csv,TNI02475,Eurofins Spokane,,Spokane,Washington
+ENT-000536,env_labs_standardized.csv,TNI00602,Eurofins St. Louis,,Earth City,Missouri
+ENT-000537,env_labs_standardized.csv,TNI00594,Eurofins Tampa,,Tampa,Florida
+ENT-000538,env_labs_standardized.csv,TNI00034,Eurofins TestAmerica - Houston,,Houston,Texas
+ENT-000539,env_labs_standardized.csv,TNI00235,Eurofins TestAmerica Seattle,,Tacoma,Washington
+ENT-000540,env_labs_standardized.csv,TNI00385,Eurofins Washington,,Burlington,Washington
+ENT-000541,env_labs_standardized.csv,TNI02170,Eurofins Wilsonville,,Wilsonville,Oregon
+ENT-000542,env_labs_standardized.csv,TNI01466,EVANS CHEMETICS ANALYTICAL LAB,,WATERLOO,New York
+ENT-000543,env_labs_standardized.csv,TNI00410,"Everglades Laboratories, Inc.",,West Palm Beach,Florida
+ENT-000544,env_labs_standardized.csv,TNI00411,Everglades Research and Education Center,,Belle Glade,Florida
+ENT-000545,env_labs_standardized.csv,TNI00215,EWEB Water Quality Laboratory,,Springfield,Oregon
+ENT-000546,env_labs_standardized.csv,TNI01568,FALLSBURG (T) ENV LAB,,SO FALLSBURG,New York
+ENT-000547,env_labs_standardized.csv,TNI02728,FDOH Environmental Laboratory West Palm Beach,,West Palm Beach,Florida
+ENT-000548,env_labs_standardized.csv,TNI02260,Fibertec Environmental Services,,Holt,Michigan
+ENT-000549,env_labs_standardized.csv,TNI01145,Fillmore SWCD Water Quality Laboratory,,Preston,Minnesota
+ENT-000550,env_labs_standardized.csv,TNI02814,FINGER LAKES INSTITUTE,,GENEVA,New York
+ENT-000551,env_labs_standardized.csv,TNI01737,FINGER LAKES LPG STORAGE LLC,,SAVONA,New York
+ENT-000552,env_labs_standardized.csv,TNI02031,"First Environmental Laboratories, Inc.",,Naperville,Illinois
+ENT-000553,env_labs_standardized.csv,TNI00416,FL Department of Health -  Miami Branch Laboratory,,Miami,Florida
+ENT-000554,env_labs_standardized.csv,TNI00420,FL Dept. of Health - Alachua County Health Department,,Gainesville,Florida
+ENT-000555,env_labs_standardized.csv,TNI00421,FL Dept. of Health - Columbia County Health Department,,Lake City,Florida
+ENT-000556,env_labs_standardized.csv,TNI00422,FL Dept. of Health - Hendry County Environmental Laboratory,,LaBelle,Florida
+ENT-000557,env_labs_standardized.csv,TNI00424,FL Dept. of Health - Indian River County Health Department,,Vero Beach,Florida
+ENT-000558,env_labs_standardized.csv,TNI00425,FL Dept. of Health - Lee County Health Department,,Ft. Myers,Florida
+ENT-000559,env_labs_standardized.csv,TNI00430,FL Dept. of Health - Walton County Health Department,,DeFuniak Springs,Florida
+ENT-000560,env_labs_standardized.csv,TNI01787,FL DOH/BUREAU OF LAB/ENVIRONMENTAL MICRO SECTION,,JACKSONVILLE,Florida
+ENT-000561,env_labs_standardized.csv,TNI01770,FLDOH BUREAU OF PUBLIC HEALTH LABORATORIES,,JACKSONVILLE,Florida
+ENT-000562,env_labs_standardized.csv,TNI00414,Florida DEP Laboratory,,Tallahassee,Florida
+ENT-000563,env_labs_standardized.csv,TNI00434,Florida Keys Aqueduct Authority - Florida City Treatment Plant,,Florida City,Florida
+ENT-000564,env_labs_standardized.csv,TNI00436,Florida Power & Light Central Laboratory,,West Palm Beach,Florida
+ENT-000565,env_labs_standardized.csv,TNI00437,"Florida Radiochemistry Services, Inc.",,Orlando,Florida
+ENT-000566,env_labs_standardized.csv,TNI00449,Florida Spectrum Environmental Services Inc. - Space Coast Laboratory,,Merrit Island,Florida
+ENT-000567,env_labs_standardized.csv,TNI00442,"Florida-Spectrum Environmental Services, Inc.",,Ft. Lauderdale,Florida
+ENT-000568,env_labs_standardized.csv,TNI00448,"Florida-Spectrum Environmental Services, Inc. - Savannah",,Garden City,Georgia
+ENT-000569,env_labs_standardized.csv,TNI00443,Florida-Spectrum Environmental Services-Big Lake Laboratory,,Okeechobee,Florida
+ENT-000570,env_labs_standardized.csv,TNI02720,Food Safety Net Services,,Dodge City,Kansas
+ENT-000570,env_labs_standardized.csv,TNI02726,Food Safety Net Services,,Dodge City,Kansas
+ENT-000570,env_labs_standardized.csv,TNI02731,Food Safety Net Services,,Dodge City,Kansas
+ENT-000570,env_labs_standardized.csv,TNI02736,Food Safety Net Services,,Dodge City,Kansas
+ENT-000570,env_labs_standardized.csv,TNI02740,Food Safety Net Services,,Dodge City,Kansas
+ENT-000570,env_labs_standardized.csv,TNI02745,Food Safety Net Services,,Dodge City,Kansas
+ENT-000571,env_labs_standardized.csv,TNI00450,Fort Pierce Utilities Authority Water Treatment Plant,,Ft. Pierce,Florida
+ENT-000572,env_labs_standardized.csv,TNI00013,Fort Worth Water Department Centralized Water & Wastewater Laboratory,,Fort Worth,Texas
+ENT-000573,env_labs_standardized.csv,TNI02046,Four Rivers Sanitation Authority,,Rockford,Illinois
+ENT-000574,env_labs_standardized.csv,TNI00216,"Friedman & Bruya, Inc",,Seattle,Washington
+ENT-000575,env_labs_standardized.csv,TNI01220,Frontier Analytical Laboratory,,El Dorado Hills,California
+ENT-000576,env_labs_standardized.csv,TNI01557,FRONTIER TECHNICAL ASSOC INC,,WILLIAMSVILLE,New York
+ENT-000577,env_labs_standardized.csv,TNI01506,FULTON SEWAGE TREATMENT PLANT,,FULTON,New York
+ENT-000578,env_labs_standardized.csv,TNI00453,"Future Laboratories, Inc.",,Milton,Florida
+ENT-000579,env_labs_standardized.csv,TNI02032,"Gabriel Laboratories, Ltd.",,Chicago,Illinois
+ENT-000580,env_labs_standardized.csv,TNI01897,Garden City Municipal Wastewater Laboratory,,Garden City,Kansas
+ENT-000581,env_labs_standardized.csv,TNI01287,GARDEN STATE LABORATORIES INC,,HILLSIDE,New Jersey
+ENT-000582,env_labs_standardized.csv,TNI01609,GASPORT SD#1 STP,,GASPORT,New York
+ENT-000583,env_labs_standardized.csv,TNI00142,"GD Air Testing, Inc.",,Plano,Texas
+ENT-000584,env_labs_standardized.csv,TNI00188,"GEL Laboratories, LLC",,Charleston,South Carolina
+ENT-000585,env_labs_standardized.csv,TNI02126,Geochemical Testing,,Somerset,Pennsylvania
+ENT-000586,env_labs_standardized.csv,TNI00456,Georgia Power Environmental Laboratory,,Atlanta,Georgia
+ENT-000587,env_labs_standardized.csv,TNI01677,GHM ENVIRONMENTAL,,SAVONA,New York
+ENT-000588,env_labs_standardized.csv,TNI01981,Glen Canyon - Wahweap,,Page,Arizona
+ENT-000589,env_labs_standardized.csv,TNI01633,GLENS FALLS WATER LABORATORY,,GLENS FALLS,New York
+ENT-000590,env_labs_standardized.csv,TNI01539,GLOVERSVILLE WATER WORKS,,GLOVERSVILLE,New York
+ENT-000591,env_labs_standardized.csv,TNI01435,GLOVERSVILLE-JOHNSTOWN JWTF,,JOHNSTOWN,New York
+ENT-000592,env_labs_standardized.csv,TNI02659,Gopher Resource - Tampa,,Tampa,Florida
+ENT-000593,env_labs_standardized.csv,TNI01144,Gopher Resource Corp. Laboratory,,Eagan,Minnesota
+ENT-000594,env_labs_standardized.csv,TNI01042,GORHAM WASTEWATER TREATMENT FACILITY LABORATORY,,GORHAM,New Hampshire
+ENT-000595,env_labs_standardized.csv,TNI01733,"GPI LABORATORIES, INC.",,KENTWOOD,Michigan
+ENT-000596,env_labs_standardized.csv,TNI02661,"Grace Consulting, Inc.",,Plainfield,Indiana
+ENT-000597,env_labs_standardized.csv,TNI01582,GRAHAMSVILLE LABORATORY,,GRAHAMSVILLE,New York
+ENT-000598,env_labs_standardized.csv,TNI01468,GRAND ISLAND WASTEWATER PLANT,,GRAND ISLAND,New York
+ENT-000599,env_labs_standardized.csv,TNI00217,"Grants Pass Water Laboratory, Inc./The Water Lab",,Grants Pass,Oregon
+ENT-000600,env_labs_standardized.csv,TNI02205,GREAT LAKES ENVIRONMENTAL CENTER INC (MI),,TRAVERSE CITY,Michigan
+ENT-000601,env_labs_standardized.csv,TNI02590,GREAT LAKES ENVIRONMENTAL CENTER INC (OH),,COLUMBUS,Ohio
+ENT-000602,env_labs_standardized.csv,TNI02639,"Green Country Testing, Inc. - OKC",,Oklahoma City,Oklahoma
+ENT-000603,env_labs_standardized.csv,TNI01389,"Green Country Testing, Inc. - Tulsa",,Tulsa,Oklahoma
+ENT-000604,env_labs_standardized.csv,TNI02452,Green Leaf Lab,,Portland,Oregon
+ENT-000605,env_labs_standardized.csv,TNI02715,Green Leaf Lab - Rogue River,,Rogue River,Oregon
+ENT-000606,env_labs_standardized.csv,TNI02510,GreenWater Laboratory / CyanoLab,,Palatka,Florida
+ENT-000607,env_labs_standardized.csv,TNI00060,Guadalupe-Blanco River Authority Regional Laboratory,,Seguin,Texas
+ENT-000608,env_labs_standardized.csv,TNI01390,Gulf Coast Analytical Laboratories LLC dba Pace Analytical Gulf Coast,,Baton Rouge,Louisiana
+ENT-000609,env_labs_standardized.csv,TNI00085,Gulf Coast Authority,,Pasadena,Texas
+ENT-000610,env_labs_standardized.csv,TNI02493,Gulf Coast Testing LLC,,Prairieville,Louisiana
+ENT-000611,env_labs_standardized.csv,TNI01391,Gulf States Environmental Laboratories Inc,,Shreveport,Louisiana
+ENT-000612,env_labs_standardized.csv,TNI02365,H&P Mobile Geochemistry Inc,,Carlsbad,California
+ENT-000613,env_labs_standardized.csv,TNI01240,H2O Quality Laboratory a Division of Prince William Water,,Woodbridge,Virginia
+ENT-000614,env_labs_standardized.csv,TNI01278,HAMPTON- CLARKE,,FAIRFIELD,New Jersey
+ENT-000615,env_labs_standardized.csv,TNI02253,HAMPTON-CLARKE INC,,MOUNT LAUREL,New Jersey
+ENT-000616,env_labs_standardized.csv,TNI00045,Harris County Pollution Control Services Department,,Pasadena,Texas
+ENT-000617,env_labs_standardized.csv,TNI01603,HAWTHORNE LABORATORY,,HAWTHORNE,New York
+ENT-000618,env_labs_standardized.csv,TNI01694,HAZEN RESEARCH INC,,GOLDEN,Colorado
+ENT-000619,env_labs_standardized.csv,TNI01511,HENNINGSON DURHAM & RICHARDSON ARCHITECTURE & ENGINEERING PC,,NANUET,New York
+ENT-000620,env_labs_standardized.csv,TNI02222,Henrico County D.P.U. Central Environmental Laboratory,,Henrico,Virginia
+ENT-000621,env_labs_standardized.csv,TNI01893,HF Sinclair El Dorado Refining LLC,,El Dorado,Kansas
+ENT-000622,env_labs_standardized.csv,TNI02532,HGS Analytical Laboratory,,Oxford,Alabama
+ENT-000623,env_labs_standardized.csv,TNI01286,"HILLMANN CONSULTING, LLC",,UNION,New Jersey
+ENT-000624,env_labs_standardized.csv,TNI00461,Hillsborough County Environmental Laboratory,,Tampa,Florida
+ENT-000625,env_labs_standardized.csv,TNI00460,Hillsborough County Environmental Protection Commission,,Tampa,Florida
+ENT-000626,env_labs_standardized.csv,TNI01429,HORNELL (C) WATER TREATMENT PLANT,,HORNELL,New York
+ENT-000627,env_labs_standardized.csv,TNI00462,Howard F. Curren Advanced Wastewater Treatment Plant Analytical Laboratory,,Tampa,Florida
+ENT-000628,env_labs_standardized.csv,TNI01239,HRSD Central Environmental Laboratory,,Virginia Beach,Virginia
+ENT-000629,env_labs_standardized.csv,TNI01904,Hutchinson Municipal Wastewater Laboratory,,Hutchinson,Kansas
+ENT-000630,env_labs_standardized.csv,TNI00039,"Huther and Associates, Inc.",,Denton,Texas
+ENT-000631,env_labs_standardized.csv,TNI01880,"HYDRO TECHNOLOGIES, LLC",,NEW MILFORD,Connecticut
+ENT-000632,env_labs_standardized.csv,TNI02561,IEH - JL Analytical,,Modesto,California
+ENT-000633,env_labs_standardized.csv,TNI02288,IEH SCIENTIFIC METHODS,,GRANGER,Indiana
+ENT-000634,env_labs_standardized.csv,TNI00466,Illinois Environmental Protection Agency Laboratory,,Springfield,Illinois
+ENT-000635,env_labs_standardized.csv,TNI01251,"Inboden Environmental Services, Inc.",,Mount Jackson,Virginia
+ENT-000636,env_labs_standardized.csv,TNI01821,INFRAMARK,,STATEN ISLAND,New York
+ENT-000637,env_labs_standardized.csv,TNI01082,"Instrumental Research, Inc",,Fridley,Minnesota
+ENT-000638,env_labs_standardized.csv,TNI02281,"Integrity Testing, Inc.",,Austin,Texas
+ENT-000639,env_labs_standardized.csv,TNI00467,International Paper Pensacola Mill Central Laboratory,,Cantonment,Florida
+ENT-000640,env_labs_standardized.csv,TNI00137,International Water Quality Laboratory,,El Paso,Texas
+ENT-000641,env_labs_standardized.csv,TNI01547,INTERSTATE ENVIRONMENTAL COMMISSION,,BROOKLYN,New York
+ENT-000642,env_labs_standardized.csv,TNI02684,Ion Testing Laboratory,,Georgetown,Texas
+ENT-000643,env_labs_standardized.csv,TNI02478,"IRIS ENVIRONMENTAL LABORATORIES, LLC",,UNION,New Jersey
+ENT-000644,env_labs_standardized.csv,TNI02459,IRON Laboratories Oregon,,Eugene,Oregon
+ENT-000645,env_labs_standardized.csv,TNI02529,Irwin Army Community Hospital-Water Laboratory-PH-EH,,Fort Riley,Kansas
+ENT-000646,env_labs_standardized.csv,TNI01617,ITHACA AREA WASTE WATER TREATMENT FACILITY,,ITHACA,New York
+ENT-000647,env_labs_standardized.csv,TNI01840,J MYERS WATER SERVICES INC,,HUNTER,New York
+ENT-000648,env_labs_standardized.csv,TNI01686,JACO ANALYTICAL LABORATORY,,EPHRATA,Washington
+ENT-000649,env_labs_standardized.csv,TNI01241,James R. Reed & Associates,,Newport News,Virginia
+ENT-000650,env_labs_standardized.csv,TNI01738,JB3 CONSULTING,,LAKE GEORGE,New York
+ENT-000651,env_labs_standardized.csv,TNI00468,JEA Laboratory Services,,Jacksonville,Florida
+ENT-000652,env_labs_standardized.csv,TNI01784,"JH CONSULTING GROUP, INC",,LOUDONVILLE,New York
+ENT-000653,env_labs_standardized.csv,TNI01926,Johnson County Water Quality Laboratory,,Olathe,Kansas
+ENT-000654,env_labs_standardized.csv,TNI01261,"Joiner Labs, LLC dba Joiner Micro Labs",,Warrenton,Virginia
+ENT-000655,env_labs_standardized.csv,TNI01656,JOINT REGIONAL SEWERAGE BOARD,,WEST HAVERSTRAW,New York
+ENT-000656,env_labs_standardized.csv,TNI01476,JORDAN (V) WATER POLLUTION CONTROL PLANT,,JORDAN,New York
+ENT-000657,env_labs_standardized.csv,TNI02226,Jordan Basin Water Reclamation Facility Laboratory,,Riverton,Utah
+ENT-000658,env_labs_standardized.csv,TNI01984,Jordan Valley Laboratory,,Herriman,Utah
+ENT-000659,env_labs_standardized.csv,TNI01985,Jordanelle Laboratory,,Heber City,Utah
+ENT-000660,env_labs_standardized.csv,TNI00469,"Jupiter Environmental Laboratories, Inc.",,Jupiter,Florida
+ENT-000661,env_labs_standardized.csv,TNI01674,KAM CONSULTANTS,,LONG ISLAND CITY,New York
+ENT-000662,env_labs_standardized.csv,TNI00473,Kanapaha Laboratory - Gainesville Utilities,,Gainesville,Florida
+ENT-000663,env_labs_standardized.csv,TNI01908,Kansas City Board of Public Utilities-Nearman Water Laboratory,,Kansas City,Kansas
+ENT-000664,env_labs_standardized.csv,TNI01910,Kansas City Municipal Wastewater Laboratory,,Kansas City,Kansas
+ENT-000665,env_labs_standardized.csv,TNI00476,KATAHDIN ANALYTICAL SERVICES LLC (#2001),,SCARBOROUGH,Maine
+ENT-000666,env_labs_standardized.csv,TNI02457,Kaycha Labs Oregon,,Central Point,Oregon
+ENT-000667,env_labs_standardized.csv,TNI02727,KC Water Services Laboratory,,Kansas City,Missouri
+ENT-000668,env_labs_standardized.csv,TNI01046,KEENE CITY LABORATORY,,SWANZEY,New Hampshire
+ENT-000669,env_labs_standardized.csv,TNI00477,Kennedy Space Center Environmental Microbiology Laboratory,,Kennedy Space Center,Florida
+ENT-000670,env_labs_standardized.csv,TNI01063,KENTUCKY EEC DEP DIV ENVIRONMENTAL PROGRAM SUPPORT,,FRANKFORT,Kentucky
+ENT-000671,env_labs_standardized.csv,TNI01425,KINGSTON LABORATORY - NYC DEP,,KINGSTON,New York
+ENT-000672,env_labs_standardized.csv,TNI01457,KINGSTON WATER DEPARTMENT LAB,,KINGSTON,New York
+ENT-000673,env_labs_standardized.csv,TNI02451,Klamath Tribes Sprague River Water Quality Laboratory,,Chiloquin,Oregon
+ENT-000674,env_labs_standardized.csv,TNI00478,KNL Environmental Testing,,Tampa,Florida
+ENT-000675,env_labs_standardized.csv,TNI01147,Koochiching Health Department Water Testing,,International Falls,Minnesota
+ENT-000676,env_labs_standardized.csv,TNI01047,LACONIA WATER WORKS LABORATORY,,LAKEPORT,New Hampshire
+ENT-000677,env_labs_standardized.csv,TNI01392,Lafayette Consolidated Government,,Lafayette,Louisiana
+ENT-000678,env_labs_standardized.csv,TNI02035,Lake County Environmental Laboratory,,Libertyville,Illinois
+ENT-000679,env_labs_standardized.csv,TNI00479,Lake County Water Resource Management Laboratory,,Tavares,Florida
+ENT-000680,env_labs_standardized.csv,TNI01492,LAKE PLACID VILLAGE,,LAKE PLACID,New York
+ENT-000681,env_labs_standardized.csv,TNI01914,Lawrence Municipal Laboratory - Utilities,,Lawrence,Kansas
+ENT-000682,env_labs_standardized.csv,TNI01915,Leavenworth Municipal Wastewater Treatment Plant,,Leavenworth,Kansas
+ENT-000683,env_labs_standardized.csv,TNI00481,Lee County Environmental Laboratory,,Ft. Myers,Florida
+ENT-000684,env_labs_standardized.csv,TNI01703,LEFRAK CITY PRIORITY POLLUTANTS LAB-NYCDEP,,CORONA,New York
+ENT-000685,env_labs_standardized.csv,TNI01120,"Legend Technical Services, Inc.",,St Paul,Minnesota
+ENT-000686,env_labs_standardized.csv,TNI01918,Liberal Municipal Wastewater Laboratory,,Liberal,Kansas
+ENT-000687,env_labs_standardized.csv,TNI01488,LIFE SCIENCE LABORATORIES - CENTRAL,,EAST SYRACUSE,New York
+ENT-000688,env_labs_standardized.csv,TNI01745,LIFE SCIENCE LABORATORIES INC - FINGER LAKES,,WAYLAND,New York
+ENT-000689,env_labs_standardized.csv,TNI01621,LIFE SCIENCE LABORATORIES INC - NORTH,,WADDINGTON,New York
+ENT-000690,env_labs_standardized.csv,TNI02466,Lightscale Labs,,Portland,Oregon
+ENT-000691,env_labs_standardized.csv,TNI01423,LOCKPORT WASTEWATER TREATMENT PLANT,,LOCKPORT,New York
+ENT-000692,env_labs_standardized.csv,TNI01587,LOCKPORT WATER TREATMENT PLANT LAB,,LOCKPORT,New York
+ENT-000693,env_labs_standardized.csv,TNI01752,"LONG ISLAND ANALYTICAL LABORATORIES, INC",,HOLBROOK,New York
+ENT-000694,env_labs_standardized.csv,TNI00029,Lower Colorado River Authority - Environmental Laboratory Services,,Austin,Texas
+ENT-000695,env_labs_standardized.csv,TNI00104,Lower Neches Valley Authority - North Regional Treatment Plant Laboratory,,Beaumont,Texas
+ENT-000696,env_labs_standardized.csv,TNI00483,Loxahatchee River Environmental Control District,,Jupiter,Florida
+ENT-000697,env_labs_standardized.csv,TNI01777,"LOZIER ENVIRONMENTAL CONSULTING, INC",,ROCHESTER,New York
+ENT-000698,env_labs_standardized.csv,TNI02717,Luman's Laboratories,,Chetopa,Kansas
+ENT-000699,env_labs_standardized.csv,TNI02130,M. J. Reider Associates Inc,,Reading,Pennsylvania
+ENT-000700,env_labs_standardized.csv,TNI01601,MAIN PUMP STATION NO 5,,CHEEKTOWAGA,New York
+ENT-000701,env_labs_standardized.csv,TNI02801,MAINE LABORATORIES LLC,,NORRIDGEWOCK,Maine
+ENT-000702,env_labs_standardized.csv,TNI00485,Manatee County Natural Resources Department,,Bradenton,Florida
+ENT-000703,env_labs_standardized.csv,TNI00486,Manatee County Utilities Department WTPQC Laboratory,,Bradenton,Florida
+ENT-000704,env_labs_standardized.csv,TNI00487,Manatee County Utility Department Central Laboratory,,Bradenton,Florida
+ENT-000705,env_labs_standardized.csv,TNI01049,MANCHESTER WATER WORKS LABORATORY,,MANCHESTER,New Hampshire
+ENT-000706,env_labs_standardized.csv,TNI01920,Manhattan Municipal Wastewater Laboratory,,Manhattan,Kansas
+ENT-000707,env_labs_standardized.csv,TNI01076,Mankato Water Plant,,Mankato,Minnesota
+ENT-000708,env_labs_standardized.csv,TNI02111,"Marathon Petroleum, LP - RAD Environmental Services Laboratory",,Catlettsburg,Kentucky
+ENT-000709,env_labs_standardized.csv,TNI00488,"Marinco Bioassay Laboratory, Inc.",,Sarasota,Florida
+ENT-000710,env_labs_standardized.csv,TNI02362,"Marine Chemist Service, Inc.",,Newport News,Virginia
+ENT-000711,env_labs_standardized.csv,TNI02198,"Marion County Water Test Lab., LLC",,Ocala,Florida
+ENT-000712,env_labs_standardized.csv,TNI00489,Martin County Environmental Services - North Water Treatment Plant Laboratory,,Jensen Beach,Florida
+ENT-000713,env_labs_standardized.csv,TNI01265,"Maryland Spectral Services, Inc.",,Halethorpe,Maryland
+ENT-000714,env_labs_standardized.csv,TNI02416,Matrix Sciences dba KTL,,Pasco,Washington
+ENT-000715,env_labs_standardized.csv,TNI01481,MCANDREW LABORATORY INC,,ORCHARD PARK,New York
+ENT-000716,env_labs_standardized.csv,TNI02278,McCampbell Analytical Inc.,,PITTSBURG,California
+ENT-000717,env_labs_standardized.csv,TNI00213,McCowan Clinical Laboratory Inc.,,Coos Bay,Oregon
+ENT-000718,env_labs_standardized.csv,TNI00490,"McGlynn Laboratories, Inc.",,Tallahassee,Florida
+ENT-000719,env_labs_standardized.csv,TNI01921,McPherson Municipal Wastewater Laboratory,,McPherson,Kansas
+ENT-000720,env_labs_standardized.csv,TNI01923,"Meridian Analytical Laboratories, LLC - Mound Valley",,Mound Valley,Kansas
+ENT-000721,env_labs_standardized.csv,TNI01941,Meridian Analytical Laboratory - Wichita,,Wichita,Kansas
+ENT-000722,env_labs_standardized.csv,TNI00245,Merieux NutriSciences,,Gainesville,Florida
+ENT-000723,env_labs_standardized.csv,TNI01791,"MERIT LABORATORIES, INC.",,EAST LANSING,Michigan
+ENT-000724,env_labs_standardized.csv,TNI01050,MERRIMACK WASTEWATER TREATMENT PLANT LABORATORY,,MERRIMACK,New Hampshire
+ENT-000725,env_labs_standardized.csv,TNI02123,"Metiri Analytical Group, Inc",,Kittanning,Pennsylvania
+ENT-000726,env_labs_standardized.csv,TNI02221,Metropolitan Solutions,,Portsmouth,Virginia
+ENT-000727,env_labs_standardized.csv,TNI01987,Metropolitan Water District Laboratory,,Cottonwood Heights,Utah
+ENT-000728,env_labs_standardized.csv,TNI00492,Miami-Dade Central District Wastewater Treatment Plant Laboratory,,Virginia Key-Miami,Florida
+ENT-000729,env_labs_standardized.csv,TNI00376,"Miami-Dade County, Department of Environmental Resources Management (DERM)",,Miami,Florida
+ENT-000730,env_labs_standardized.csv,TNI00494,Miami-Dade North District Wastewater Treatment Plant Laboratory,,North Miami Beach,Florida
+ENT-000731,env_labs_standardized.csv,TNI00495,Miami-Dade South District Wastewater Treatment Plant Laboratory,,Miami,Florida
+ENT-000732,env_labs_standardized.csv,TNI00496,Miami-Dade Water & Sewer Authority - Orr Water Treatment Plant Laboratory,,Miami,Florida
+ENT-000733,env_labs_standardized.csv,TNI00497,Miami-Dade Water & Sewer Department - John E. Preston Water Quality Laboratory,,Hialeah,Florida
+ENT-000734,env_labs_standardized.csv,TNI02687,"Michigan Department of Environment, Great Lakes, and Energy",,Lansing,Michigan
+ENT-000735,env_labs_standardized.csv,TNI02677,"Michigan Department of Environment, Great Lakes, and Energy Laboratory Services",,Lansing,Michigan
+ENT-000736,env_labs_standardized.csv,TNI01397,Micro Methods Laboratory Inc,,Ocean Springs,Mississippi
+ENT-000737,env_labs_standardized.csv,TNI01724,MICROBAC LABORATORIES INC (CT) #2243,,DAYVILLE,Connecticut
+ENT-000738,env_labs_standardized.csv,TNI01911,"Microbac Laboratories, Inc - Kansas",,Lenexa,Kansas
+ENT-000739,env_labs_standardized.csv,TNI02199,"Microbac Laboratories, Inc - Kentucky Division",,Louisville,Kentucky
+ENT-000740,env_labs_standardized.csv,TNI00498,"Microbac Laboratories, Inc - Marietta Division",,Marietta,Ohio
+ENT-000741,env_labs_standardized.csv,TNI02420,"MICROBAC LABORATORIES, INC-NORTHBROOK",,NORTHBROOK,Illinois
+ENT-000742,env_labs_standardized.csv,TNI02442,"Microbac Laboratories, Inc. - Baltimore",,Baltimore,Maryland
+ENT-000743,env_labs_standardized.csv,TNI01842,"Microbac Laboratories, Inc. - Chicagoland Division",,Merrillville,Indiana
+ENT-000744,env_labs_standardized.csv,TNI02680,"Microbac Laboratories, Inc. - Pittston",,Pittston,Pennsylvania
+ENT-000745,env_labs_standardized.csv,TNI02133,"Microbac Laboratories, Inc. Pittsburgh Division",,Warrendale,Pennsylvania
+ENT-000746,env_labs_standardized.csv,TNI01946,"Microbac Laboratories, Inc., Knoxville Division",,Maryville,Tennessee
+ENT-000747,env_labs_standardized.csv,TNI01303,"Microbac Laboratories, Inc.-Newton",,Newton,Iowa
+ENT-000748,env_labs_standardized.csv,TNI01606,MICROBAC NEW YORK-CORTLAND,,CORTLAND,New York
+ENT-000749,env_labs_standardized.csv,TNI01298,"MID-ATLANTIC ENVIRONMENTAL LABORATORIES, INC.",,NEW CASTLE,Delaware
+ENT-000750,env_labs_standardized.csv,TNI01566,MIDDLEPORT TREATMENT FACILITY,,MIDDLEPORT,New York
+ENT-000751,env_labs_standardized.csv,TNI00502,"Midwest Laboratories, Inc.",,Omaha,Nebraska
+ENT-000752,env_labs_standardized.csv,TNI02386,Mill Creek Lab of Cincinnati Metropolitan Sewer District,,Cincinnati,Ohio
+ENT-000753,env_labs_standardized.csv,TNI00504,Milwaukee Metropolitan Sewerage District,,Milwaukee,Wisconsin
+ENT-000754,env_labs_standardized.csv,TNI01151,Minneapolis Water Department,,Fridley,Minnesota
+ENT-000755,env_labs_standardized.csv,TNI01080,"Minnesota Valley Testing Laboratories, Inc.",,New Ulm,Minnesota
+ENT-000756,env_labs_standardized.csv,TNI01176,Minnesota Valley Testing Labs Inc.,,Bismarck,North Dakota
+ENT-000757,env_labs_standardized.csv,TNI01508,MOHAWK VALLEY WATER AUTHORITY,,UTICA,New York
+ENT-000758,env_labs_standardized.csv,TNI01418,MOHAWK VIEW LABORATORY,,LATHAM,New York
+ENT-000759,env_labs_standardized.csv,TNI01527,MONROE COUNTY ENVIRONMENTAL LABORATORY,,ROCHESTER,New York
+ENT-000760,env_labs_standardized.csv,TNI01447,MONROE COUNTY WATER AUTHORITY WTP,,ROCHESTER,New York
+ENT-000761,env_labs_standardized.csv,TNI01486,MONTICELLO (V),,MONTICELLO,New York
+ENT-000762,env_labs_standardized.csv,TNI02811,Moody Labs LLC,,Farmers Branch,Texas
+ENT-000763,env_labs_standardized.csv,TNI01154,Moorhead Public Service Laboratory,,Moorhead,Minnesota
+ENT-000764,env_labs_standardized.csv,TNI01937,"Morton Salt, Inc.",,South Hutchinson,Kansas
+ENT-000765,env_labs_standardized.csv,TNI00505,Mosaic Fertilizer LLC Environmental Laboratory,,Mulberry,Florida
+ENT-000766,env_labs_standardized.csv,TNI00506,Mote Marine Laboratory,,Sarasota,Florida
+ENT-000767,env_labs_standardized.csv,TNI00321,Murphree Water Treatment Plant,,Gainesville,Florida
+ENT-000768,env_labs_standardized.csv,TNI02480,MW labs,,Medford,Oregon
+ENT-000769,env_labs_standardized.csv,TNI02037,MWRDGC Calumet Analytical Laboratory,,Chicago,Illinois
+ENT-000770,env_labs_standardized.csv,TNI02038,MWRDGC Egan Analytical Laboratory,,Schaumburg,Illinois
+ENT-000771,env_labs_standardized.csv,TNI02039,MWRDGC Industrial Waste Laboratory,,Cicero,Illinois
+ENT-000772,env_labs_standardized.csv,TNI02040,MWRDGC Organic Compounds Laboratory,,Schaumburg,Illinois
+ENT-000773,env_labs_standardized.csv,TNI02041,MWRDGC Stickney Analytical Laboratory,,Cicero,Illinois
+ENT-000774,env_labs_standardized.csv,TNI00178,NASA Johnson Space Center Microbiology Laboratory,,Houston,Texas
+ENT-000775,env_labs_standardized.csv,TNI01516,NASSAU COUNTY DEPT OF HEALTH,,HEMPSTEAD,New York
+ENT-000776,env_labs_standardized.csv,TNI02699,National Environment Lab,,Seoul,Not Applicable
+ENT-000777,env_labs_standardized.csv,TNI02138,"National Testing Laboratories, Ltd.",,Ypsilanti,Michigan
+ENT-000778,env_labs_standardized.csv,TNI02379,Natural Waters of Viti Pte Limited,,"Tavua, Fiji Island",Not Applicable
+ENT-000779,env_labs_standardized.csv,TNI02313,"Nautilus Environmental, Inc",,San Diego,California
+ENT-000780,env_labs_standardized.csv,TNI00221,Neilson Research Corporation,,Medford,Oregon
+ENT-000781,env_labs_standardized.csv,TNI01057,NELANALYTICAL (#2534),,WINSLOW,Maine
+ENT-000782,env_labs_standardized.csv,TNI01036,NELSON ANALYTICAL LAB - KEENE DIVISION,,SWANZEY,New Hampshire
+ENT-000783,env_labs_standardized.csv,TNI01053,NELSON ANALYTICAL LLC,,MANCHESTER,New Hampshire
+ENT-000784,env_labs_standardized.csv,TNI01054,NELSON ANALYTICAL LLC - MAINE DIVISION,,KENNEBUNK,Maine
+ENT-000785,env_labs_standardized.csv,TNI01679,NESTLE WATERS QUALITY ASSURANCE LAB,,LOS ANGELES,California
+ENT-000786,env_labs_standardized.csv,TNI01658,NESTLE WATERS SUPPLY SUD,,VERGEZE,Not Applicable
+ENT-000787,env_labs_standardized.csv,TNI00509,New Age Landmark Inc dba New Age Laboratories,,South Haven,Michigan
+ENT-000788,env_labs_standardized.csv,TNI00510,New Age/Landmark Inc. #2,,South Haven,Michigan
+ENT-000788,env_labs_standardized.csv,TNI00511,New Age/Landmark Inc. #3,,South Haven,Michigan
+ENT-000789,env_labs_standardized.csv,TNI02408,NEW ENGLAND BIOASSAY INC.,,WINDSOR,Connecticut
+ENT-000790,env_labs_standardized.csv,TNI01747,NEW ENGLAND TESTING LAB INC,,WEST WARWICK,Rhode Island
+ENT-000791,env_labs_standardized.csv,TNI01056,NEW HAMPSHIRE DHHS PUBLIC HEALTH LABORATORIES,,CONCORD,New Hampshire
+ENT-000792,env_labs_standardized.csv,TNI01238,Newport News Shipbuilding- A Division of Huntington Ingalls Industries,,Newport News,Virginia
+ENT-000793,env_labs_standardized.csv,TNI01924,Newton Municipal Wastewater Laboratory,,Newton,Kansas
+ENT-000794,env_labs_standardized.csv,TNI01648,NEWTOWN CREEK MICROBIOLOGY LABORATORY,,BROOKLYN,New York
+ENT-000795,env_labs_standardized.csv,TNI01518,NEWTOWN CREEK PROCESS CONTROL LAB,,BROOKLYN,New York
+ENT-000796,env_labs_standardized.csv,TNI02121,"Niagara Bottling, LLC",,Howard,Pennsylvania
+ENT-000797,env_labs_standardized.csv,TNI01446,NIAGARA CO SEWER DISTRICT  #1,,WHEATFIELD,New York
+ENT-000798,env_labs_standardized.csv,TNI01592,NIAGARA COUNTY WATER DISTRICT,,NIAGARA FALLS,New York
+ENT-000799,env_labs_standardized.csv,TNI01536,NIAGARA FALLS WATER BOARD WASTEWATER  LABORATORY,,NIAGARA FALLS,New York
+ENT-000800,env_labs_standardized.csv,TNI01535,NIAGARA FALLS WATER QUALITY LABORATORY,,NIAGARA FALLS,New York
+ENT-000801,env_labs_standardized.csv,TNI00512,"Niceville-Valparaiso Regional Sewer Board, Inc.",,Niceville,Florida
+ENT-000802,env_labs_standardized.csv,TNI01718,"NORLITE, LLC",,COHOES,New York
+ENT-000803,env_labs_standardized.csv,TNI02586,NORTH AMERICAN TESTING,,NORWALK,Ohio
+ENT-000804,env_labs_standardized.csv,TNI01988,North Davis Sewer District Laboratory,,Syracuse,Utah
+ENT-000805,env_labs_standardized.csv,TNI01185,"North Shore Analytical, Inc.",,Duluth,Minnesota
+ENT-000806,env_labs_standardized.csv,TNI02042,North Shore Water Reclamation District,,Gurnee,Illinois
+ENT-000807,env_labs_standardized.csv,TNI00069,North Texas Municipal Water District Environmental Laboratory,,Wylie,Texas
+ENT-000808,env_labs_standardized.csv,TNI01493,NORTH TONAWANDA WWTP,,N TONAWANDA,New York
+ENT-000809,env_labs_standardized.csv,TNI00015,"North Water District Laboratory Services, Inc. Toxicology Laboratory",,Conroe,Texas
+ENT-000810,env_labs_standardized.csv,TNI02602,NORTHEAST OHIO REGIONAL SEWER DISTRICT ANALYTICAL SERVICES (#2238),,CUYAHOGA HEIGHTS,Ohio
+ENT-000811,env_labs_standardized.csv,TNI00048,Northeast Texas Public Health District Laboratory,,Tyler,Texas
+ENT-000812,env_labs_standardized.csv,TNI01803,NORTHERN WESTCHESTER JOINT WATER WORKS,,CORTLANDT MANOR,New York
+ENT-000813,env_labs_standardized.csv,TNI01959,Northrop Grumman Space Systems Environmental Laboratory,,Corinne,Utah
+ENT-000814,env_labs_standardized.csv,TNI02941,NOVA ANALYTIC LABS,,PORTLAND,Maine
+ENT-000815,env_labs_standardized.csv,TNI02533,"Nova Biologicals, Inc",,Conroe,Texas
+ENT-000815,env_labs_standardized.csv,TNI00075,"Nova Biologicals, Inc.",,Conroe,Texas
+ENT-000816,env_labs_standardized.csv,TNI01665,NSF INTERNATIONAL,,ANN ARBOR,Michigan
+ENT-000817,env_labs_standardized.csv,TNI03081,NTM Environmental Reference Laboratory,,Tyler,Texas
+ENT-000818,env_labs_standardized.csv,TNI01713,NY ENVIRONMENTAL AND ANALYTICAL LABS INC,,PORT WASHINGTON,New York
+ENT-000819,env_labs_standardized.csv,TNI01643,NYC DEP BEC - ENVIROMENTAL TESTING LABORATORY,,CORONA,New York
+ENT-000820,env_labs_standardized.csv,TNI00514,NYS DOH Environmental Biology Laboratory,,Albany,New York
+ENT-000820,env_labs_standardized.csv,TNI02875,NYS DOH LABORATORY OF ENVIRONMENTAL BIOLOGY,,ALBANY,New York
+ENT-000821,env_labs_standardized.csv,TNI00515,NYS DOH Inorganic & Nuclear Chemistry Laboratory,,Albany,New York
+ENT-000822,env_labs_standardized.csv,TNI00516,NYS DOH Organic Analytical Chemistry Laboratory,,Albany,New York
+ENT-000823,env_labs_standardized.csv,TNI01519,OAKWOOD BEACH PROCESS CONTROL LAB,,STATEN ISLAND,New York
+ENT-000824,env_labs_standardized.csv,TNI02415,Obsidian Analytical,,Golden,Colorado
+ENT-000825,env_labs_standardized.csv,TNI01253,Occoquan Watershed Monitoring Laboratory,,Manassas,Virginia
+ENT-000826,env_labs_standardized.csv,TNI01567,OCL ANALYTICAL SERVICES,,BLOOMINGBURG,New York
+ENT-000827,env_labs_standardized.csv,TNI02551,Ogden City Water Treatment Plant,,Ogden,Utah
+ENT-000828,env_labs_standardized.csv,TNI02212,Ohio Lumex Analytical Laboratory,,Solon,Ohio
+ENT-000829,env_labs_standardized.csv,TNI02666,"Oilfield Environmental & Compliance, Inc. (OEC)",,Santa Maria,California
+ENT-000830,env_labs_standardized.csv,TNI00517,Okaloosa County Water and Sewer Laboratory,,Ft. Walton Beach,Florida
+ENT-000831,env_labs_standardized.csv,TNI02423,OKLAHOMA STATE ENVIRONMENTAL LABORATORY SERVICES #2338,,OKLAHOMA CITY,Oklahoma
+ENT-000832,env_labs_standardized.csv,TNI01925,Olathe Environmental Laboratory,,Olathe,Kansas
+ENT-000833,env_labs_standardized.csv,TNI01529,OLEAN (C) WATER TREATMENT PLANT,,OLEAN,New York
+ENT-000834,env_labs_standardized.csv,TNI01448,OLEAN WASTEWATER TREATMENT PLT,,OLEAN,New York
+ENT-000835,env_labs_standardized.csv,TNI00222,OMIC USA Inc.,,Portland,Oregon
+ENT-000836,env_labs_standardized.csv,TNI01419,ONEIDA COUNTY WATER POLLUTION CONTROL,,UTICA,New York
+ENT-000837,env_labs_standardized.csv,TNI01585,ONEONTA (C) WATER LABORATORY,,ONEONTA,New York
+ENT-000838,env_labs_standardized.csv,TNI01531,ONONDAGA CO WATER AUTHORITY,,SYRACUSE,New York
+ENT-000839,env_labs_standardized.csv,TNI01472,ONONDAGA COUNTY DEPT WATER ENV PROTECTIO,,LIVERPOOL,New York
+ENT-000840,env_labs_standardized.csv,TNI01484,ONONDAGA COUNTY WATER AUTHORITY OSWEGO LABORATORY,,OSWEGO,New York
+ENT-000841,env_labs_standardized.csv,TNI01552,ONTARIO WATER UTILITIES,,ONTARIO,New York
+ENT-000842,env_labs_standardized.csv,TNI02266,"Onterris Air Quality Services, LLC",,Roanoke,Virginia
+ENT-000843,env_labs_standardized.csv,TNI00172,"Onterris Air Quality Services, LLC - Deer Park",,Deer Park,Texas
+ENT-000844,env_labs_standardized.csv,TNI02489,"Onterris Air Quality Services, LLC - Mobile #1",,Roanoke,Virginia
+ENT-000845,env_labs_standardized.csv,TNI02207,"Onterris Laboratories, LLC",,Denver,Colorado
+ENT-000846,env_labs_standardized.csv,TNI01235,"Onterris Laboratories, LLC",,El Dorado Hills,California
+ENT-000847,env_labs_standardized.csv,TNI01248,"Onterris Laboratories, LLC",,Richmond,Virginia
+ENT-000848,env_labs_standardized.csv,TNI02902,"Onterris Laboratories, LLC - Anaheim",,Anaheim,California
+ENT-000849,env_labs_standardized.csv,TNI00052,"Onterris Laboratories, LLC - Deer Park",,Deer Park,Texas
+ENT-000850,env_labs_standardized.csv,TNI00035,"Onterris Laboratories, LLC - Houston",,Deer Park,Texas
+ENT-000851,env_labs_standardized.csv,TNI02583,"ONTERRIS LABORATORIES, LLC - MT. PLEASANT",,MT. PLEASANT,Michigan
+ENT-000852,env_labs_standardized.csv,TNI01207,"Onterris Laboratories, LLC - Orange",,Orange,California
+ENT-000853,env_labs_standardized.csv,TNI00519,Orange County Environmental Protection Division,,Orlando,Florida
+ENT-000854,env_labs_standardized.csv,TNI02549,Orange County Sanitation District,,Fountain Valley,California
+ENT-000855,env_labs_standardized.csv,TNI00520,Orange County Utilities Central Laboratory,,Orlando,Florida
+ENT-000856,env_labs_standardized.csv,TNI02592,"Oregon Department of Environmental Quality, Laboratory and Environmental Assessment Division",,Hillsboro,Oregon
+ENT-000857,env_labs_standardized.csv,TNI02621,"Oregon Integrated Labs, LLC",,Cave Junction,Oregon
+ENT-000858,env_labs_standardized.csv,TNI00521,Orlando Utilities Commission,,Orlando,Florida
+ENT-000859,env_labs_standardized.csv,TNI01584,OSSINING (V) WATER DEPT LAB-INDIAN BROOK,,OSSINING,New York
+ENT-000860,env_labs_standardized.csv,TNI01485,OSWEGO WATER TREATMENT PLANT LAB,,OSWEGO,New York
+ENT-000861,env_labs_standardized.csv,TNI01628,OTISCO WATER TREATMENT PLANT,,MARCELLUS,New York
+ENT-000862,env_labs_standardized.csv,TNI02492,Ott Story MDEQ Superfund Site Laboratory,,N Muskegon,Michigan
+ENT-000863,env_labs_standardized.csv,TNI02716,Otto Analytical Lab LLC,,Lebanon,Oregon
+ENT-000864,env_labs_standardized.csv,TNI01349,PA DEP BUREAU OF LABORATORIES,,HARRISBURG,Pennsylvania
+ENT-000865,env_labs_standardized.csv,TNI00611,"Pace Analytical - Grand Rapids, MI",,Kentwood,Michigan
+ENT-000866,env_labs_standardized.csv,TNI02891,Pace Analytical National - Las Vegas,,Las Vegas,Nevada
+ENT-000867,env_labs_standardized.csv,TNI01354,Pace Analytical National Center for Testing & Innovation,,Mount Juliet,Tennessee
+ENT-000868,env_labs_standardized.csv,TNI01222,Pace Analytical National Center for Testing & Innovation - Davis,,Sacramento,California
+ENT-000869,env_labs_standardized.csv,TNI00571,Pace Analytical Services - Tampa,,Oldsmar,Florida
+ENT-000870,env_labs_standardized.csv,TNI01398,Pace Analytical Services LLC  New Orleans,,St. Rose,Louisiana
+ENT-000871,env_labs_standardized.csv,TNI02141,Pace Analytical Services LLC - Greensburg PA,,Greensburg,Pennsylvania
+ENT-000872,env_labs_standardized.csv,TNI01060,PACE ANALYTICAL SERVICES LLC - MA,,WOBURN,Massachusetts
+ENT-000873,env_labs_standardized.csv,TNI02269,"Pace Analytical Services LLC - Williamsport, PA",,Williamsport,Pennsylvania
+ENT-000874,env_labs_standardized.csv,TNI01376,Pace Analytical Services LLC Baton Rouge,,Baton Rouge,Louisiana
+ENT-000875,env_labs_standardized.csv,TNI02820,PACE ANALYTICAL SERVICES LLC MANSFIELD MA (120 FORBES),,MANSFIELD,Massachusetts
+ENT-000875,env_labs_standardized.csv,TNI00262,PACE ANALYTICAL SERVICES LLC MANSFIELD MA (320 FORBES),,MANSFIELD,Massachusetts
+ENT-000876,env_labs_standardized.csv,TNI02535,"Pace Analytical Services, Inc - Frontenac",,Frontenac,Kansas
+ENT-000877,env_labs_standardized.csv,TNI02099,"Pace Analytical Services, Inc - Indianapolis",,Indianapolis,Indiana
+ENT-000878,env_labs_standardized.csv,TNI01935,"Pace Analytical Services, Inc. - Salina",,Salina,Kansas
+ENT-000879,env_labs_standardized.csv,TNI02189,"Pace Analytical Services, LLC - Altoona, PA",,Altoona,Pennsylvania
+ENT-000880,env_labs_standardized.csv,TNI00524,"Pace Analytical Services, LLC - Asheville NC",,Asheville,North Carolina
+ENT-000881,env_labs_standardized.csv,TNI00546,"Pace Analytical Services, LLC - Beaver WV",,Beaver,West Virginia
+ENT-000882,env_labs_standardized.csv,TNI00038,"Pace Analytical Services, LLC - Dallas, TX",,Allen,Texas
+ENT-000883,env_labs_standardized.csv,TNI01090,"Pace Analytical Services, LLC - Duluth, MN",,Duluth,Minnesota
+ENT-000884,env_labs_standardized.csv,TNI01620,"PACE ANALYTICAL SERVICES, LLC - EAST LONGMEADOW, MA",,EAST LONGMEADOW,Massachusetts
+ENT-000885,env_labs_standardized.csv,TNI01252,"Pace Analytical Services, LLC - Eden NC",,Eden,North Carolina
+ENT-000886,env_labs_standardized.csv,TNI02534,"Pace Analytical Services, LLC - Englewood, OH",,Englewood,Ohio
+ENT-000887,env_labs_standardized.csv,TNI02647,"Pace Analytical Services, LLC - Erie",,Erie,Pennsylvania
+ENT-000888,env_labs_standardized.csv,TNI02425,"PACE ANALYTICAL SERVICES, LLC - EWING",,EWING,New Jersey
+ENT-000889,env_labs_standardized.csv,TNI00272,"Pace Analytical Services, LLC - Greenville SC",,Greenville,South Carolina
+ENT-000890,env_labs_standardized.csv,TNI00525,"Pace Analytical Services, LLC - Huntersville NC",,Huntersville,North Carolina
+ENT-000891,env_labs_standardized.csv,TNI02490,"Pace Analytical Services, LLC - Kentucky - Pikeville",,Pikeville,Kentucky
+ENT-000892,env_labs_standardized.csv,TNI01917,"Pace Analytical Services, LLC - Lenexa KS",,Lenexa,Kansas
+ENT-000893,env_labs_standardized.csv,TNI00548,"Pace Analytical Services, LLC - Lexington VA",,Lexington,Virginia
+ENT-000894,env_labs_standardized.csv,TNI02188,"Pace Analytical Services, LLC - Madisonville",,Madisonville,Kentucky
+ENT-000895,env_labs_standardized.csv,TNI01559,"PACE ANALYTICAL SERVICES, LLC - MELVILLE, NY",,MELVILLE,New York
+ENT-000896,env_labs_standardized.csv,TNI00223,"Pace Analytical Services, LLC - Minneapolis MN",,Minneapolis,Minnesota
+ENT-000897,env_labs_standardized.csv,TNI00527,"Pace Analytical Services, LLC - Ormond Beach FL",,Ormond Beach,Florida
+ENT-000898,env_labs_standardized.csv,TNI02261,"Pace Analytical Services, LLC - Sheridan, WY",,Sheridan,Wyoming
+ENT-000899,env_labs_standardized.csv,TNI02780,"Pace Analytical Services, LLC - Springfield, MO",,Springfield,Missouri
+ENT-000900,env_labs_standardized.csv,TNI02156,"Pace Analytical Services, LLC - Virginia MN",,Virginia,Minnesota
+ENT-000901,env_labs_standardized.csv,TNI00560,"Pace Analytical Services, LLC - West Columbia SC",,West Columbia,South Carolina
+ENT-000902,env_labs_standardized.csv,TNI02601,"Pace Analytical Services, LLC - Wysox",,Wysox,Pennsylvania
+ENT-000903,env_labs_standardized.csv,TNI02286,"Pace Analytical Services, LLC -- Bakersfield",,Bakersfield,California
+ENT-000904,env_labs_standardized.csv,TNI02102,"Pace Analytical Services, LLC – Hazelwood, Missouri",,Hazelwood,Missouri
+ENT-000905,env_labs_standardized.csv,TNI02036,"Pace Analytical Services, LLC – McHenry, Illinois",,McHenry,Illinois
+ENT-000906,env_labs_standardized.csv,TNI00271,"Pace Analytical Services, LLC- Atlanta GA",,Peachtree Corners,Georgia
+ENT-000907,env_labs_standardized.csv,TNI00523,"Pace Analytical Services, LLC- Green Bay WI",,Green Bay,Wisconsin
+ENT-000908,env_labs_standardized.csv,TNI01277,"PACE ANALYTICAL SERVICES, LLC-FAIRFIELD",,FAIRFIELD,New Jersey
+ENT-000909,env_labs_standardized.csv,TNI02271,"Pace Analytical Services, LLC-Indiana",,Indiana,Pennsylvania
+ENT-000910,env_labs_standardized.csv,TNI01452,"PACE ANALYTICAL SERVICES, LLC-NEWBURGH",,NEWBURGH,New York
+ENT-000911,env_labs_standardized.csv,TNI00439,"Pace Analytical Services, LLC-Pompano FL",,Pompano Beach,Florida
+ENT-000912,env_labs_standardized.csv,TNI02044,"Pace Analytical Services, LLC.- Peoria",,Peoria,Illinois
+ENT-000913,env_labs_standardized.csv,TNI01720,"PACE ANALYTICAL SERVICES,LLC-BALLSTON SPA",,BALLSTON SPA,New York
+ENT-000914,env_labs_standardized.csv,TNI01316,PACE ANALYTICALSERVICES LLC WESTBOROUGH MA,,WESTBOROUGH,Massachusetts
+ENT-000915,env_labs_standardized.csv,TNI03061,PacGenomics Environmental Division Laboratory,,Agoura Hills,California
+ENT-000916,env_labs_standardized.csv,TNI01225,Pacific EcoRisk,,Fairfield,California
+ENT-000917,env_labs_standardized.csv,TNI02755,Pacific EcoRisk,,Fairfiled,California
+ENT-000918,env_labs_standardized.csv,TNI00529,"Pacific Rim Laboratories, Inc.",,Surrey,British Columbia
+ENT-000919,env_labs_standardized.csv,TNI02816,Pacific Water Analytics,,Eugene,Oregon
+ENT-000920,env_labs_standardized.csv,TNI00530,Packaging Corporation of America - Valdosta Mill,,Valdosta,Georgia
+ENT-000921,env_labs_standardized.csv,TNI00531,Palm Beach County Water Utilities,,Delray Beach,Florida
+ENT-000922,env_labs_standardized.csv,TNI01434,PANEK LABORATORY LLC DBA JLI ENVIRONMENTAL LABORATORIES,,AUBURN,New York
+ENT-000923,env_labs_standardized.csv,TNI01631,PARADIGM ENVIRONMENTAL SERVICES INC,,ROCHESTER,New York
+ENT-000924,env_labs_standardized.csv,TNI02754,"Paragon Laboratories, Inc.",,Livonia,Michigan
+ENT-000925,env_labs_standardized.csv,TNI00533,Pasco County Utilities Environmental Laboratory,,New Port Richey,Florida
+ENT-000926,env_labs_standardized.csv,TNI02790,PAUL SMITH'S COLLEGE ADIRONDACK WATERSHED INSTITUTE,,PAUL SMITHS,New York
+ENT-000927,env_labs_standardized.csv,TNI02511,Peace River Manasota Regional Water Supply Authority,,Arcadia,Florida
+ENT-000928,env_labs_standardized.csv,TNI00225,Pendleton Wastewater Treatment Plant,,Pendleton,Oregon
+ENT-000929,env_labs_standardized.csv,TNI02757,"Perma-Fix Analytical Services Laboratory - Perma-Fix of Florida, Inc.",,Gainesville,Florida
+ENT-000930,env_labs_standardized.csv,TNI02209,"Permian Basin Environmental Lab, LP",,Midland,Texas
+ENT-000931,env_labs_standardized.csv,TNI00536,PGA Wastewater Treatment Facility - Seacoast Utility Authority,,Palm Beach Gardens,Florida
+ENT-000932,env_labs_standardized.csv,TNI02142,Phase Separation Science Inc,,Baltimore,Maryland
+ENT-000933,env_labs_standardized.csv,TNI02788,PHIGENICS ANALYTICAL SERVICES LABORATORY - FAYETTEVILLE,,FAYETTEVILLE,Arkansas
+ENT-000934,env_labs_standardized.csv,TNI02200,PHILIS Analytical Laboratory (PAL),,Castle Rock,Colorado
+ENT-000935,env_labs_standardized.csv,TNI02273,PHILIS ANALYTICAL PORTABLE LABORATORY (APL01),,EDISON,New Jersey
+ENT-000936,env_labs_standardized.csv,TNI02445,PHILIS Laboratory Unit (PLU),,Castle Rock,Colorado
+ENT-000937,env_labs_standardized.csv,TNI01678,PHOENIX ENVIRONMENTAL LABS,,MANCHESTER,Connecticut
+ENT-000938,env_labs_standardized.csv,TNI00537,"Phoslab Environmental Services, Inc.",,Lakeland,Florida
+ENT-000939,env_labs_standardized.csv,TNI00538,Pinellas County Utilities Laboratory,,Largo,Florida
+ENT-000940,env_labs_standardized.csv,TNI02604,Pinnacle Analytics,,Medford,Oregon
+ENT-000941,env_labs_standardized.csv,TNI01930,Pittsburg Municipal Wastewater Laboratory,,Pittsburg,Kansas
+ENT-000942,env_labs_standardized.csv,TNI01439,PLATTSBURGH WPCP LABORATORY,,PLATTSBURGH,New York
+ENT-000943,env_labs_standardized.csv,TNI00540,Polk County Natural Resources Division,,Bartow,Florida
+ENT-000944,env_labs_standardized.csv,TNI01489,PORT WASHINGTON WPCD,,PORT WASHINGTON,New York
+ENT-000945,env_labs_standardized.csv,TNI00226,Portland Water Bureau Laboratory,,Portland,Oregon
+ENT-000946,env_labs_standardized.csv,TNI02008,Portsmouth Analytical Laboratory,,Piketon,Ohio
+ENT-000947,env_labs_standardized.csv,TNI01599,POTSDAM SPECIALITY PAPER INC.,,POTSDAM,New York
+ENT-000948,env_labs_standardized.csv,TNI02521,POUGHKEEPSIES' WATER TREATMENT FACILITY,,POUGHKEEPSIE,New York
+ENT-000949,env_labs_standardized.csv,TNI02742,"Precision Analytical Laboratories, LLC",,Everett,Washington
+ENT-000950,env_labs_standardized.csv,TNI00016,"Precision Petroleum Labs, Inc.",,Houston,Texas
+ENT-000951,env_labs_standardized.csv,TNI02501,PREE Laboratories,,Corvallis,Oregon
+ENT-000952,env_labs_standardized.csv,TNI02456,PREE Laboratories LLC,,Clackamas,Oregon
+ENT-000953,env_labs_standardized.csv,TNI02758,PriorityLab,,Fort Lauderdale,Florida
+ENT-000954,env_labs_standardized.csv,TNI02393,"Professional Environmental Testing and Consulting, LLC",,Davie,Florida
+ENT-000955,env_labs_standardized.csv,TNI02675,"Professional Testing Labs, Inc.",,Medford,Oregon
+ENT-000956,env_labs_standardized.csv,TNI01990,Provo Water Resources Laboratory,,Provo,Utah
+ENT-000957,env_labs_standardized.csv,TNI01932,"PSTC Food Chemistry, Inc.",,Salina,Kansas
+ENT-000958,env_labs_standardized.csv,TNI02791,Q LABS LLC,,CINCINNATI,Ohio
+ENT-000959,env_labs_standardized.csv,TNI01579,QUEENSBURY LABORATORY,,QUEENSBURY,New York
+ENT-000960,env_labs_standardized.csv,TNI03021,QUEST DIAGNOSTICS INCORPORATED,,CLIFTON,New Jersey
+ENT-000961,env_labs_standardized.csv,TNI00149,"R&C Joy, Inc.",,Katy,Texas
+ENT-000962,env_labs_standardized.csv,TNI01571,R&J LABORATORIES,,PENN YAN,New York
+ENT-000963,env_labs_standardized.csv,TNI01874,RADIATION SAFETY SERVICES INC (RSSI),,MORTON GROVE,Illinois
+ENT-000964,env_labs_standardized.csv,TNI02421,RADONOVA,,UPPSALA,Not Applicable
+ENT-000965,env_labs_standardized.csv,TNI01384,Ramboll US Corporation,,Brentwood,Tennessee
+ENT-000966,env_labs_standardized.csv,TNI00544,"Rayonier Performance Fibers, LLC.",,Fernandina Beach,Florida
+ENT-000967,env_labs_standardized.csv,TNI00064,Red River Authority of Texas Environmental Services Laboratory,,Wichita Falls,Texas
+ENT-000968,env_labs_standardized.csv,TNI01152,Red Wing City Laboratory,,Red Wing,Minnesota
+ENT-000969,env_labs_standardized.csv,TNI02504,Reference Labs LLC,,Tigard,Oregon
+ENT-000970,env_labs_standardized.csv,TNI01819,REGIONAL WATER AUTHORITY (#2239),,NEW HAVEN,Connecticut
+ENT-000971,env_labs_standardized.csv,TNI01437,RENSSELAER COUNTY SEWER DISTRICT #1,,TROY,New York
+ENT-000972,env_labs_standardized.csv,TNI01400,Research Triangle Institute,,Research Triangle Park,North Carolina
+ENT-000973,env_labs_standardized.csv,TNI02272,"RESOLUTION ANALYTICS, INC.",,APEX,North Carolina
+ENT-000974,env_labs_standardized.csv,TNI01991,Richards Laboratories of Utah Inc.,,Pleasant Grove,Utah
+ENT-000975,env_labs_standardized.csv,TNI01986,Rio Tinto Kennecott Environmental and Industrial Hygiene Laboratory,,Magna,Utah
+ENT-000976,env_labs_standardized.csv,TNI01992,RJ Analytical LLC,,Pleasant View,Utah
+ENT-000977,env_labs_standardized.csv,TNI02146,"RJ Lee Group, Inc.",,Monroeville,Pennsylvania
+ENT-000978,env_labs_standardized.csv,TNI01797,"RJ Lee Group, Inc./Columbia Basin Analytical Laboratories",,Pasco,Washington
+ENT-000979,env_labs_standardized.csv,TNI02523,"RMB Environmental Laboratories, Inc - Burnsville",,Burnsville,Minnesota
+ENT-000979,env_labs_standardized.csv,TNI02817,"RMB Environmental Laboratories, Inc.-Burnsville",,Burnsville,Minnesota
+ENT-000980,env_labs_standardized.csv,TNI02598,"RMB Environmental Laboratories, Inc. - Virginia",,Virginia,Minnesota
+ENT-000981,env_labs_standardized.csv,TNI01182,"RMB Environmental Laboratories, Inc.- Detroit Lakes",,Detroit Lakes,Minnesota
+ENT-000982,env_labs_standardized.csv,TNI02970,RMB-Pequot Lakes,,Pequot Lakes,Minnesota
+ENT-000983,env_labs_standardized.csv,TNI01483,ROCHESTER (C) WATER BUREAU,,HEMLOCK,New York
+ENT-000984,env_labs_standardized.csv,TNI01124,Rochester Public Utilities,,Rochester,Minnesota
+ENT-000985,env_labs_standardized.csv,TNI01548,ROCKLAND COUNTY SEWER DISTRICT 1,,ORANGEBURG,New York
+ENT-000986,env_labs_standardized.csv,TNI02502,Rogue Research Lab LLC,,Rogue River,Oregon
+ENT-000987,env_labs_standardized.csv,TNI02462,Rose City Laboratories,,Portland,Oregon
+ENT-000988,env_labs_standardized.csv,TNI01608,"RTCA-RADON TESTING CORPORATION OF AMERICA, INC",,ELMSFORD,New York
+ENT-000989,env_labs_standardized.csv,TNI02672,RTI International,,Durham,North Carolina
+ENT-000990,env_labs_standardized.csv,TNI01993,"RTI Laboratories, Inc.",,Livonia,Michigan
+ENT-000991,env_labs_standardized.csv,TNI02352,S and S Onsite Analytical Ltd,,Findlay,Ohio
+ENT-000992,env_labs_standardized.csv,TNI02537,"SABAN ANALYTICAL, LLC",,LYNDHURST,New Jersey
+ENT-000993,env_labs_standardized.csv,TNI01931,Sabetha Municipal Wastewater Laboratory,,Sabetha,Kansas
+ENT-000994,env_labs_standardized.csv,TNI00057,Sabine River Authority of Texas,,Orange,Texas
+ENT-000995,env_labs_standardized.csv,TNI01735,SAFETY-KLEEN CORP-BUFFALO,,BUFFALO,New York
+ENT-000996,env_labs_standardized.csv,TNI01074,Saint Paul Regional Water Services,,St Paul,Minnesota
+ENT-000997,env_labs_standardized.csv,TNI01994,Salt Lake City Water Reclamation Plant Lab,,Salt Lake City,Utah
+ENT-000998,env_labs_standardized.csv,TNI00113,San Antonio Metropolitan Health District,,San Antonio,Texas
+ENT-000999,env_labs_standardized.csv,TNI00053,San Antonio River Authority Regional Environmental Laboratory,,San Antonio,Texas
+ENT-001000,env_labs_standardized.csv,TNI00105,San Antonio Water System Environmental Laboratory,,San Antonio,Texas
+ENT-001001,env_labs_standardized.csv,TNI02295,"SanAir Technologies Laboratory, Inc.",,North Chesterfield,Virginia
+ENT-001002,env_labs_standardized.csv,TNI01798,"SANAIR TECHNOLOGIES LABORATORY, INC.",,SYRACUSE,New York
+ENT-001003,env_labs_standardized.csv,TNI02546,Sangamon County Water Reclamation District,,Springfield,Illinois
+ENT-001004,env_labs_standardized.csv,TNI02247,Sanitation District No 1 Analytical Laboratory,,Villa Hills,Kentucky
+ENT-001005,env_labs_standardized.csv,TNI01885,Sapphire Americas,,Chanute,Kansas
+ENT-001006,env_labs_standardized.csv,TNI00555,Sarasota County Utilities - Pump Station #2 Laboratory,,Sarasota,Florida
+ENT-001007,env_labs_standardized.csv,TNI00556,Sarasota County Utilities - T. Mabry Carlton Water Treatment Plant Laboratory,,Venice,Florida
+ENT-001008,env_labs_standardized.csv,TNI01494,SARATOGA CO SEWER DIS 1,,MECHANICVILLE,New York
+ENT-001009,env_labs_standardized.csv,TNI02474,SC Laboratories Oregon LLC,,Tigard,Oregon
+ENT-001010,env_labs_standardized.csv,TNI01436,SCDPW SANITATION DIVISION LABORATORY,,WEST BABYLON,New York
+ENT-001011,env_labs_standardized.csv,TNI01471,SCHENECTADY (C) WATER LABORATORY,,SCHENECTADY,New York
+ENT-001012,env_labs_standardized.csv,TNI01693,"Schneider Laboratories Global, Inc.",,Richmond,Virginia
+ENT-001012,env_labs_standardized.csv,TNI02769,"Schneider Laboratories Global, Inc.",,Richmond,Virginia
+ENT-001013,env_labs_standardized.csv,TNI01850,"SCIENTIFIC ANALYTICAL INSTITUTE, INC.",,GREENSBORO,North Carolina
+ENT-001014,env_labs_standardized.csv,TNI02047,"Scientific Control Laboratory, Inc.",,Chicago,Illinois
+ENT-001015,env_labs_standardized.csv,TNI01905,"SDK Laboratories, Inc.",,Hutchinson,Kansas
+ENT-001016,env_labs_standardized.csv,TNI01995,SE Utah District Health Department Laboratory,,Price,Utah
+ENT-001017,env_labs_standardized.csv,TNI01062,SEACOAST ANALYTICAL SERVICES LLC (#1733),,LEE,New Hampshire
+ENT-001018,env_labs_standardized.csv,TNI00557,Seacoast Utility Authority - Central Lab,,Palm Beach Gardens,Florida
+ENT-001019,env_labs_standardized.csv,TNI02641,Seminole Electric Cooperative Inc.,,Palatka,Florida
+ENT-001020,env_labs_standardized.csv,TNI01890,"Servi-Tech, Inc",,Dodge City,Kansas
+ENT-001021,env_labs_standardized.csv,TNI00055,"ServiTech, Inc. - Amarillo Location",,Amarillo,Texas
+ENT-001022,env_labs_standardized.csv,TNI00279,SGS AXYS Analytical Services Ltd.,,Sidney,British Columbia
+ENT-001023,env_labs_standardized.csv,TNI02417,"SGS Korea Co., Ltd.",,Anyang-si,Not Applicable
+ENT-001024,env_labs_standardized.csv,TNI02513,SGS NA Mineral Services,,Sophia,West Virginia
+ENT-001025,env_labs_standardized.csv,TNI01996,SGS North America Inc,,Huntington,Utah
+ENT-001026,env_labs_standardized.csv,TNI01404,SGS North America Inc - Scott,,Scott,Louisiana
+ENT-001027,env_labs_standardized.csv,TNI00558,SGS North America Inc - Wilmington NC,,Wilmington,North Carolina
+ENT-001028,env_labs_standardized.csv,TNI00031,SGS North America Inc.  Houston,,Houston,Texas
+ENT-001029,env_labs_standardized.csv,TNI01283,SGS NORTH AMERICA INC. - DAYTON,,DAYTON,New Jersey
+ENT-001030,env_labs_standardized.csv,TNI01950,SGS North America Inc. - Wheat Ridge,,Wheat Ridge,Colorado
+ENT-001031,env_labs_standardized.csv,TNI01736,"SGS NORTH AMERICA, INC.",,EAST SYRACUSE,New York
+ENT-001032,env_labs_standardized.csv,TNI01206,"SGS North America, Inc. - Clovis",,Clovis,California
+ENT-001033,env_labs_standardized.csv,TNI00247,"SGS North America, Inc. - Orlando",,Orlando,Florida
+ENT-001034,env_labs_standardized.csv,TNI02794,SGS Silver State Analytical Laboratories - Reno,,Reno,Nevada
+ENT-001035,env_labs_standardized.csv,TNI02291,"Shale Testing Solutions, LLC",,Cadiz,Ohio
+ENT-001036,env_labs_standardized.csv,TNI00047,"SKG Engineering, LLC",,San Angelo,Texas
+ENT-001037,env_labs_standardized.csv,TNI01997,Snyderville Basin Water Reclamation District,,Park City,Utah
+ENT-001038,env_labs_standardized.csv,TNI01442,SOUTH  CENTER CHAUTAUQUA LAKE SEWER DISTRICT,,CELORON,New York
+ENT-001039,env_labs_standardized.csv,TNI00566,South Bay Environmental Laboratory,,Clewiston,Florida
+ENT-001040,env_labs_standardized.csv,TNI02112,South Central Regional Waste Water Treatment Plant Laboratory,,Delray Beach,Florida
+ENT-001041,env_labs_standardized.csv,TNI00567,South Florida Water Management District Chemistry Laboratory,,West Palm Beach,Florida
+ENT-001042,env_labs_standardized.csv,TNI01998,South Valley Water Reclamation Facility,,West Jordan,Utah
+ENT-001043,env_labs_standardized.csv,TNI00568,South Walton Utility Company Wastewater Treatment Plant,,Miramar Beach,Florida
+ENT-001044,env_labs_standardized.csv,TNI00570,Southeast Environmental Research Center Mercury Laboratory Florida International University,,Miami,Florida
+ENT-001045,env_labs_standardized.csv,TNI01186,Southeastern Minnesota Water Analysis Laboratory,,Rochester,Minnesota
+ENT-001046,env_labs_standardized.csv,TNI01522,SOUTHERN CAYUGA LAKE INTERMUNICIPAL WATER,,ITHACA,New York
+ENT-001047,env_labs_standardized.csv,TNI02751,Southern Nevada Water Authority (SNWA) Water Quality (WQ) Laboratory,,Henderson,Nevada
+ENT-001047,env_labs_standardized.csv,TNI02753,Southern Nevada Water Authority (SNWA) Water Quality (WQ) Laboratory,,Henderson,Nevada
+ENT-001048,env_labs_standardized.csv,TNI00572,"Southern Research Laboratories, Inc.",,Altamonte Springs,Florida
+ENT-001049,env_labs_standardized.csv,TNI01999,Southern Utah University Water Laboratory,,Cedar City,Utah
+ENT-001050,env_labs_standardized.csv,TNI00573,Southwest Florida Water Management District,,Brooksville,Florida
+ENT-001051,env_labs_standardized.csv,TNI01079,Southwest Health and Human Services,,Marshall,Minnesota
+ENT-001052,env_labs_standardized.csv,TNI00024,Southwest Research Institute,,San Antonio,Texas
+ENT-001053,env_labs_standardized.csv,TNI02252,Southwest Utah Public Health Laboratory,,St. George,Utah
+ENT-001054,env_labs_standardized.csv,TNI02896,SPEC LAB LLC,,Eugene,Oregon
+ENT-001055,env_labs_standardized.csv,TNI02773,Specialty Analytical,,Clackamas,Oregon
+ENT-001056,env_labs_standardized.csv,TNI02552,Spectrum laboratories,,Layton,Utah
+ENT-001057,env_labs_standardized.csv,TNI02491,Spheros Environmental,,Port Gamble,Washington
+ENT-001058,env_labs_standardized.csv,TNI00464,Spheros Environmental Group Parent Inc.,,Alachua,Florida
+ENT-001059,env_labs_standardized.csv,TNI02148,SPL - Reading,,Reading,Pennsylvania
+ENT-001060,env_labs_standardized.csv,TNI00023,SPL – Round Rock,,Round Rock,Texas
+ENT-001061,env_labs_standardized.csv,TNI00014,"SPL, Inc – Kilgore",,Kilgore,Texas
+ENT-001062,env_labs_standardized.csv,TNI00036,"SPL, Inc. – Plano",,Plano,Texas
+ENT-001063,env_labs_standardized.csv,TNI00040,"SPL, Inc.-Conroe",,Conroe,Texas
+ENT-001064,env_labs_standardized.csv,TNI00229,Spring Street Analytical Laboratory,,Klamath Falls,Oregon
+ENT-001065,env_labs_standardized.csv,TNI02690,SRN Testing Services,,Bartlett,Illinois
+ENT-001066,env_labs_standardized.csv,TNI02000,St George RWRF Laboratory,,St George,Utah
+ENT-001067,env_labs_standardized.csv,TNI01086,St. Cloud Public Utilities - Water,,St Cloud,Minnesota
+ENT-001068,env_labs_standardized.csv,TNI00577,St. Johns County Utility Department Environmental Laboratory,,St. Augustine,Florida
+ENT-001069,env_labs_standardized.csv,TNI00578,St. Johns River Water Management District,,Palatka,Florida
+ENT-001070,env_labs_standardized.csv,TNI00579,St. Petersburg Environmental Compliance Division Laboratory,,St. Petersburg,Florida
+ENT-001071,env_labs_standardized.csv,TNI01231,State Hygienic Laboratory at The University of Iowa - Ankeny,,Ankeny,Iowa
+ENT-001072,env_labs_standardized.csv,TNI01227,State Hygienic Laboratory at The University of Iowa - Coralville,,Coralville,Iowa
+ENT-001073,env_labs_standardized.csv,TNI02235,State Hygienic Laboratory at The University of Iowa - Lakeside,,Milford,Iowa
+ENT-001074,env_labs_standardized.csv,TNI02029,Sterling Labs (fka Environmental Monitoring and Tech),,Des Plaines,Illinois
+ENT-001075,env_labs_standardized.csv,TNI00230,Sterling Labs (fka STAT Analytical),,Chicago,Illinois
+ENT-001076,env_labs_standardized.csv,TNI01191,"Steven M. Traut Wells, Inc.",,Alexandria,Minnesota
+ENT-001077,env_labs_standardized.csv,TNI00131,"Stillmeadow, Inc.",,Sugar Land,Texas
+ENT-001078,env_labs_standardized.csv,TNI00435,Stock Island Pump Station Lab,,Key West,Florida
+ENT-001079,env_labs_standardized.csv,TNI02750,STRIDE Center for PFAS Solutions,,New Castle,Delaware
+ENT-001079,env_labs_standardized.csv,TNI02752,STRIDE Center for PFAS Solutions,,New Castle,Delaware
+ENT-001080,env_labs_standardized.csv,TNI01545,STURGEON POINT WATER TREATMENT PLANT,,DERBY,New York
+ENT-001081,env_labs_standardized.csv,TNI01575,SUFFOLK CO PUBLIC ENV HEALTH LAB,,HAUPPAUGE,New York
+ENT-001082,env_labs_standardized.csv,TNI01504,SUFFOLK COUNTY WATER AUTHORITY LABORATORY,,HAUPPAUGE,New York
+ENT-001083,env_labs_standardized.csv,TNI02001,Summit County Health Department Laboratory,,Coalville,Utah
+ENT-001084,env_labs_standardized.csv,TNI00584,"Summit Environmental Technologies, Inc. - GA",,Haddock,Georgia
+ENT-001085,env_labs_standardized.csv,TNI02427,"Summit Scientific Services, LLC (VIN 070808322480)",,Heber City,Utah
+ENT-001086,env_labs_standardized.csv,TNI00565,Sunbelt Solomon Laboratory,,Decatur,Tennessee
+ENT-001087,env_labs_standardized.csv,TNI01936,Sunbelt Solomon Laboratory,,Solomon,Kansas
+ENT-001088,env_labs_standardized.csv,TNI02363,Sunbelt Solomon Laboratory - TX,,Temple,Texas
+ENT-001089,env_labs_standardized.csv,TNI02787,SUNY-BROCKPORT LIMNOLOGY LABORATORY,,BROCKPORT,New York
+ENT-001090,env_labs_standardized.csv,TNI01149,Superior National Forest Laboratory,,Ely,Minnesota
+ENT-001091,env_labs_standardized.csv,TNI00586,"SVL Analytical, Inc.",,Kellogg,Idaho
+ENT-001092,env_labs_standardized.csv,TNI00089,Sweetwater - Nolan County Health Department,,Sweetwater,Texas
+ENT-001093,env_labs_standardized.csv,TNI02799,"Symbio Laboratories US, LLC",,San Diego,California
+ENT-001094,env_labs_standardized.csv,TNI01896,Systech Environmental Corporation,,Fredonia,Kansas
+ENT-001095,env_labs_standardized.csv,TNI00587,"Talquin Electric Cooperative, Inc.",,Tallahassee,Florida
+ENT-001096,env_labs_standardized.csv,TNI00589,Tampa Bay Water,,Land O'Lakes,Florida
+ENT-001097,env_labs_standardized.csv,TNI00590,Tampa Electric Company Laboratory Services,,Tampa,Florida
+ENT-001098,env_labs_standardized.csv,TNI00118,Tarrant County Public Health Laboratory,,Fort Worth,Texas
+ENT-001099,env_labs_standardized.csv,TNI01406,TCEQ Air and Emissions Laboratory,,Austin,Texas
+ENT-001100,env_labs_standardized.csv,TNI01407,TCEQ Sugar Land Laboratory,,Sugar Land,Texas
+ENT-001101,env_labs_standardized.csv,TNI02263,"TechLaw, Inc.  ESAT Region 8",,Denver,Colorado
+ENT-001102,env_labs_standardized.csv,TNI01900,Technical Services Laboratory,,Hays,Kansas
+ENT-001103,env_labs_standardized.csv,TNI00106,Technical Testing International dba TTI Environmental Labs,,Arlington,Texas
+ENT-001104,env_labs_standardized.csv,TNI01122,Techtron Environmental Solutions,,Anoka,Minnesota
+ENT-001105,env_labs_standardized.csv,TNI01408,"Teklab, Inc-Bluff Rd",,Collinsville,Illinois
+ENT-001106,env_labs_standardized.csv,TNI02051,"Teklab, Incorporated",,Collinsville,Illinois
+ENT-001107,env_labs_standardized.csv,TNI01754,Teledyne Brown Engineering Environmental Services,,Knoxville,Tennessee
+ENT-001108,env_labs_standardized.csv,TNI02052,"Test,  Inc.",,Peru,Illinois
+ENT-001109,env_labs_standardized.csv,TNI01317,Tetra Tech Inc Ecological Testing Facility,,Owings Mills,Maryland
+ENT-001110,env_labs_standardized.csv,TNI00097,Texas Department of State Health Services / South Texas Laboratory,,Harlingen,Texas
+ENT-001111,env_labs_standardized.csv,TNI00082,Texas Department of State Health Services Laboratory - Austin,,Austin,Texas
+ENT-001112,env_labs_standardized.csv,TNI00043,Texas Institute for Applied Environmental Research (TIAER),,Stephenville,Texas
+ENT-001113,env_labs_standardized.csv,TNI02108,Texas Research Institute for Environmental Studies,,Huntsville,Texas
+ENT-001114,env_labs_standardized.csv,TNI02596,THE LAB,,POUND RIDGE,New York
+ENT-001115,env_labs_standardized.csv,TNI02585,"THE METRO GROUP, INC.",,LONG ISLAND CITY,New York
+ENT-001116,env_labs_standardized.csv,TNI02870,The Texas Water Lab,,Waller,Texas
+ENT-001117,env_labs_standardized.csv,TNI00344,The Village of Palm Springs Water Treatment Plant,,Palm Springs,Florida
+ENT-001118,env_labs_standardized.csv,TNI00605,"The Water Shed Laboratories, Inc.",,Deland,Florida
+ENT-001119,env_labs_standardized.csv,TNI00606,The Water Spigot,,Panama City,Florida
+ENT-001120,env_labs_standardized.csv,TNI02003,Timpanogos Special Service District,,American Fork,Utah
+ENT-001121,env_labs_standardized.csv,TNI02004,Timpview Analytical Laboratories,,Orem,Utah
+ENT-001122,env_labs_standardized.csv,TNI00607,Toho Water Authority Laboratory,,Kissimmee,Florida
+ENT-001123,env_labs_standardized.csv,TNI01464,TONAWANDA (T) WASTEWATER,,TONAWANDA,New York
+ENT-001124,env_labs_standardized.csv,TNI01450,TONAWANDA (T) WATER TREATMENT PLANT,,TONAWANDA,New York
+ENT-001125,env_labs_standardized.csv,TNI01940,Topeka Municipal Wastewater Laboratory,,Topeka,Kansas
+ENT-001126,env_labs_standardized.csv,TNI01939,Topeka Municipal Water Treatment Laboratory,,Topeka,Kansas
+ENT-001127,env_labs_standardized.csv,TNI02107,TOTAL WATER LABORATORIES LLC,,CAMDENTON,Missouri
+ENT-001128,env_labs_standardized.csv,TNI00609,Town of Jupiter Water System,,Jupiter,Florida
+ENT-001129,env_labs_standardized.csv,TNI01455,TOWN OF LEWISTON,,LEWISTON,New York
+ENT-001130,env_labs_standardized.csv,TNI01572,"TOWN OF ORANGETOWN, SEWER DEPARTMENT",,ORANGEBURG,New York
+ENT-001131,env_labs_standardized.csv,TNI00074,TRA RS&C Laboratory,,Dallas,Texas
+ENT-001132,env_labs_standardized.csv,TNI02768,Trace Analytical,,Muskegon,Michigan
+ENT-001133,env_labs_standardized.csv,TNI01150,Traut Water Analysis Lab,,St Joseph,Minnesota
+ENT-001134,env_labs_standardized.csv,TNI01634,TRC ENVIRONMENTAL CORPORATION,,WINDSOR,Connecticut
+ENT-001135,env_labs_standardized.csv,TNI00257,"TRE Environmental Strategies, LLC",,Fort Collins,Colorado
+ENT-001136,env_labs_standardized.csv,TNI02006,Tremonton Waste Water Treatment Plant Laboratory,,Tremonton,Utah
+ENT-001137,env_labs_standardized.csv,TNI01130,Tri-City/William Lloyd Analytical Lab,,Bloomington,Minnesota
+ENT-001138,env_labs_standardized.csv,TNI02240,"Tri-State Laboratory Services, LLC",,Pikeville,Kentucky
+ENT-001139,env_labs_standardized.csv,TNI00612,"Tri-Tech Laboratories, Inc.",,Orlando,Florida
+ENT-001140,env_labs_standardized.csv,TNI02007,TriCounty Health Department Environmental Laboratory,,Vernal,Utah
+ENT-001141,env_labs_standardized.csv,TNI00070,Trinity River Authority Lake Livingston Project Laboratory,,Livingston,Texas
+ENT-001142,env_labs_standardized.csv,TNI01507,TROY (C) PUBLIC UTILITY DEPARTMENT,,TROY,New York
+ENT-001143,env_labs_standardized.csv,TNI02528,TUNXIS LABORATORIES LLC,,PLAINVILLE,Connecticut
+ENT-001144,env_labs_standardized.csv,TNI02803,"Turquoise Analytics, LLC",,Traverse City,Michigan
+ENT-001145,env_labs_standardized.csv,TNI01148,"Twin City Water Clinic, Inc.",,Hopkins,Minnesota
+ENT-001146,env_labs_standardized.csv,TNI02772,"U.S. Region 9 Lab - Corvallis, OR",,Corvallis,Oregon
+ENT-001147,env_labs_standardized.csv,TNI00614,U.S. Water Services Corporation,,Marathon,Florida
+ENT-001148,env_labs_standardized.csv,TNI01102,UC Laboratory,,Janesville,Minnesota
+ENT-001149,env_labs_standardized.csv,TNI00615,UF/IFAS Environmental Quality Laboratory,,Gainesville,Florida
+ENT-001150,env_labs_standardized.csv,TNI00071,UGRA Environmental Laboratory,,Kerrville,Texas
+ENT-001151,env_labs_standardized.csv,TNI00236,Umpqua Research Company,,Myrtle Creek,Oregon
+ENT-001152,env_labs_standardized.csv,TNI00237,Umpqua Research Company (Bend),,Bend,Oregon
+ENT-001153,env_labs_standardized.csv,TNI02231,Umpqua Research Company - Table Rock,,Pendleton,Oregon
+ENT-001154,env_labs_standardized.csv,TNI01262,Universal Laboratories - Hampton,,Hampton,Virginia
+ENT-001155,env_labs_standardized.csv,TNI02477,"UNIVERSITY OF MARYLAND, CBL-NASL",,SOLOMONS,Maryland
+ENT-001156,env_labs_standardized.csv,TNI02766,UNIVERSITY OF NEW HAMPSHIRE STORM WATER CENTER,,DURHAM,New Hampshire
+ENT-001157,env_labs_standardized.csv,TNI00619,University of West Florida Wetlands Research Laboratory,,Pensacola,Florida
+ENT-001158,env_labs_standardized.csv,TNI00161,Upper Leon River Municipal Water District,,Comanche,Texas
+ENT-001159,env_labs_standardized.csv,TNI01704,UPSTATE FRESHWATER INSTITUTE,,SYRACUSE,New York
+ENT-001160,env_labs_standardized.csv,TNI01232,"US Army Corps of Engineers, Far East District",,Pyeongtaek,South Korea
+ENT-001161,env_labs_standardized.csv,TNI02776,"US Ecology Tampa, Inc.",,Tampa,Florida
+ENT-001162,env_labs_standardized.csv,TNI00241,US EPA NATIONAL ANALYTICAL RADIATION ENVIRONMENTAL LAB,,MONTGOMERY,Alabama
+ENT-001163,env_labs_standardized.csv,TNI02153,US EPA/Region 8 Laboratory,,Lakewood,Colorado
+ENT-001164,env_labs_standardized.csv,TNI01578,US SALT LLC,,WATKINS GLEN,New York
+ENT-001165,env_labs_standardized.csv,TNI00620,US Space Force - Cape Canaveral SFS Environmental Laboratory,,CCSFS,Florida
+ENT-001166,env_labs_standardized.csv,TNI00613,USEPA REGION 2 LABORATORY,,EDISON,New Jersey
+ENT-001167,env_labs_standardized.csv,TNI01740,USGS NATIONAL WATER QUALITY LABORATORY,,DENVER,Colorado
+ENT-001168,env_labs_standardized.csv,TNI01861,USGS NEW YORK WATER SCIENCE CENTER,,TROY,New York
+ENT-001169,env_labs_standardized.csv,TNI02771,Utah Public Health Laboratory,,Taylorsville,Utah
+ENT-001170,env_labs_standardized.csv,TNI00621,Utilities Commission New Smyrna Beach Laboratory,,New Smyrna Beach,Florida
+ENT-001171,env_labs_standardized.csv,TNI01719,VAN DE WATER TREATMENT PLANT,,TONAWANDA,New York
+ENT-001172,env_labs_standardized.csv,TNI01611,"VEOLIA NEW YORK, WESTCHESTER LAB",,EASTCHESTER,New York
+ENT-001173,env_labs_standardized.csv,TNI01272,VEOLIA WATER NJ - HAWORTH WATER QUALITY LAB,,HAWORTH,New Jersey
+ENT-001174,env_labs_standardized.csv,TNI01069,VERMONT AGRICULTURE ENVIRONMENTAL LABORATORY,,RANDOLPH,Vermont
+ENT-001175,env_labs_standardized.csv,TNI01068,VERMONT DEPARTMENT OF HEALTH LABORATORY,,COLCHESTER,Vermont
+ENT-001176,env_labs_standardized.csv,TNI01580,VERONA LABORATORY INC,,VERONA,New York
+ENT-001177,env_labs_standardized.csv,TNI00049,Victoria County Public Health Department Water Laboratory,,Victoria,Texas
+ENT-001178,env_labs_standardized.csv,TNI00623,Village of Wellington Water Treatment Laboratory,,Wellington,Florida
+ENT-001179,env_labs_standardized.csv,TNI02919,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02925,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02931,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02936,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02942,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02947,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02952,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02958,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02969,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02972,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02982,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02989,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI02996,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03003,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03012,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03074,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03086,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03094,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03103,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03111,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001179,env_labs_standardized.csv,TNI03119,Volusia County Environmental Management Laboratory,,Deland,Florida
+ENT-001180,env_labs_standardized.csv,TNI00139,"Wallgren Environmental Services, Inc. dba Pollution Control Services",,Universal City,Texas
+ENT-001181,env_labs_standardized.csv,TNI01474,WALWORTH WATER POLLUTION CONTROL FAC,,WALWORTH,New York
+ENT-001182,env_labs_standardized.csv,TNI01762,WARDS ISLAND PRIORITY POLLUTANTS LAB- NYCDEP,,WARDS ISLAND,New York
+ENT-001183,env_labs_standardized.csv,TNI01517,WARDS ISLAND PROCESS CONTROL LAB,,NEW YORK,New York
+ENT-001184,env_labs_standardized.csv,TNI02698,Wasatch County Health Department,,Heber City,Utah
+ENT-001185,env_labs_standardized.csv,TNI01627,WASHINGTON CO SEWER DIST 2 STP,,FORT EDWARD,New York
+ENT-001186,env_labs_standardized.csv,TNI02012,Water & Environmental Testing Incorporated,,American Fork,Utah
+ENT-001187,env_labs_standardized.csv,TNI01907,Water District No 1 of Johnson County-WaterOne,,Kansas City,Kansas
+ENT-001188,env_labs_standardized.csv,TNI00220,WATER DYNAMICS LLC DBA MAGIC VALLEY LABS,,Twin Falls,Idaho
+ENT-001189,env_labs_standardized.csv,TNI01075,"Water Laboratories, Inc.",,Elk River,Minnesota
+ENT-001190,env_labs_standardized.csv,TNI00626,Water Quality Assurance Laboratory,,Cocoa,Florida
+ENT-001191,env_labs_standardized.csv,TNI02673,Water Quality Lab University of Tennessee Knoxville,,Knoxville,Tennessee
+ENT-001192,env_labs_standardized.csv,TNI00094,"Water Utility Services, Inc.",,Spring,Texas
+ENT-001193,env_labs_standardized.csv,TNI00242,Waterlab Corp.,,Salem,Oregon
+ENT-001194,env_labs_standardized.csv,TNI01680,WATERLOO WATER TREATMENT PLANT LAB,,GENEVA,New York
+ENT-001195,env_labs_standardized.csv,TNI01569,WATERTOWN (C) WATER PLANT,,WATERTOWN,New York
+ENT-001196,env_labs_standardized.csv,TNI01460,WATERTOWN POLLUTION CONTROL PLANT LABORA,,WATERTOWN,New York
+ENT-001197,env_labs_standardized.csv,TNI02782,WaterWise Enterprises,,Oxford,Kansas
+ENT-001198,env_labs_standardized.csv,TNI02512,Waypoint Analytical,,Bremen,Georgia
+ENT-001199,env_labs_standardized.csv,TNI03123,Waypoint Analytical - Charlotte,,Charlotte,North Carolina
+ENT-001200,env_labs_standardized.csv,TNI02446,"Waypoint Analytical - Florida, Inc.",,Lakeland,Florida
+ENT-001201,env_labs_standardized.csv,TNI00190,Waypoint Analytical LLC,,Memphis,Tennessee
+ENT-001201,env_labs_standardized.csv,TNI02632,"Waypoint Analytical, LLC",,Memphis,Tennessee
+ENT-001202,env_labs_standardized.csv,TNI01368,Waypoint Analytical Louisiana Inc,,Marrero,Louisiana
+ENT-001203,env_labs_standardized.csv,TNI01377,Waypoint Analytical Mississppi Inc,,Ridgeland,Mississippi
+ENT-001204,env_labs_standardized.csv,TNI02695,"Webco Industries Inc, Lyndon",,Lyndon,Illinois
+ENT-001205,env_labs_standardized.csv,TNI02013,Weber Basin Water Quality Laboratory,,Layton,Utah
+ENT-001206,env_labs_standardized.csv,TNI01542,WEBSTER (T) WASTEWATER TREATMENT PLANT,,WEBSTER,New York
+ENT-001207,env_labs_standardized.csv,TNI01236,"Weck Laboratories, Inc.",,City of Industry,California
+ENT-001208,env_labs_standardized.csv,TNI01444,WELLSVILLE WASTEWATER TRMT PLANT,,WELLSVILLE,New York
+ENT-001209,env_labs_standardized.csv,TNI01443,WESTCHESTER CO LABS AND RESEARCH,,VALHALLA,New York
+ENT-001210,env_labs_standardized.csv,TNI02824,Western Environmental Testing Lab - Las Vegas,,Las Vegas,Nevada
+ENT-001211,env_labs_standardized.csv,TNI02825,Western Environmental Testing Lab - Sparks,,Sparks,Nevada
+ENT-001212,env_labs_standardized.csv,TNI01416,Weston Solutions,,Auburn,Alabama
+ENT-001213,env_labs_standardized.csv,TNI01394,WestRock Analytical Services Laboratory,,Miamisburg,Ohio
+ENT-001214,env_labs_standardized.csv,TNI00564,"WestRock CP, LLC",,Fernandina Beach,Florida
+ENT-001215,env_labs_standardized.csv,TNI02693,Wetland Biogeochemistry Laboratory,,Gainesville,Florida
+ENT-001216,env_labs_standardized.csv,TNI00627,"White Springs Agricultural Chemicals, Inc.",,White Springs,Florida
+ENT-001217,env_labs_standardized.csv,TNI03062,White Water Associates Laboratory,,Amasa,Michigan
+ENT-001218,env_labs_standardized.csv,TNI00132,Wichita Falls - Wichita County Public Health District Laboratory,,Wichita Falls,Texas
+ENT-001219,env_labs_standardized.csv,TNI01942,Wichita Municipal Water & Wastewater Laboratory,,Wichita,Kansas
+ENT-001220,env_labs_standardized.csv,TNI01943,Wichita Sewage Treatment Division Laboratory,,Wichita,Kansas
+ENT-001221,env_labs_standardized.csv,TNI02056,Will County Health Dept. - Environ. Health Lab.,,Joliet,Illinois
+ENT-001222,env_labs_standardized.csv,TNI02186,"Willoughby & Associates, Inc.",,Forest,Virginia
+ENT-001223,env_labs_standardized.csv,TNI00243,"Willow Lake Laboratory, City of Salem",,Salem,Oregon
+ENT-001224,env_labs_standardized.csv,TNI01944,Winfield Municipal Water-Wastewater Laboratory,,Winfield,Kansas
+ENT-001225,env_labs_standardized.csv,TNI00629,WISCONSIN STATE LABORATORY OF HYGIENE,,MADISON,Wisconsin
+ENT-001226,env_labs_standardized.csv,TNI01110,Worthington Public Utilities Laboratory,,Worthington,Minnesota
+ENT-001227,env_labs_standardized.csv,TNI02844,Wright County,,Buffalo,Minnesota
+ENT-001228,env_labs_standardized.csv,TNI00130,Xcel Energy - Amarillo Testing Laboratory,,Amarillo,Texas
+ENT-001229,env_labs_standardized.csv,TNI00179,Xcel Energy - Denver Testing Laboratory,,Henderson,Colorado
+ENT-001230,env_labs_standardized.csv,TNI01164,"Xcel Energy, Inc., Minneapolis Testing Laboratory",,Minneapolis,Minnesota
+ENT-001231,env_labs_standardized.csv,TNI01510,YORKTOWN MEDICAL LABORATORY INC,,YORKTOWN HEIGHTS,New York

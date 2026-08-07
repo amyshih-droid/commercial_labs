@@ -16,8 +16,7 @@
 # RESOLVED DATA QUALITY DECISIONS (see composite_fields below for the
 # actual implementation):
 # 1. The raw 'state' column was found to contain business-description
-#    text in some rows (a genuine scraper column-misalignment bug, not a
-#    formatting quirk) - decision: ignore it entirely, don't map it.
+#    text in some rows - decision: ignore it entirely, don't map it.
 # 2. The raw 'city' column instead carries the real region signal, as a
 #    "{prefix} - {city}" pattern - e.g. "Ab - Calgary" (Canadian
 #    province), "Argentina - Buenos Aires" (a country), "Ca - Azusa" (US

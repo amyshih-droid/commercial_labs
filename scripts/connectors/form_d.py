@@ -35,7 +35,7 @@ logger = logging.getLogger(__name__)
 # Config Loader
 # ------------------------------------------------------------------
 
-DEFAULT_CONFIG_PATH = Path("config/connectors/formd.yaml")
+DEFAULT_CONFIG_PATH = Path("config/connectors/form_d.yaml")
 
 
 def load_config(config_path: Path = DEFAULT_CONFIG_PATH) -> dict:

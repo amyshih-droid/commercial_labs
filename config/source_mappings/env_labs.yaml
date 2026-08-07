@@ -1,0 +1,18 @@
+# config/env_labs.yaml
+source_name: "TNI LAMS"
+
+source_record_id_field: "TNI Lab Code"
+
+# Map the raw column names from your CSV to your pipeline's canonical schema
+direct_mappings:
+  company_name: "Name"
+  address_city: "City"
+  address_state: "State"
+
+fields_not_present_in_source:
+  - address_street
+  - address_zip
+  - website_url
+  - contact_name
+  - contact_email
+  - phone

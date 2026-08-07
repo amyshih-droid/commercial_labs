@@ -8,10 +8,7 @@
 # scheme, not plain state abbreviations - US states are normal 2-letter
 # codes, but non-US locations get SEC's special codes (e.g. "A8" =
 # Quebec, Canada - confirmed by this source's own sample row: city
-# "VILLE SAINT LAURENT" is a real Montreal-area location). Reuses the
-# same classify_fields machinery built for BioPharmGuy's city-prefix
-# case, just with a trivial passthrough pattern since STATEORCOUNTRY is
-# already its own column (no extraction needed, just classification).
+# "VILLE SAINT LAURENT" is a real Montreal-area location). 
 
 source_name: "SEC Form D (Biotech/Pharmaceuticals)"
 retrieval_method: bulk_download_and_api
@@ -23,9 +20,7 @@ direct_mappings:
   address_city: "CITY"
   address_zip: "ZIPCODE"
 
-source_record_id_field: "ACCESSIONNUMBER"   # unique per filing, same
-                                               # approach as the original
-                                               # Form D extraction script
+source_record_id_field: "ACCESSIONNUMBER"   # unique per filing
 
 # STREET1 is often the full address and STREET2 is a suite/unit line
 # that's frequently blank - joined into one field, skipping blanks.
@@ -62,14 +57,9 @@ fields_not_present_in_source:
 
 fields_intentionally_not_mapped:
   - "TOTALAMOUNTSOLD"        # offering financials - not part of current
-                               # canonical schema
   - "TOTALOFFERINGAMOUNT"
   - "FILING_DATE"            # not part of current canonical schema
-                               # (date_collected-style fields were
-                               # removed project-wide earlier)
-  - "source_quarter"         # bookkeeping from the original extraction
-                               # script's multi-quarter pull, not needed
-                               # in the canonical schema
+  - "source_quarter"         
 
 notes: >
   This file already reflects industry-filter and dedup decisions made in

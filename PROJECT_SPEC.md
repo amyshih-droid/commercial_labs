@@ -97,7 +97,7 @@ best attempted with a mature, working pipeline.
 | BioPharmGuy                                      | CROs                                                                                     | 1. (All Contract Research) (All Scientific Services) & 2. only US                                                                           | 1,177 -> 515             | Selenium/web scraping                           |
 | SEC Form D                                       | Direct VC-Backed Startups, Corporate Spin-offs, Early-stage/Stealth Startups             | industryGroupType = "Biotechnology" or "Pharmaceuticals" & SIC code (8731, 2836, 8071, 2834) & 2023Q1–2026Q2                                | 1,967 -> 1,835           | Bulk ZIP download + SEC API                     |
 | Incubator: Y Combinator                          | Stealth-stage wet-lab startups                                                           | Drug Discovery and Delivery & Industrial Bio & Therapeutics & United States of America                                                      | 135 -> 124               | API                                             |
-| OpenAI Web Search                                | Specialized Biotech & Private CDMOs (e.g., cell therapy startups)                        |                                                                                                                                             |                          | gpt-5.4-nano model inference for missing values |
+| TNI LAMS (The NELAC Institute)                   | accredited environmental wet laboratories across the US                                  |                                                                                                                                             |                          |                                                 |
 
 
 
@@ -114,13 +114,19 @@ This step maps any raw source into the canonical master schema (config/schema.ya
 
 This step concatenates all standardized/*.csv files into one raw combined table, before any dedup/entity resolution happens.
 
-#### Step 3 - Remove duplicates
+#### Step 3 - Entity Resolution
 
-The step collapses the combined multi-source table down to one row per real-world physical facility, using fuzzy Company name + city matching 
+The step collapses the combined multi-source table down to one row per real-world physical facility, using fuzzy Company name + city + state matching 
 
-#### Step 4 - Use LLM to infer missing values in url, address, email, contact name
+#### Step 4 - LLM Inference & Enrichment
 
-The step fills in missing fields (address_street, contact_name, contact_email) using a WEBSITE-FIRST, PAGE-TARGETED strategy
+Employs a website-first, page-targeted scraping strategy (with automated Google Search fallbacks) to dynamically fill missing attributes and compliance flags.
+
+
+##### AI-Enriched Fields
+- **Contact Info**: website_url, address_street, contact_name, contact_email
+- **Compliance:** is_gmp_facility
+
 
 #### Step 5 - Evaluate the output of LLM inference (modifying prompts and adding fallback)
 
