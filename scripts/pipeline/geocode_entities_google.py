@@ -112,7 +112,7 @@ def geocode_google_single(street: str, city: str, state: str, zip_code: str,
 
 def run_geocode_google(
     input_file: Path, 
-    output_file: Path, 
+    output_file: Path,
     only_missing: bool = True, 
     limit: int = None, 
     api_key_env: str = "GOOGLE_MAPS_API_KEY",

@@ -70,10 +70,10 @@ CACHE_DIR = Path("./llm_infer_cache")
 # old cached failure forever. Bump this string again next time the
 # extraction strategy changes. Deliberately NOT applied to the website
 # search cache key, since that logic is unchanged.
-EXTRACTION_CACHE_VERSION = "v13"
+EXTRACTION_CACHE_VERSION = "v17" # change when modifying extraction logic or prompt instructions.
 # REQUEST_DELAY_SECONDS = 0.5
 FETCH_TIMEOUT_SECONDS = 15
-MAX_PAGES_FETCHED_PER_ROW = 8          # homepage + up to 3 category pages
+MAX_PAGES_FETCHED_PER_ROW = 8          # homepage + up to 8 category pages
 HEADERS = {"User-Agent": "Mozilla/5.0 (research data collection script)"}
 
 # Which page categories are relevant to each missing field, in priority
@@ -83,7 +83,8 @@ FIELD_TO_CATEGORIES = {
     "contact_name": ["team", "about", "leadership"],
     "contact_email": ["contact", "team", "about"],
     "is_gmp_facility": ["quality", "manufacturing", "facilities", "about"],
-    "is_commercial": ["about", "services"]
+    "is_commercial": ["about", "services"],
+    "services": ["services", "about", "home"] #new added
 }
 
 # Keywords used to recognize each page category from a homepage's real
@@ -97,7 +98,8 @@ CATEGORY_KEYWORDS = {
     "quality": ["quality", "compliance", "regulatory"],
     "manufacturing": ["manufacturing", "production", "capabilities", "expertise", "services"],
     "facilities": ["facilities", "facility"],
-    "services": ["services", "testing", "capabilities", "solutions"]
+    "services": ["services", "testing", "capabilities", "solutions"],
+    "home": ["home", "main", "index"],
 }
 
 
@@ -357,6 +359,12 @@ For the `is_commercial` field, evaluate the text and return true or false:
 Return a `commercial_evidence` field with a 1-sentence quote or rationale based strictly on the fetched text.
 """
 
+    services_instructions = ""
+    if "services" in missing_fields:
+        services_instructions = """
+For the `services` field, provide a concise 1-2 sentence summary of the specific testing, manufacturing, or operational services this company provides based on the text. Focus on technical capabilities.
+"""
+
     pages_text = "\n\n".join(
         f"--- Page: {url} ---\n{text[:8000]}" for url, text in pages.items() if text
     )
@@ -370,6 +378,7 @@ Fields needed:
 {fields_requested}
 {gmp_instructions}
 {commercial_instructions}
+{services_instructions}
 
 {pages_text}
 
@@ -377,9 +386,10 @@ Return ONLY valid JSON, no other text, in this exact shape:
 {{
   "address_street": {{"value": "..."}},
   "contact_name": {{"value": "..."}},
-  "contact_email": {{"value": "..."}}
-  "is_gmp_facility": {{"value": "...", "evidence": "..."}}
-  "is_commercial": {{"value": true, "commercial_evidence": "..."}}
+  "contact_email": {{"value": "..."}},
+  "is_gmp_facility": {{"value": "...", "evidence": "..."}},
+  "is_commercial": {{"value": true, "commercial_evidence": "..."}},
+  "services": {{"value": "..."}}
 }}
 Only include keys for the fields actually requested above. If a field
 is not found anywhere in the provided page text, set "value" to null.
@@ -639,7 +649,7 @@ async def run_pipeline_async(df: pd.DataFrame, fields: list, limit: int, output_
         if f not in df.columns:
             df[f] = None
 
-    rows_needing_work = df[df["website_url"].isna()].index
+    rows_needing_work = df[df[fields].isna().any(axis=1)].index
     if limit:
         rows_needing_work = rows_needing_work[:limit]
 
@@ -712,10 +722,15 @@ async def run_pipeline_async(df: pd.DataFrame, fields: list, limit: int, output_
         for status, count in simplified.value_counts().items():
             print(f"    {count:>5}  {status}")
 
-def run_llm_infer(input_file: Path, output_file: Path, fields: list = None, limit: int = None, checkpoint_interval: int = 10):
+def run_llm_infer(input_file: Path, output_file: Path, cache_dir: Path = None, fields: list = None, limit: int = None, checkpoint_interval: int = 10):
     """Helper entry point for running LLM field inference directly from run_pipeline.py"""
+    
+    global CACHE_DIR
+    if cache_dir:
+        CACHE_DIR = Path(cache_dir)
+
     if fields is None:
-        fields = ["address_street", "contact_name", "contact_email", "is_gmp_facility"]
+        fields = ["address_street", "contact_name", "contact_email", "is_gmp_facility", "services"] # add new field "services"
         
     df = pd.read_csv(input_file, dtype=str)
     

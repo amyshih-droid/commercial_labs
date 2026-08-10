@@ -126,3 +126,7 @@ fields:
   one_liner:
     type: string
     requried: false
+  
+  services: #new added
+    type: string
+    required: false
