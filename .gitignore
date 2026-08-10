@@ -13,6 +13,7 @@ form_d_data/
 data/tmp
 llm_infer_cache/
 files/
+data/env/llm_cache
 
 
 # Outputs
