@@ -24,15 +24,8 @@ all 50 states. Each phase is a complete, usable deliverable on its own.
 | Phase | T                     | Geography            | Status                 |
 | ----- | --------------------- | -------------------- | ---------------------- |
 | 1     | Clinical / diagnostic | California -> all 50 | On hold (not priority) |
-| 2     | Pharma / biotech      | California -> all 50 | In Progress            |
-
-
-**Why this order:**
-
-- Phase 1 (clinical) uses a single free national download (CMS CLIA database) — fastest to
-validate the pipeline and schema with real data.
-- Phase 2 (pharma/biotech) has no central registry — requires creative sourcing and is
-best attempted with a mature, working pipeline.
+| 2     | Pharma / biotech      | California -> all 50 | Done            |
+| 3     | Environmental         | California -> all 50 | Done            |
 
 ---
 
@@ -45,7 +38,7 @@ best attempted with a mature, working pipeline.
 | --------------------- | ---------------------------------------------- | ------------------ | ------------------------------------------ |
 | Clinical / diagnostic | Test patient specimens (blood, urine, tissue)  | CMS (CLIA program) | CMS CLIA database — data.cms.gov (free)    |
 | Pharma / biotech      | Drug R&D, QC testing, contract research (CROs) | FDA (varies)       | Company websites, LinkedIn, paid databases |
-
+| environmental         | Test environmental samples (water, soil, air, hazardous waste, contaminants) | EPA / State ABs (NELAP) | TNI LAMS database |
 
 ---
 
@@ -97,7 +90,6 @@ best attempted with a mature, working pipeline.
 | BioPharmGuy                                      | CROs                                                                                     | 1. (All Contract Research) (All Scientific Services) & 2. only US                                                                           | 1,177 -> 515             | Selenium/web scraping                           |
 | SEC Form D                                       | Direct VC-Backed Startups, Corporate Spin-offs, Early-stage/Stealth Startups             | industryGroupType = "Biotechnology" or "Pharmaceuticals" & SIC code (8731, 2836, 8071, 2834) & 2023Q1–2026Q2                                | 1,967 -> 1,835           | Bulk ZIP download + SEC API                     |
 | Incubator: Y Combinator                          | Stealth-stage wet-lab startups                                                           | Drug Discovery and Delivery & Industrial Bio & Therapeutics & United States of America                                                      | 135 -> 124               | API                                             |
-| TNI LAMS (The NELAC Institute)                   | accredited environmental wet laboratories across the US                                  |                                                                                                                                             |                          |                                                 |
 
 
 
@@ -227,15 +219,41 @@ Appends latitude/longitude to deduplicated facilities using the Google Maps Geoc
 #### Step 7 - Turn the existing pipeline into a measurable, testable, reproducible system.
 
 1. tests/
-  └── Unit + integration tests
 2. evaluation/
-  └── Golden dataset + automated evaluation
 3. reports/
-  └── Data quality + cost + coverage reports
 4. run_pipeline.py
-  └── One-command end-to-end execution
 
 
+## Phase 3 - Environmental
+The environmental domain follows the exact same pipeline architecture established for Pharma / Biotech companies.
+- **Raw Collected Labs:** 1,472
+- **Final Processed Labs:** 1,232
+
+| Data Source(s)                                   | Included                                                                                 | 
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------- | 
+| TNI LAMS (The NELAC Institute)                   | accredited environmental wet laboratories across the US                                  | 
+
+
+### Pipeline Workflow
+#### Step 1 — Standardize
+Maps raw TNI LAMS output to canonical schema definitions (`config/schema.yaml`).
+#### Step 2 — Combine standardized datasets from different sources
+Aggregates all standardized environmental datasets into a single raw combined dataset (`auto_combined_raw.csv`).
+#### Step 3 — Entity Resolution
+Performs fuzzy matching across company names, street addresses, and cities to deduplicate records down to individual physical facilities.
+#### Step 4 — LLM Inference & Enrichment
+Employs page-targeted web scraping and LLM extraction to infer missing attributes (`website_url`, `contact_name`, `contact_email`, `is_gmp_facility`, `is_commercial`, `services`).
+#### Step 5 — Evaluate the output of LLM inference (modifying prompts and adding fallback)
+Iteratively refines extraction prompts, optimizes keyword page discovery, and triggers automated search fallbacks for missing contact details and service descriptions.
+
+### Additional schema fields by LLM Inference & Enrichment
+```text
+- `services`: Access the lab's specific TNI LAMS detail page to locate its "Fields of Testing" scope table or underlying API endpoints. 
+Then scrape the page DOM to extract the lab's accredited matrix categories (such as Drinking Water or Air & Emissions) along with its specific testing technologies.
+Finally, deduplicate and map these extracted attributes into standardized service keywords, saving the final combined result directly in the services column.
+- `is_gmp_facility`: Boolean (`TRUE`/`FALSE`). Indicates if the laboratory holds cGMP/FDA compliance in addition to environmental accreditations.
+- `is_commercial`: Boolean (`TRUE`/`FALSE`). Explicitly differentiates standalone, fee-for-service commercial reference labs from captive municipal/utility/internal labs.
+```
 
 ## Phase 1 - Clinical / diagnostic
 

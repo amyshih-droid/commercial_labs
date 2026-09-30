@@ -15,3 +15,4 @@
 - [ ] **Fix GMP Fallback Overwrites:** Update Step 8 in `04_llm_infer.py` to only query Google if web scraping returns `None` (preventing `"no_explicit_gmp"` from triggering unnecessary web searches).
 - [x] **Pre-Database Validation Gate:** Implement `scripts/pipeline/08_validate_before_db.py` to check primary key uniqueness, lat/long boundary ranges, and column alignments before DB export.
 - [ ] University or public hospital should not be included in commercial labs
+- [ ] **Upgrade Web Scraper via Tavily APIs:** Replace aiohttp with Tavily Extract to eliminate pages_likely_js_rendered extraction failures by rendering JavaScript and bypassing anti-bot blocks on modern sites, and leverage Tavily Crawl to traverse deep sub-pages for missing address, contact, and facility metadata.

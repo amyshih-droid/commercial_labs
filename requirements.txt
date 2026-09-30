@@ -9,6 +9,7 @@ cloudscraper
 certifi
 curl_cffi
 httpx>=0.28.0
+selenium
 
 # Data processing
 pandas==2.2.2
